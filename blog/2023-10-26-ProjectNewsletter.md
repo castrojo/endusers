@@ -2,8 +2,10 @@
 title: Cloud Native Project Monthly (CNPM) October 2023
 date: 2023-10-26
 authors: [castrojo]
+tags: [newsletter]
 ---
 
+<!-- truncate -->
 ## 🗺️A Maintainer’s Guide to KubeCon + CloudNativeCon!
 There will be some maintainer-focused activities at KubeCon + CloudNativeCon; be sure to check them out:
 Architect You Schedule:
@@ -16,8 +18,8 @@ Wednesday, November 8
 - Graduated Project Celebration [Link](https://kccncna2023.sched.com/event/1UTzL?iframe=no)
 
 Thursday, November 9
-- Hot Dog! The Technical Oversight Committee is on a Roll! - Duffie Cooley, Heba El Ayoty, Alolita Sharma, Pushkar JogleKar, and Catherine Paganini [Link](https://kccncna2023.sched.com/event/1R4bz?iframe=no)
-- Technical Oversight Committee + TAG Chairs Meeting [Link](https://kccncna2023.sched.com/event/1T8tH?iframe=no)
+- Hot Dog! The CNCF End User TAB is on a Roll! - Duffie Cooley, Heba El Ayoty, Alolita Sharma, Pushkar JogleKar, and Catherine Paganini [Link](https://kccncna2023.sched.com/event/1R4bz?iframe=no)
+- CNCF End User TAB + TAG Chairs Meeting [Link](https://kccncna2023.sched.com/event/1T8tH?iframe=no)
 - TAG Meet + Greet [Link](https://kccncna2023.sched.com/event/1S5lo?iframe=no)
 
 We are excited to see many projects taking advantage of your opportunities at KubeCon + CloudNativeCon. 

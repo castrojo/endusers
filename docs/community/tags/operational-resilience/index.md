@@ -1,3 +1,0 @@
----
-title: Operational Resilience
----

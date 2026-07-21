@@ -2,8 +2,10 @@
 title: Cloud Native Project Monthly (CNPM) Jan 2023 
 date: 2023-01-24
 authors: [castrojo]
+tags: [newsletter]
 ---
 
+<!-- truncate -->
 Welcome into a new year! 
 This is our new Projects update, this will go out once a month letting CNCF maintainers know of upcoming deadlines, outreach or other useful things going on in the wider community of CNCF.
 

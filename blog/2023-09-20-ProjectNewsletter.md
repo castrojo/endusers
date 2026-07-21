@@ -2,8 +2,10 @@
 title: Cloud Native Project Monthly (CNPM) September 2023
 date: 2023-09-20
 authors: [castrojo]
---- 
+tags: [newsletter]
+---
 
+<!-- truncate -->
 ## 📝Updates from the Blog
 Guest writer Riaan Kleinhans shares a story of a journey that starts with a memorable road trip and leads to valuable insights for the open source community. 
 "Navigating Success: The Power of Roadmaps in Open Source Projects." [Link](https://www.cncf.io/blog/2023/09/14/navigating-success-the-power-of-roadmaps-in-open-source-projects/)

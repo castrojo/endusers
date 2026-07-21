@@ -2,8 +2,10 @@
 title: Cloud Native Project Monthly (CNPM) July 2023 
 date: 2023-07-20
 authors: [castrojo]
+tags: [newsletter]
 ---
 
+<!-- truncate -->
 ## Mentoring
 The LFX Mentorship 2023 Term 03, September - November is open for project ideas:
 https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2023/03-Sep-Nov 

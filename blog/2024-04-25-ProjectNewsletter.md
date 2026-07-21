@@ -4,6 +4,7 @@ date: 2024-04-25
 authors: [jeefy]
 ---
 
+<!-- truncate -->
 ## 🗣️LFX Insights Beta Dashboard Feedback
 
 We’re happy to announce that over 95% of CNCF projects are now onboarded to the LFX Insights v3 Beta! 

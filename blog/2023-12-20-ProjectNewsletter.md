@@ -2,8 +2,10 @@
 title: Cloud Native Project Monthly (CNPM) December 2023
 date: 2023-12-20
 authors: [castrojo]
+tags: [newsletter]
 ---
 
+<!-- truncate -->
 ## 📌Project Opportunities at KubeCon + CloudNativeCon EU
 We invite CNCF Chairs of TAGs and Kubernetes SIGs working groups and Maintainers from graduated, incubating, and sandbox projects to participate in the below project opportunities: 
 

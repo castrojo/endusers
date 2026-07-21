@@ -2,8 +2,10 @@
 title: Cloud Native Project Monthly (CNPM) August 2023
 date: 2023-08-23
 authors: [castrojo]
+tags: [newsletter]
 ---
 
+<!-- truncate -->
 ## HashiCorp Licensing Charges
 HashiCorp has changed several products to the BUSL license. If your project uses HashiCorp products as a dependency, please let us know in this Github Issue! 
 

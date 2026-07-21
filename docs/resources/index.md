@@ -17,7 +17,7 @@ Projects are welcome to use their own tools in the CNCF, we are a strong support
 
 ### I have a project I want to donate to the CNCF
 
-Awesome! To contribute your project to CNCF or discuss how CNCF can help your project, email info@cncf.io and read the [TOC repo](https://github.com/cncf/toc#projects) for further information. 
+Awesome! To contribute your project to CNCF or discuss how CNCF can help your project, email info@cncf.io and read the [CNCF End User TAB resources](https://github.com/cncf/tab) for further information.
 
 ### How much budget is available for projects?
 
@@ -89,4 +89,4 @@ Email info@cncf.io and one will be created for you.
 
 ### I am not happy with the level of service from CNCF staff, what can I do to escalate?
 
-If you aren't happy with the service provided by CNCF staff or with a resolution of an issue, you have a couple of options. If it's a technical matter, you can appeal to the [Technical Oversight Committee](https://github.com/cncf/toc). If it's a budget-related matter you can appeal to the CNCF [Developer Representatives](https://github.com/cncfdevreps/issues) on the Governing Board.
+If you aren't happy with the service provided by CNCF staff or with a resolution of an issue, you have a couple of options. For an end-user technical matter, raise it with the [CNCF End User TAB](https://github.com/cncf/tab). If it's a budget-related matter you can appeal to the CNCF [Developer Representatives](https://github.com/cncfdevreps/issues) on the Governing Board.

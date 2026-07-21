@@ -11,7 +11,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Endusers',
-  tagline: 'Learn, connect, and contribute—the cloud native way',
+  tagline: 'The community for Cloud Native End Users',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -88,22 +88,22 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'Contribute to Cloud Native',
+          alt: 'Cloud Native Endusers',
           src: 'img/logo.svg',
         },
         items: [
           // Left
           {
             type: 'docSidebar',
-            sidebarId: 'maintainersSidebar',
+            sidebarId: 'practitionersSidebar',
             position: 'left',
-            label: 'Maintainers',
+            label: 'Practitioners',
           },
-            {
+          {
             type: 'docSidebar',
-            sidebarId: 'projectsSidebar',
+            sidebarId: 'architecturesSidebar',
             position: 'left',
-            label: 'Projects',
+            label: 'Architectures',
           },
           {
             type: 'docSidebar',
@@ -115,9 +115,9 @@ const config = {
           // Right
           {
             type: 'docSidebar',
-            sidebarId: 'contributorsSidebar',
+            sidebarId: 'practitionersSidebar',
             position: 'right',
-            label: 'New Contributors',
+            label: 'Practitioners',
           },
           {
             type: 'docSidebar',
@@ -151,8 +151,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Contribute',
-                to: '/docs/intro',
+                label: 'Practitioners',
+                to: '/',
               },
             ],
           },

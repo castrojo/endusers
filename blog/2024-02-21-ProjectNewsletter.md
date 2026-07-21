@@ -2,8 +2,10 @@
 title: Cloud Native Project Monthly (CNPM) February 2024
 date: 2024-02-21
 authors: [castrojo]
+tags: [newsletter]
 ---
 
+<!-- truncate -->
 ## 📝Certification Expiration Changes
 The Linux Foundation has announced a certification policy change effective 2024. This update includes revisions to exam eligibility requirements and a new retake policy, providing candidates with greater flexibility and support. These changes are part of the Linux Foundation's commitment to maintaining the integrity and relevance of its certification programs within the evolving landscape of technology.
 

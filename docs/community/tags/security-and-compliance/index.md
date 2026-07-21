@@ -1,3 +1,0 @@
----
-title: Security and Compliance
----

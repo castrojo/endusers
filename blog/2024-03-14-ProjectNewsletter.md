@@ -4,6 +4,7 @@ date: 2024-03-14
 authors: [jeefy]
 ---
 
+<!-- truncate -->
 ## KubeCon + CloudNativeCon, the Final Frontier
 There will be some maintainer-focused activities at KubeCon + CloudNativeCon; be sure to check them out. Set course with your schedule. Below are a few suggested sessions:
 

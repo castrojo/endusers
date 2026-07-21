@@ -12,7 +12,7 @@ We want to focus on the golden path first:
 
 - The individual - skills you need to be an effective contributor
 - The project - skills needed to manage projects, a different skillset
-- The community - the group of groups, the larger governance structures like the TOC and TABs
+- The community - the group of groups, including the CNCF End User TAB and its user groups
 
 _A healthy ecosystem will encourage the development of all three of these skills_. 
 

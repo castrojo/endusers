@@ -2,8 +2,10 @@
 title: Cloud Native Project Monthly (CNPM) June 2023
 date: 2023-06-23
 authors: [castrojo]
+tags: [newsletter]
 ---
 
+<!-- truncate -->
 This is our Projects update, this will go out once a month letting CNCF maintainers know of upcoming deadlines, outreach or other useful things going on in the wider community of CNCF.
 
 ## Upcoming Maintainers' Circle
@@ -16,10 +18,10 @@ Ever wondered where Devstats affiliations come from?
 They’re in here: https://github.com/cncf/gitdm and openprofile.dev 
 These may be useful to you! If you haven’t updated these recently, these affiliations are what Devstats looks for. 
 
-## TOC Meeting with AdaLogics
+## TAB Meeting with AdaLogics
 If you’re curious about the goals + processes for security audits, the Technical Oversight Meeting for 6/20 might be useful for you! This is a recorded meeting with Adalogics and some project maintainers. 
 Recording: https://youtu.be/v2v8TuY9Ijc 
-Presentation: CNCF TOC Meeting 6/20/2023 (https://docs.google.com/presentation/d/16XmBqV7f9t9yIETbDdzJt_Qa0VHSWRFCVXWvfs0Hwec/edit#slide=id.g25ca91f87f_0_0)
+Presentation: CNCF TAB Meeting 6/20/2023 (https://docs.google.com/presentation/d/16XmBqV7f9t9yIETbDdzJt_Qa0VHSWRFCVXWvfs0Hwec/edit#slide=id.g25ca91f87f_0_0)
 
 ## Boost Your Project with Documentation Advice!
 There’s a new Sheriff in town - maintaining repo access permissions on the CNCF org

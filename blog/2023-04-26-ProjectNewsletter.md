@@ -2,8 +2,10 @@
 title: Cloud Native Project Monthly (CNPM) April 2023 
 date: 2023-04-26
 authors: [castrojo]
+tags: [newsletter]
 ---
 
+<!-- truncate -->
 Welcome back from Kubecon! 
 This is our Projects update, this will go out once a month letting CNCF maintainers know of upcoming deadlines, outreach or other useful things going on in the wider community of CNCF.
 

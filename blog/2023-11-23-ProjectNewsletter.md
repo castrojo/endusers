@@ -2,8 +2,10 @@
 title: Cloud Native Project Monthly (CNPM) November 2023
 date: 2023-11-23
 authors: [castrojo]
+tags: [newsletter]
 ---
 
+<!-- truncate -->
 ## 📈Maintainers Survey 2023 H2
 A friendly nudge: we're still eagerly awaiting your valuable input! Our survey is open for a limited time, and we'd love to hear from you. Your insights play a crucial role in shaping our path forward. Take a moment to share your thoughts and help us create an even better experience for you. 
 
