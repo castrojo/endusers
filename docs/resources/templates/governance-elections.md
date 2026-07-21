@@ -274,7 +274,7 @@ needs. Recommended text can be found in the template.
 [project-template repository]: https://github.com/cncf/project-template
 [Kubernetes governance]: https://github.com/kubernetes/community/blob/master/governance.md
 [Knative governance]: https://github.com/knative/community/blob/main/GOVERNANCE.md
-[Maintainer Council]: https://contribute.cncf.io/maintainers/templates/governance-maintainer/
+[Maintainer Council]: https://endusers.cncf.io/maintainers/templates/governance-maintainer/
 [TAG Contributor Strategy]: https://github.com/cncf/tag-contributor-strategy
 [Contributor Ladder]: https://github.com/cncf/project-template/blob/main/CONTRIBUTOR_LADDER.md
 [Code of Conduct]: https://github.com/cncf/project-template/blob/main/CODE_OF_CONDUCT.md

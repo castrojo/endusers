@@ -1,12 +1,12 @@
 name: Blog Post Submission
-description: Submit a blog post for the CNCF Contributors site
+description: Submit a blog post for the Endusers site
 title: "[Blog Post]: "
 labels: ["blog"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for contributing a blog post to the CNCF Contributors site! Please fill out the form below.
+        Thanks for contributing a blog post to the Endusers site! Please fill out the form below.
         
   - type: input
     id: title

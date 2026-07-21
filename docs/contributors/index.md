@@ -1,6 +1,6 @@
 ---
 title: New Contributors
-description: Welcome to the CNCF Contributor Community
+description: Welcome to the Endusers Community
 sidebar_position: 1
 keywords:
   - getting started

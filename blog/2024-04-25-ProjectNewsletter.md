@@ -15,7 +15,7 @@ However, the LFX team would still like to connect with early adopters to get you
 
 ## 🗃️ Where to Find Project Resources
 
-contribute.cncf.io now has a resources section! This section is designed to list and categorize all the services the CNCF Projects team provides your project. This includes technical services, organizational help, marketing, program management, legal, and more.
+endusers.cncf.io now has a resources section! This section is designed to list and categorize all the services the CNCF Projects team provides your project. This includes technical services, organizational help, marketing, program management, legal, and more.
 
 Bookmark this page as it is now the central hub for CNCF Maintainers to find information! And feel free to open a Service Desk request in case there is something else you’d like to see us offer.
 
@@ -23,7 +23,7 @@ Bookmark this page as it is now the central hub for CNCF Maintainers to find inf
 
 Greetings maintainers! Each month I will strive to share some of the tips and tricks from our conversations together. We’ll keep them quick and easy!
 
-Put contribute.cncf.io and other important information in your Slack channel’s toolbar! This helps maintain best practice over time and is a great reference, especially for new contributors. 
+Put endusers.cncf.io and other important information in your Slack channel’s toolbar! This helps maintain best practice over time and is a great reference, especially for new contributors. 
 
 I recommend mapping the resources similarly to your project’s README.md so that they present a consistent set of information between both landing pages. Calendars, roadmaps, YouTube videos, and anything else important. When was the last time you checked those resource links in your README? It might be time for a spring cleaning and set of updates. Invest in those onboarding ramps! Don’t forget to use the topic for CFP deadlines, it’s a handy way to keep a “community post it” at the top of the channel. 
 

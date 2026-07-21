@@ -10,8 +10,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'CNCF Contributors',
-  tagline: 'Learn, connect, and contribute—the CNCF way',
+  title: 'Endusers',
+  tagline: 'Learn, connect, and contribute—the cloud native way',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,10 +20,8 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://castrojo.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/contribute-site/',
+  url: 'https://endusers.cncf.io',
+  baseUrl: '/',
 
   // onBrokenLinks: 'throw',
   onBrokenLinks: 'warn',
@@ -55,7 +53,7 @@ const config = {
         docs: {
           routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/cncf/contribute-site/tree/main',
+          editUrl: 'https://github.com/castrojo/endusers/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -63,7 +61,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/cncf/contribute-site/tree/main/',
+          editUrl: 'https://github.com/castrojo/endusers/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -184,7 +182,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/cncf/contribute-site',
+                href: 'https://github.com/castrojo/endusers',
               },
             ],
           },

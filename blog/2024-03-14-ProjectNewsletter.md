@@ -50,7 +50,7 @@ Anything related to your booth at KubeCon
 
 
 ## Project Resources Website
-In collaboration with TAG-Contributor-Strategy, the CNCF is adding project/maintainer-specific content under https://contribute.cncf.io/resources/. This will contain helpful resources for maintainers and projects such as how-to guides, policies, and information around services the CNCF offers for projects.
+In collaboration with TAG-Contributor-Strategy, the CNCF is adding project/maintainer-specific content under https://endusers.cncf.io/resources/. This will contain helpful resources for maintainers and projects such as how-to guides, policies, and information around services the CNCF offers for projects.
 
 Over the coming months, the goal is to provide a central point for projects to come and search for information and hopefully unblock themselves with common tasks or questions. If, as a maintainer, you find a repeated task that you do, PRs are welcome! Let’s build out a helpful collective together and uplevel all projects!
 

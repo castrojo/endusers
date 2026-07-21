@@ -35,7 +35,7 @@ N/A
 
 <!-- (TOC Evaluation goes here) --> 
 
-- [ ] **All project metadata and resources are [vendor-neutral](https://contribute.cncf.io/maintainers/community/vendor-neutrality/).**
+- [ ] **All project metadata and resources are [vendor-neutral](https://endusers.cncf.io/maintainers/community/vendor-neutrality/).**
 
 <!-- (TOC Evaluation goes here) --> 
 
@@ -70,7 +70,7 @@ Note: this section may be augmented by the completion of a Governance Review fro
 
 <!-- (TOC Evaluation goes here) --> 
 
-- [ ] **Governance clearly documents [vendor-neutral](https://contribute.cncf.io/maintainers/community/vendor-neutrality/) of project direction.**
+- [ ] **Governance clearly documents [vendor-neutral](https://endusers.cncf.io/maintainers/community/vendor-neutrality/) of project direction.**
 
 <!-- (TOC Evaluation goes here) --> 
 

@@ -54,13 +54,13 @@ npm run docus:start
 
 This will start the development server on the default port, typically `http://localhost:3000`.
 
-## GitHub Pages Configuration (Fork-Specific)
+## Endusers
 
-This fork is configured for GitHub Pages deployment at `https://castrojo.github.io/contribute-site/`. The `docusaurus.config.js` file contains fork-specific settings:
-- `url: 'https://castrojo.github.io'`
-- `baseUrl: '/contribute-site/'`
+This branded fork is configured for deployment at [endusers.cncf.io](https://endusers.cncf.io/). The site configuration uses:
+- `url: 'https://endusers.cncf.io'`
+- `baseUrl: '/'`
 
-**Important:** When creating pull requests to the upstream `cncf/contribute-site` repository, **do not include changes to `docusaurus.config.js`** as these settings are specific to this fork's GitHub Pages deployment. The upstream repository uses different settings for its production deployment.
+The source repository is [castrojo/endusers](https://github.com/castrojo/endusers).
 
 ## ChillOps
 

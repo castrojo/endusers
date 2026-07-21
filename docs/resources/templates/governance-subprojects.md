@@ -322,7 +322,7 @@ paragraph.
 [Konveyor]: https://www.konveyor.io/
 [Operator Framework]: https://github.com/operator-framework/community/pull/83
 [Contributor Ladder]: https://github.com/cncf/project-template/blob/main/CONTRIBUTOR_LADDER.md
-[Charters]: https://contribute.cncf.io/maintainers/governance/charter
+[Charters]: https://endusers.cncf.io/maintainers/governance/charter
 [Elekto]: https://elekto.dev/
 [Maintainer Council]: governance-maintainer/
 [Subproject Governance]: https://github.com/cncf/project-template/blob/main/GOVERNANCE-subprojects.md

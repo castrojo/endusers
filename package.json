@@ -1,7 +1,7 @@
 {
-  "name": "contribute-site",
+  "name": "endusers",
   "version": "0.9.0",
-  "description": "Resources provided by the CNCF Projects team.",
+  "description": "Endusers community resources for cloud native contributors.",
   "scripts": {
     "_build": "npm run docus:build",
     "_check:format:any": "npx prettier --check --ignore-path ''",
@@ -46,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cncf/contribute-site.git"
+    "url": "git+https://github.com/castrojo/endusers.git"
   },
   "author": "CNCF",
   "license": "CC-BY-4.0",
@@ -78,5 +78,5 @@
     "proseWrap": "always",
     "singleQuote": true
   },
-  "homepage": "https://contribute-cncf-io.netlify.app/"
+  "homepage": "https://endusers.cncf.io/"
 }

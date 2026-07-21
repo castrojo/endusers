@@ -24,7 +24,7 @@ All project logos and color schemes are readily available via the [CNCF artwork 
 
 ## Technical Documentation
 
-The tech docs team can assist CNCF projects analyze and improve their documentation. Learn more in the [Technical Writing section](https://contribute.cncf.io/resources/project-services/technical-writing/).
+The tech docs team can assist CNCF projects analyze and improve their documentation. Learn more in the [Technical Writing section](https://endusers.cncf.io/resources/project-services/technical-writing/).
 
 The CNCF tech docs team holds office hours on the [fourth Wednesday of every month at 8am Pacific time](https://tockify.com/cncf.public.events/monthly?search=CNCF%20Tech%20Writers%20Office%20Hours).
 
