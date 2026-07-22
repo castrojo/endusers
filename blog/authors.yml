@@ -15,7 +15,6 @@ caniszczyk:
   title: CTO
   url: https://github.com/caniszczyk
   image_url: https://github.com/caniszczyk.png
-  email: todo
 idvoretskyi:
   name: Ihor Dvoretskyi
   page: true
@@ -29,7 +28,6 @@ jeefy:
   title: Head of Projects
   url: https://github.com/jeefy
   image_url: https://github.com/jeefy.png
-  email: fixme
 krook:
   name: Daniel Krook
   page: true

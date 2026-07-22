@@ -7,4 +7,6 @@ import:
 
 build:
     npm run validate:architectures
+    npm run validate:metrics
+    npm run validate:awards
     npm run build
