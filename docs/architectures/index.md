@@ -44,6 +44,10 @@ import ReferenceArchitectures from '@site/src/components/ReferenceArchitectures'
   </div>
 </div>
 
+Organizations with community-accepted Reference Architectures are
+[automatically eligible](https://www.cncf.io/enduser-contributor/) for the End User
+Contributor program free of charge.
+
 Ready to share yours? Follow the
 [reference architecture submission process](https://github.com/cncf/tab/blob/main/process/reference-architectures.md)
 or start with the
