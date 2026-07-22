@@ -5,6 +5,13 @@ sidebar_position: 1
 slug: /
 ---
 
+# CNCF End Users
+
+<p className="hero-tagline">
+  Proven Performance in Production
+  <span>by the world's leading organizations</span>
+</p>
+
 Welcome to the home of the **CNCF End User Community** — the practitioners, architects,
 and organizations running cloud native technologies in production.
 
