@@ -3,6 +3,7 @@ title: Practitioners
 description: Welcome to the CNCF End User Community
 sidebar_position: 1
 slug: /
+hide_table_of_contents: true
 ---
 
 # CNCF End Users
