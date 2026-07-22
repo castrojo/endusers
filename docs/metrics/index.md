@@ -12,4 +12,7 @@ import MetricsDashboard from '@site/src/components/MetricsDashboard';
 
 <MetricsDashboard />
 
+![reddit]("https://github.com/user-attachments/assets/2d347818-cc0a-4e6a-88c9-d98260f77eed)
+
+
 Metrics are generated during the scheduled site refresh. Values unavailable from authoritative sources are omitted rather than estimated.
