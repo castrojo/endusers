@@ -8,7 +8,18 @@ slug: /
 Welcome to the home of the **CNCF End User Community** — the practitioners, architects,
 and organizations running cloud native technologies in production.
 
-<img width="996" height="597" alt="image" src="https://github.com/user-attachments/assets/369f81b7-73d2-422f-8a45-41c6e6640bc6" />
+<figure className="hero-photo">
+  <img
+    src={require('@site/static/img/practitioners-hero.jpg').default}
+    alt="SNCF Groupe representatives accepting the 2026 Top End User Award on the KubeCon + CloudNativeCon keynote stage"
+    width="996"
+    height="597"
+  />
+  <figcaption>
+    SNCF Groupe accepting the <a href="/awards">2026 Top End User Award</a> at KubeCon +
+    CloudNativeCon Europe.
+  </figcaption>
+</figure>
 
 ## Start here
 

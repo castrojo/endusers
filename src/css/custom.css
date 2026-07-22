@@ -108,3 +108,23 @@
 .navbar__logo:not(#\#):not(#\#) {
   height: 2.5rem;
 }
+
+/* Full-width photo treatment for landing-page imagery */
+.hero-photo {
+  margin: 1.5rem 0 2.5rem;
+}
+
+.hero-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(6, 32, 64, 0.18);
+}
+
+.hero-photo figcaption {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+}

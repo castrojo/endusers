@@ -2,6 +2,19 @@
   "description": "CNCF End User award winners rendered on /awards. Winners are data entries, not pages. Verify every entry against its cncf.io announcement before adding. Schema: year (int), award (slug), awardLabel (display name), organization, slug (kebab-case org id), logo (path under /static, or null for text fallback), citation (one sentence, from the announcement), event (where it was presented), announcementUrl, caseStudyUrl (nullable), talkUrl (nullable).",
   "awards": [
     {
+      "year": 2026,
+      "award": "top-end-user",
+      "awardLabel": "Top End User Award",
+      "organization": "SNCF",
+      "slug": "sncf",
+      "logo": "/img/awards/sncf.svg",
+      "citation": "Modernized its infrastructure by migrating 70% of 2,000 applications to the cloud, using Kubernetes as a consistent control plane across 200+ clusters.",
+      "event": "KubeCon + CloudNativeCon Europe, Amsterdam",
+      "announcementUrl": "https://www.cncf.io/announcements/2026/03/25/cncf-celebrates-innovators-advancing-cloud-native-at-kubecon-cloudnativecon-europe/",
+      "caseStudyUrl": "https://www.cncf.io/case-studies/sncf/",
+      "talkUrl": null
+    },
+    {
       "year": 2025,
       "award": "top-end-user",
       "awardLabel": "Top End User Award",
