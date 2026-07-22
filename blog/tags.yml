@@ -2,9 +2,9 @@ newsletter:
   label: Newsletter
   description: Monthly project newsletters
 
-maintainers:
-  label: Maintainers
-  description: Information for CNCF project maintainers
+announcements:
+  label: Announcements
+  description: News from the CNCF End User Community
 
 community:
   label: Community

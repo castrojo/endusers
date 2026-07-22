@@ -1,7 +1,7 @@
 {
   "name": "endusers",
   "version": "0.9.0",
-  "description": "Endusers community resources for cloud native contributors.",
+  "description": "Community resources for CNCF end users.",
   "scripts": {
     "_build": "npm run docus:build",
     "_check:format:any": "npx prettier --check --ignore-path ''",
@@ -37,6 +37,7 @@
     "import:architectures": "node scripts/import-architectures.mjs",
     "fetch:community-people": "node scripts/fetch-community-people.mjs",
     "validate:architectures": "node scripts/validate-architectures.mjs",
+    "validate:awards": "node scripts/validate-awards.mjs",
     "docusaurus": "docusaurus",
     "fix:format": "npm run _check:format -- --write",
     "fix": "npm run seq -- $(npm -s run _list:fix:*)",

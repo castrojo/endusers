@@ -13,7 +13,7 @@ const baseUrl = process.env.BASE_URL || '/';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Endusers',
+  title: 'CNCF End User Community',
   tagline: 'The community for Cloud Native End Users',
   favicon: 'img/favicon.ico',
 
@@ -26,8 +26,7 @@ const config = {
   url: siteUrl,
   baseUrl,
 
-  // onBrokenLinks: 'throw',
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -80,28 +79,21 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/cloud-native-contributors.jpg',
-      announcementBar: {
-        id: `hello-bar`,
-        content: `🎉️ Meet us in Atlanta for KubeCon + CloudNativeCon North America · Nov 10-13 ·<b><a target="_blank" href="https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/?utm_source=contribute-cncf-io&utm_medium=subpage&utm_campaign=10608228-KubeCon-NA-2025&utm_content=hello-bar">Register Today!</b> 🥳️`,
-        backgroundColor: 'rgb(1, 117, 228)', // Defaults to `#fff`
-        textColor: '#fff', // Defaults to `#000`
-      },
+      image: 'img/social-card.png',
       navbar: {
         title: '',
         logo: {
-          alt: 'Cloud Native Endusers',
+          alt: 'Cloud Native End Users',
           src: 'img/cloud-native-end-users.svg',
           srcDark: 'img/cloud-native-end-users-dark.svg',
         },
         items: [
           // Left
           {
-            type: 'docSidebar',
-            sidebarId: 'practitionersSidebar',
-            position: 'left',
+            to: '/',
             label: 'Practitioners',
+            position: 'left',
+            activeBaseRegex: '^/$',
           },
           {
             type: 'docSidebar',
@@ -115,77 +107,29 @@ const config = {
             position: 'left',
             label: 'Community',
           },
+          {
+            to: '/awards/',
+            label: 'Awards',
+            position: 'left',
+          },
 
           // Right
           {
-            type: 'docSidebar',
-            sidebarId: 'metricsSidebar',
-            position: 'right',
+            to: '/metrics/',
             label: 'Metrics',
+            position: 'right',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'eventsSidebar',
-            position: 'right',
+            to: '/events/',
             label: 'Events',
+            position: 'right',
           },
           { to: '/blog', label: 'Blog', position: 'right' },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
         ],
       },
       footer: {
-        logo: {
-          alt: 'CNCF Logo',
-          src: 'img/cncf_logo_white.svg',
-          href: 'https://www.cncf.io/',
-          width: 160,
-        },
+        // The rendered footer is the swizzled component in src/theme/Footer.
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Practitioners',
-                to: '/',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/castrojo/endusers',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} The CNCF Authors.`,
       },
       prism: {
         theme: prismThemes.github,

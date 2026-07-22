@@ -1,70 +1,74 @@
-## This will eventually be the contributing guide, for now we want it up front
+# endusers.cncf.io
 
-## Purpose
+The home of the [CNCF End User Community](https://www.cncf.io/enduser/): the organizations
+running cloud native technologies in production. This site collects the community's
+reference architectures, awards, metrics, events, and pathways to participate.
 
-One source of truth for all of the information that a CNCF Contributor would find useful. Additionally it will act as a reference point to other open source communities - we want to represent our "style" of open source, in a way that is consumable by others. 
+## What lives here
 
-We hope that you visit this site often.
-
-## The Golden Path
-
-We want to focus on the golden path first:
-
-- The individual - skills you need to be an effective contributor
-- The project - skills needed to manage projects, a different skillset
-- The community - the group of groups, including the CNCF End User TAB and its user groups
-
-_A healthy ecosystem will encourage the development of all three of these skills_. 
-
-The site is intended to be read in this order by a new contributor. It is also intended to support you through your entire cloud native journey, we expect mentors and experienced individuals to also share advanced things. 
+- **Practitioners** — the landing page for people operating cloud native systems in production
+- **Architectures** — real-world reference architectures imported from
+  [cncf/architecture](https://github.com/cncf/architecture)
+- **Community** — the End User Technical Advisory Board (TAB), End User Groups, and ways to engage
+- **Awards** — the organizations recognized with CNCF End User awards
+- **Metrics** — ecosystem and end-user metrics generated from authoritative public sources
+- **Events** — end user gatherings at KubeCon + CloudNativeCon
 
 ## Setup locally
 
-To set up the development environment for this Docusaurus site, you can choose between two methods: using a devcontainer or running the site locally with the `docusaurus dev` command. Follow the steps below:
-
 ### Prerequisites
+
 Ensure you have the following installed:
+
 - [Node.js](https://nodejs.org/) (LTS version 20 or above recommended)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 
-### Install Dependencies
-Before starting the application, install the required packages by running:
+### Install dependencies
+
 ```bash
 npm install
 ```
 
-### Run application
-There are two different options you can adopt to run this website locally:
-
-#### Option 1: Using Devcontainer
-If you are using a devcontainer, start the application with the following command:
-
-```bash
-npm run docusaurus start -- --host 0.0.0.0 --port 3000 --poll 10000
-```
-
-This will start the development server and make it accessible on `http://localhost:3000`.
-
-#### Option 2: Running Locally
-To run the site locally, use the following command:
+### Run the site
 
 ```bash
 npm run docus:start
 ```
 
-This will start the development server on the default port, typically `http://localhost:3000`.
+This starts the development server, typically at `http://localhost:3000`.
 
-## Endusers
+If you are using the devcontainer:
 
-This branded fork is configured for deployment at [endusers.cncf.io](https://endusers.cncf.io/). The site configuration uses:
+```bash
+npm run docusaurus start -- --host 0.0.0.0 --port 3000 --poll 10000
+```
+
+## Deployment
+
+The site deploys to [endusers.cncf.io](https://endusers.cncf.io/). Site configuration:
+
 - `url: 'https://endusers.cncf.io'`
 - `baseUrl: '/'`
 
 The source repository is [castrojo/endusers](https://github.com/castrojo/endusers).
 
-## ChillOps
-
-Feel free to start diving in with PRs, we want to remain opinionated on this golden path for now, and then add branches and side quests after we've shipped more meat. We want people to feel good when they read this site because they found something useful, so feel free to file issues with your ideas! 
 ## Metrics data
 
-The `/metrics` page is generated from public CNCF repositories. Run `npm run collect:metrics` to refresh `data/metrics.json`, then `npm run validate:metrics` and `npm run build`. Generated metrics data should not be edited manually. Landscape-derived values come from `cncf/landscape/landscape.yml`; architecture counts come from `cncf/architecture`. Values without an authoritative source are intentionally omitted.
+The `/metrics` page is generated from public CNCF repositories. Run `npm run collect:metrics`
+to refresh `data/metrics.json`, then `npm run validate:metrics` and `npm run build`. Generated
+metrics data should not be edited manually. Landscape-derived values come from
+`cncf/landscape/landscape.yml`; architecture counts come from `cncf/architecture`. Values
+without an authoritative source are intentionally omitted.
+
+## Awards data
+
+The `/awards` page is generated from `data/awards.json`. Each winner is a data entry
+(year, award, organization, logo, citation, links) — see the schema notes in that file.
+Verify new entries against the linked cncf.io announcement before adding them.
+
+## Contributing
+
+File issues with your ideas, or dive in with a pull request. Content should speak to
+end users — the practitioners, architects, and organizations adopting cloud native —
+rather than to project contributors, who are served by
+[contribute.cncf.io](https://contribute.cncf.io/).

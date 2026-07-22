@@ -4,7 +4,7 @@ sidebar_position: 6
 description: End user events at KubeCon + CloudNativeCon.
 ---
 
-The Endusers community gathers at KubeCon + CloudNativeCon for focused events, conversations, and networking.
+The CNCF End User Community gathers at KubeCon + CloudNativeCon for focused events, conversations, and networking.
 
 ## End User Summit
 

@@ -1,19 +1,19 @@
 name: Blog Post Submission
-description: Submit a blog post for the Endusers site
+description: Submit a blog post for the CNCF End User Community site
 title: "[Blog Post]: "
 labels: ["blog"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for contributing a blog post to the Endusers site! Please fill out the form below.
+        Thanks for contributing a blog post to the CNCF End User Community site! Please fill out the form below.
         
   - type: input
     id: title
     attributes:
       label: Blog Post Title
       description: Enter the title for your blog post
-      placeholder: e.g., "Getting Started with Cloud Native Contributing"
+      placeholder: e.g., "How We Run Kubernetes in Production"
     validations:
       required: true
       
