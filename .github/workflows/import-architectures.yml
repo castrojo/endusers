@@ -23,6 +23,7 @@ jobs:
       - run: npm run validate:metrics
       - run: npm run import:architectures
       - run: npm run validate:architectures
+      - run: npm run validate:awards
       - run: npm run build
       - uses: peter-evans/create-pull-request@v7
         with:
