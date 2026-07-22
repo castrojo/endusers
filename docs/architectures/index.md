@@ -7,10 +7,6 @@ sidebar_position: 1
 
 A growing catalog of real-world cloud native architectures contributed by CNCF end users. Browse by organization, industry, and the CNCF projects used in each architecture.
 
-import ReferenceArchitectures from '@site/src/components/ReferenceArchitectures';
-
-<ReferenceArchitectures />
-
 ## Why submit a reference architecture?
 
 <div className="pillars pillars-duo">
@@ -85,6 +81,12 @@ Ready to share yours? Follow the
 [reference architecture submission process](https://github.com/cncf/tab/blob/main/process/reference-architectures.md)
 or start with the
 [submission issue template](https://github.com/cncf/tab/issues/new?template=reference-architecture.yml).
+
+## The catalog
+
+import ReferenceArchitectures from '@site/src/components/ReferenceArchitectures';
+
+<ReferenceArchitectures />
 
 ## About this catalog
 
