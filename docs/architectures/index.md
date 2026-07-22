@@ -11,6 +11,44 @@ import ReferenceArchitectures from '@site/src/components/ReferenceArchitectures'
 
 <ReferenceArchitectures />
 
+## Why submit a reference architecture?
+
+<div className="pillars pillars-duo">
+  <div className="pillar">
+    <h3>Showcase your engineering</h3>
+    <p>
+      Put your production work in front of the whole cloud native community —
+      shared architectures have helped earn organizations the Top End User Award.
+    </p>
+  </div>
+  <div className="pillar">
+    <h3>Get expert review</h3>
+    <p>
+      Every submission is reviewed by the End User TAB and your peers, giving
+      your design vetted, independent feedback.
+    </p>
+  </div>
+  <div className="pillar">
+    <h3>Guide the projects you rely on</h3>
+    <p>
+      Real adoption patterns show maintainers how their projects are used in
+      production and help shape roadmaps around end user needs.
+    </p>
+  </div>
+  <div className="pillar">
+    <h3>Help the next adopter</h3>
+    <p>
+      Your trade-offs and lessons learned become a practical map for teams
+      facing the same decisions — a contribution no code can replace.
+    </p>
+  </div>
+</div>
+
+Ready to share yours? Follow the
+[reference architecture submission process](https://github.com/cncf/tab/blob/main/process/reference-architectures.md)
+or start with the
+[submission issue template](https://github.com/cncf/tab/issues/new?template=reference-architecture.yml).
+
 ## About this catalog
 
 Architecture content is imported from the [CNCF Cloud Native Reference Architecture project](https://github.com/cncf/architecture). Each architecture includes its source revision and attribution. Documentation is distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

@@ -139,6 +139,11 @@
   margin: 2rem 0 2.5rem;
 }
 
+/* Two-up variant for narrower content columns (pages with a sidebar) */
+.pillars.pillars-duo {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .pillar {
   padding: 1.4rem 1.25rem 1.3rem;
   border: 1px solid var(--ifm-color-emphasis-200);
