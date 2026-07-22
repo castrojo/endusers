@@ -27,7 +27,7 @@ and organizations running cloud native technologies in production.
   <div className="pillar">
     <h3>Stay ahead of change</h3>
     <p>
-      CNCF projects move at <a href="https://devstats.cncf.io/">high velocity</a> —
+      CNCF projects move at <a href="https://insights.linuxfoundation.org/collection/details/cncf">high velocity</a> —
       end users keep their organizations in the know on modern infrastructure.
     </p>
   </div>
