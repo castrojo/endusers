@@ -1,10 +1,12 @@
 import React from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import awardsData from '@site/data/awards.json';
 import styles from './styles.module.css';
 
 function WinnerCard({ entry }) {
   const { organization, awardLabel, citation, event, logo, announcementUrl, caseStudyUrl, talkUrl } = entry;
   const primaryUrl = announcementUrl || talkUrl;
+  const logoUrl = useBaseUrl(logo || '');
   return (
     <article className={styles.card}>
       <a
@@ -15,7 +17,7 @@ function WinnerCard({ entry }) {
         aria-label={`${organization} — ${awardLabel}`}
       >
         {logo ? (
-          <img src={logo} alt={`${organization} logo`} className={styles.logo} loading="lazy" />
+          <img src={logoUrl} alt={`${organization} logo`} className={styles.logo} loading="lazy" />
         ) : (
           <span className={styles.logoFallback}>{organization}</span>
         )}

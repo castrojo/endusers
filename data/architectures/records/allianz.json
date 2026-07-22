@@ -2,7 +2,7 @@
   "id": "allianz",
   "title": "Enabling Allianz Direct's scaling through Platform Engineering",
   "organization": "Allianz Direct",
-  "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2021\" version=\"1.29.6\" description=\"- Kubernetes has been the foundation for our Inter",
+  "summary": "The PE team is internally organised in DDOs - Distributed DevOps, where each ddo owns a Domain. This setup follows the reverse Conway manoeuver where the reference architecture structure dictates the teams setup. The PE team consist of 13 m",
   "industries": [],
   "tags": [
     "finance",

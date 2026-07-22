@@ -2,7 +2,7 @@
   "id": "adobe",
   "title": "Scaling Adobe’s Service Delivery Foundation with a Cell-based Architecture",
   "organization": "Adobe",
-  "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2019\" version=\"1.29.6\" description=\"- Kubernetes has been the foundation for our Inter",
+  "summary": "Security, Compliance, Support and Cost Efficiency are cross-cutting concerns for both infrastructure and developer experience.",
   "industries": [
     "Software",
     "Digital Media",

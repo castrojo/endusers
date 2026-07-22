@@ -132,7 +132,7 @@ function projectAsset(url) {
 function firstParagraph(body) {
   const paragraph = body.split(/\n\s*\n/).find((part) => {
     const text = part.trim();
-    return text && !text.startsWith('#') && !text.startsWith('!') && !text.startsWith('-') && !text.startsWith('[');
+    return text && !/^[#!\-[<|>]/.test(text);
   });
   return paragraph?.replace(/[*_`]/g, '').replace(/\s+/g, ' ').slice(0, 240) ?? '';
 }

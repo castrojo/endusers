@@ -40,6 +40,9 @@ jobs:
       - name: Validate generated architectures
         run: npm run validate:architectures
 
+      - name: Validate awards data
+        run: npm run validate:awards
+
       - name: Build website
         env:
           SITE_URL: https://castrojo.github.io

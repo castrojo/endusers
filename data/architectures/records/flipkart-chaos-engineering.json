@@ -2,7 +2,7 @@
   "id": "flipkart-chaos-engineering",
   "title": "From Afterthought to Practice: Flipkart’s Multi-Tenant Chaos Engineering Platform on LitmusChaos",
   "organization": "Flipkart Internet Pvt. Ltd.",
-  "summary": " <CNCFProjectCard name=\"LitmusChaos\" href=\"https://www.cncf.io/projects/litmus/\" logo=\"/img/cncf-projects/litmus-litmus-icon-color.svg\" since=\"2023\" description=\"Central chaos engineering platform. Provides Kubernetes-native chaos orchestra",
+  "summary": "Flipkart is one of India’s leading digital commerce companies, running hundreds of tightly coupled microservices across Kubernetes and VM workloads that must withstand the traffic surges of Big Billion Days and other festive sales. The Cent",
   "industries": [
     "E-commerce",
     "Retail",

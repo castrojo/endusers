@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import catalog from '@site/data/architectures/catalog.json';
 import styles from './styles.module.css';
 
@@ -13,15 +15,13 @@ function initials(name) {
 
 function ArchitectureCard({ architecture }) {
   const { organization, title, summary, industries, projects, id } = architecture;
+  const logoAsset = architecture.assets?.find((asset) => /logo|wordmark/i.test(asset));
+  const logoUrl = useBaseUrl(logoAsset || '');
   return (
-    <a href={`/architectures/${id}`} className={styles.card}>
+    <Link to={`/architectures/${id}`} className={styles.card}>
       <div className={styles.logoWrapper} aria-hidden="true">
-        {architecture.assets?.find((asset) => /logo|wordmark/i.test(asset)) ? (
-          <img
-            src={architecture.assets.find((asset) => /logo|wordmark/i.test(asset))}
-            alt=""
-            className={styles.logo}
-          />
+        {logoAsset ? (
+          <img src={logoUrl} alt="" className={styles.logo} />
         ) : (
           <span className={styles.initials}>{initials(organization)}</span>
         )}
@@ -40,7 +40,7 @@ function ArchitectureCard({ architecture }) {
         </div>
         <span className={styles.link}>View architecture →</span>
       </div>
-    </a>
+    </Link>
   );
 }
 

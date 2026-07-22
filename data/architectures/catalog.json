@@ -3,7 +3,7 @@
     "id": "adobe",
     "title": "Scaling Adobe’s Service Delivery Foundation with a Cell-based Architecture",
     "organization": "Adobe",
-    "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2019\" version=\"1.29.6\" description=\"- Kubernetes has been the foundation for our Inter",
+    "summary": "Security, Compliance, Support and Cost Efficiency are cross-cutting concerns for both infrastructure and developer experience.",
     "industries": [
       "Software",
       "Digital Media",
@@ -38,7 +38,7 @@
     "id": "allianz",
     "title": "Enabling Allianz Direct's scaling through Platform Engineering",
     "organization": "Allianz Direct",
-    "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2021\" version=\"1.29.6\" description=\"- Kubernetes has been the foundation for our Inter",
+    "summary": "The PE team is internally organised in DDOs - Distributed DevOps, where each ddo owns a Domain. This setup follows the reverse Conway manoeuver where the reference architecture structure dictates the teams setup. The PE team consist of 13 m",
     "industries": [],
     "tags": [
       "finance",
@@ -64,7 +64,7 @@
     "id": "cern-scientific-computing",
     "title": "A Cloud Native Scientific Computing Platform for CERN NextGen AI",
     "organization": "CERN",
-    "summary": " <CNCFProjectCard name=\"Argo\" href=\"https://www.cncf.io/projects/argo/\" logo=\"/img/cncf-projects/argo-argo-icon-color.svg\" description=\"ArgoCD is used to manage deployments of all services across multiple clusters and environments. Argo Wor",
+    "summary": "Some additional projects outside the CNCF are essential to this deployment. [MLFlow](https://mlflow.org/), a project under the Linux Foundation used for model management and versioning [Nvidia GPU operator](https://github.com/NVIDIA/gpu-ope",
     "industries": [
       "Research",
       "Public Sector"
@@ -101,7 +101,7 @@
     "id": "flipkart-chaos-engineering",
     "title": "From Afterthought to Practice: Flipkart’s Multi-Tenant Chaos Engineering Platform on LitmusChaos",
     "organization": "Flipkart Internet Pvt. Ltd.",
-    "summary": " <CNCFProjectCard name=\"LitmusChaos\" href=\"https://www.cncf.io/projects/litmus/\" logo=\"/img/cncf-projects/litmus-litmus-icon-color.svg\" since=\"2023\" description=\"Central chaos engineering platform. Provides Kubernetes-native chaos orchestra",
+    "summary": "Flipkart is one of India’s leading digital commerce companies, running hundreds of tightly coupled microservices across Kubernetes and VM workloads that must withstand the traffic surges of Big Billion Days and other festive sales. The Cent",
     "industries": [
       "E-commerce",
       "Retail",
@@ -136,7 +136,7 @@
     "id": "swisscom-cloud-native-telco",
     "title": "End-to-End Cloud Native Telco Platform Automation at Swisscom",
     "organization": "Swisscom (Switzerland) Ltd",
-    "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2021\" description=\"The Kubernetes API is the database backend and control plane of the",
+    "summary": "Swisscom has built a cloud native telco platform for the end-to-end automation of its 5G standalone core network and cross-domain resource orchestration. The architecture replaces traditional imperative network management (Jenkins pipelines",
     "industries": [
       "Communication",
       "Telecommunication"
@@ -176,7 +176,7 @@
     "id": "swisscom-kubernetes-service",
     "title": "A modern and sovereign Private Cloud «Kubernetes Service» for Swiss-based enterprises.",
     "organization": "Swisscom (Switzerland) Ltd",
-    "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2024\" version=\"1.32.8 (CNIP)\" description=\"- Kubernetes enables high availability, sca",
+    "summary": "Our next generation Private Cloud Container as a Service offering «Kubernetes Service» for the B2B market addresses customer’s need for scalable and highly available Kubernetes workload as a flexible and secure IT foundation. It is part of ",
     "industries": [
       "Communication",
       "Telecommunication",
@@ -215,7 +215,7 @@
     "id": "zeiss",
     "title": "ZEISS Vision Care - Order Fulfillment",
     "organization": "ZEISS",
-    "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2020\" version=\"1.32.3\" description=\"- Hosts > 200 microservices supporting order fulfi",
+    "summary": "Our Business Enablement & IT team develops, designs, and operates the order fulfillment platform that underpins this process.",
     "industries": [],
     "tags": [],
     "projects": [

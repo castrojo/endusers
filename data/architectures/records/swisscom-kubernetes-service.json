@@ -2,7 +2,7 @@
   "id": "swisscom-kubernetes-service",
   "title": "A modern and sovereign Private Cloud «Kubernetes Service» for Swiss-based enterprises.",
   "organization": "Swisscom (Switzerland) Ltd",
-  "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2024\" version=\"1.32.8 (CNIP)\" description=\"- Kubernetes enables high availability, sca",
+  "summary": "Our next generation Private Cloud Container as a Service offering «Kubernetes Service» for the B2B market addresses customer’s need for scalable and highly available Kubernetes workload as a flexible and secure IT foundation. It is part of ",
   "industries": [
     "Communication",
     "Telecommunication",
