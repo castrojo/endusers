@@ -65,3 +65,6 @@ The source repository is [castrojo/endusers](https://github.com/castrojo/enduser
 ## ChillOps
 
 Feel free to start diving in with PRs, we want to remain opinionated on this golden path for now, and then add branches and side quests after we've shipped more meat. We want people to feel good when they read this site because they found something useful, so feel free to file issues with your ideas! 
+## Metrics data
+
+The `/metrics` page is generated from public CNCF repositories. Run `npm run collect:metrics` to refresh `data/metrics.json`, then `npm run validate:metrics` and `npm run build`. Generated metrics data should not be edited manually. Landscape-derived values come from `cncf/landscape/landscape.yml`; architecture counts come from `cncf/architecture`. Values without an authoritative source are intentionally omitted.

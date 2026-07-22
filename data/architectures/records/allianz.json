@@ -1,0 +1,26 @@
+{
+  "id": "allianz",
+  "title": "Enabling Allianz Direct's scaling through Platform Engineering",
+  "organization": "Allianz Direct",
+  "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2021\" version=\"1.29.6\" description=\"- Kubernetes has been the foundation for our Inter",
+  "industries": [],
+  "tags": [
+    "finance",
+    "insurance",
+    "europe",
+    "public_cloud",
+    "aws"
+  ],
+  "projects": [
+    "Kubernetes",
+    "Helm",
+    "Argo"
+  ],
+  "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/allianz",
+  "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+  "assets": [
+    "/img/architectures/allianz/PEArchitecture.jpg",
+    "/img/architectures/allianz/PEJourney.jpg",
+    "/img/architectures/allianz/allianz.svg"
+  ]
+}

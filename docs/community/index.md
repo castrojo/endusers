@@ -14,7 +14,7 @@ The CNCF Community is made up of practitioners, architectures, and organizations
 
 ## End User Community
 
-Read the [End User Community guide](./end-user-community.md) for TAB governance, user groups, communication channels, reference architecture submissions, and end-user resources.
+Read the [End User Community guide](./end-user-community.md) for TAB governance, user groups, communication channels, reference architecture submissions, and end-user metrics.
 
 ## Community Architecture Catalog
 

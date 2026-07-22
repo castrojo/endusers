@@ -1,0 +1,270 @@
+{
+  "generated": true,
+  "generatedAt": "2026-07-22T17:08:15.364Z",
+  "sources": {
+    "landscape": {
+      "repository": "https://github.com/cncf/landscape",
+      "revision": "23804c786f15d52400afe097c95a1d4858c4085f",
+      "sourceUrl": "https://github.com/cncf/landscape/blob/main/landscape.yml"
+    },
+    "architectures": {
+      "repository": "https://github.com/cncf/architecture",
+      "revision": "551ef61f618a353dbea55efc0241616cbb286b4d",
+      "sourceUrl": "https://github.com/cncf/architecture/tree/main/content/en/architectures"
+    }
+  },
+  "metrics": [
+    {
+      "id": "cncf-projects",
+      "label": "CNCF projects",
+      "value": 253,
+      "source": "landscape",
+      "sourceUrl": "https://landscape.cncf.io/",
+      "collectedAt": "2026-07-22T17:08:15.364Z",
+      "note": "Projects explicitly marked with a CNCF maturity level in landscape.yml."
+    },
+    {
+      "id": "reference-architectures",
+      "label": "Reference architectures",
+      "value": 7,
+      "source": "architectures",
+      "sourceUrl": "https://github.com/cncf/architecture/tree/main/content/en/architectures",
+      "collectedAt": "2026-07-22T17:08:15.364Z",
+      "note": "Published architecture directories under content/en/architectures."
+    }
+  ],
+  "breakdowns": {
+    "projectCategories": {
+      "label": "Project categories",
+      "source": "landscape",
+      "sourceUrl": "https://landscape.cncf.io/",
+      "values": [
+        {
+          "name": "Provisioning",
+          "value": 64
+        },
+        {
+          "name": "Orchestration & Management",
+          "value": 58
+        },
+        {
+          "name": "App Definition and Development",
+          "value": 55
+        },
+        {
+          "name": "Runtime",
+          "value": 39
+        },
+        {
+          "name": "Observability and Analysis",
+          "value": 26
+        },
+        {
+          "name": "Platform",
+          "value": 3
+        },
+        {
+          "name": "Wasm",
+          "value": 3
+        },
+        {
+          "name": "Inference",
+          "value": 3
+        },
+        {
+          "name": "Serverless",
+          "value": 2
+        }
+      ]
+    },
+    "projectMaturity": {
+      "label": "Project maturity",
+      "source": "landscape",
+      "sourceUrl": "https://landscape.cncf.io/",
+      "values": [
+        {
+          "name": "sandbox",
+          "value": 149
+        },
+        {
+          "name": "incubating",
+          "value": 39
+        },
+        {
+          "name": "graduated",
+          "value": 37
+        },
+        {
+          "name": "archived",
+          "value": 28
+        }
+      ]
+    }
+  },
+  "series": {
+    "endUserMembers": {
+      "label": "CNCF member companies",
+      "source": "landscape",
+      "sourceUrl": "https://landscape.cncf.io/",
+      "values": [
+        {
+          "date": "2026-07-22",
+          "value": 646
+        }
+      ]
+    },
+    "referenceArchitectures": {
+      "label": "Reference architecture submissions",
+      "source": "architectures",
+      "sourceUrl": "https://github.com/cncf/architecture/commits/main/content/en/architectures",
+      "values": [
+        {
+          "date": "2024-09",
+          "value": 5
+        },
+        {
+          "date": "2024-10",
+          "value": 8
+        },
+        {
+          "date": "2024-11",
+          "value": 12
+        },
+        {
+          "date": "2025-08",
+          "value": 13
+        },
+        {
+          "date": "2026-03",
+          "value": 25
+        },
+        {
+          "date": "2026-06",
+          "value": 27
+        }
+      ]
+    }
+  },
+  "referenceArchitectureLifecycle": {
+    "generated": true,
+    "source": "cncf/tab and cncf/architecture GitHub APIs",
+    "sourceUrl": "https://github.com/cncf/tab/issues?q=is%3Aissue+label%3Aarea%2Freference-architecture",
+    "observedAt": "2026-07-22T17:08:15.364Z",
+    "cards": [
+      {
+        "id": "open-submissions",
+        "label": "Open submissions",
+        "value": 13,
+        "note": "Open TAB issues labeled as reference-architecture submissions."
+      },
+      {
+        "id": "open-architecture-prs",
+        "label": "Open architecture PRs",
+        "value": 5,
+        "note": "Architecture PRs identified from public GitHub metadata."
+      },
+      {
+        "id": "median-submission-age",
+        "label": "Median submission age",
+        "value": 99.3,
+        "suffix": "days",
+        "note": "Time since open submission issue creation; not end-to-end review time."
+      },
+      {
+        "id": "median-pr-cycle",
+        "label": "Median public PR cycle",
+        "value": 1.2,
+        "suffix": "days",
+        "note": "Creation to merge for merged architecture PRs; a public GitHub proxy."
+      }
+    ],
+    "trends": {
+      "submissions": {
+        "label": "Open submissions by month",
+        "values": [
+          {
+            "date": "2024-12",
+            "value": 1
+          },
+          {
+            "date": "2025-01",
+            "value": 2
+          },
+          {
+            "date": "2025-07",
+            "value": 1
+          },
+          {
+            "date": "2025-11",
+            "value": 1
+          },
+          {
+            "date": "2026-03",
+            "value": 1
+          },
+          {
+            "date": "2026-04",
+            "value": 3
+          },
+          {
+            "date": "2026-05",
+            "value": 3
+          },
+          {
+            "date": "2026-06",
+            "value": 1
+          }
+        ]
+      },
+      "publications": {
+        "label": "Architecture PRs merged by month",
+        "values": [
+          {
+            "date": "2024-11",
+            "value": 6
+          },
+          {
+            "date": "2025-08",
+            "value": 1
+          },
+          {
+            "date": "2026-03",
+            "value": 5
+          },
+          {
+            "date": "2026-06",
+            "value": 2
+          }
+        ]
+      }
+    },
+    "omitted": [
+      {
+        "id": "acceptance-rate",
+        "reason": "Acceptance is not represented as a consistent public GitHub state."
+      },
+      {
+        "id": "validation-duration",
+        "reason": "Validation timestamps are not consistently recorded."
+      },
+      {
+        "id": "announcement-rate",
+        "reason": "Announcement events are not represented as structured repository data."
+      }
+    ]
+  },
+  "omitted": [
+    {
+      "id": "member-companies",
+      "reason": "The landscape data does not expose an unambiguous end-user membership field."
+    },
+    {
+      "id": "slack-members",
+      "reason": "No authoritative GitHub source provides a reliable current count."
+    },
+    {
+      "id": "conference-attendance",
+      "reason": "Attendance is not collected from the authoritative repositories."
+    }
+  ]
+}

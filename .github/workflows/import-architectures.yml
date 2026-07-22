@@ -1,0 +1,38 @@
+name: Import reference architectures
+
+on:
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run collect:metrics
+      - run: npm run validate:metrics
+      - run: npm run import:architectures
+      - run: npm run validate:architectures
+      - run: npm run build
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/import-architectures
+          delete-branch: true
+          commit-message: 'chore: import reference architectures'
+          title: 'chore: import latest reference architectures'
+          body: |
+            Automated metrics refresh and architecture import.
+            Automated import from https://github.com/cncf/architecture.
+
+            The production build and architecture validation passed.
+          labels: automated

@@ -27,3 +27,7 @@ This repository defines specific skills for AI agents to follow when contributin
 - **No Client Secrets**: Never include proprietary or client-specific framing.
 - **Lazy Loading**: Use the `docs/skills/` manifest to discover detailed instructions for specific tasks (e.g., blog posts, documentation updates).
 - **Structure**: Maintain Docusaurus file layout and sidebar configurations (`sidebars.js`).
+
+## Metrics
+
+The `/metrics` page is generated from `data/metrics.json`. Refresh it with `npm run collect:metrics`, validate with `npm run validate:metrics`, and build with `npm run build`. Do not edit generated metrics data manually; update `scripts/collect-metrics.mjs` instead.

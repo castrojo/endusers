@@ -1,0 +1,40 @@
+{
+  "id": "swisscom-cloud-native-telco",
+  "title": "End-to-End Cloud Native Telco Platform Automation at Swisscom",
+  "organization": "Swisscom (Switzerland) Ltd",
+  "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2021\" description=\"The Kubernetes API is the database backend and control plane of the",
+  "industries": [
+    "Communication",
+    "Telecommunication"
+  ],
+  "tags": [
+    "cloud_native",
+    "telco",
+    "5g",
+    "gitops",
+    "kubernetes",
+    "switzerland",
+    "private_cloud"
+  ],
+  "projects": [
+    "Kubernetes",
+    "Flux",
+    "cert-manager",
+    "Headlamp",
+    "SDC (Schema Driven Configuration)",
+    "CoreDNS",
+    "ExternalDNS",
+    "MetalLB",
+    "Kubebuilder / controller-runtime",
+    "PowerDNS",
+    "NetBox Operator",
+    "NetBox"
+  ],
+  "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/swisscom-cloud-native-telco",
+  "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+  "assets": [
+    "/img/architectures/swisscom-cloud-native-telco/swisscom-cloud-native-telco-automation-architecture-overview.svg",
+    "/img/architectures/swisscom-cloud-native-telco/swisscom-cloud-native-telco-automation-layers.svg",
+    "/img/architectures/swisscom-cloud-native-telco/swisscom.png"
+  ]
+}

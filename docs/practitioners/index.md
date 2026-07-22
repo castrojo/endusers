@@ -13,4 +13,4 @@ This section is dedicated to those who are using and operating cloud native tech
 
 - [Community Values](/community/)
 - [Architectures](/architectures/)
-- [Resources](/resources/)
+- [Metrics](/metrics/)

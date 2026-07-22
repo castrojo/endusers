@@ -1,0 +1,35 @@
+{
+  "id": "adobe",
+  "title": "Scaling Adobe’s Service Delivery Foundation with a Cell-based Architecture",
+  "organization": "Adobe",
+  "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2019\" version=\"1.29.6\" description=\"- Kubernetes has been the foundation for our Inter",
+  "industries": [
+    "Software",
+    "Digital Media",
+    "Digital Experience"
+  ],
+  "tags": [
+    "adobe",
+    "ci-cd",
+    "service-delivery",
+    "cell-based-architecture",
+    "developer-platforms",
+    "developer-experience"
+  ],
+  "projects": [
+    "Kubernetes",
+    "Helm",
+    "Argo",
+    "Backstage"
+  ],
+  "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/adobe",
+  "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+  "assets": [
+    "/img/architectures/adobe/Adobe_Wordmark_RGB_Red.svg",
+    "/img/architectures/adobe/CellBasedArchitecture.webp",
+    "/img/architectures/adobe/FiaBArchitecture.png",
+    "/img/architectures/adobe/FiaBAutomation.png",
+    "/img/architectures/adobe/FlexHighLevel.png",
+    "/img/architectures/adobe/InitialArchitecture.png"
+  ]
+}

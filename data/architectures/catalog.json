@@ -1,0 +1,235 @@
+[
+  {
+    "id": "adobe",
+    "title": "Scaling Adobe’s Service Delivery Foundation with a Cell-based Architecture",
+    "organization": "Adobe",
+    "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2019\" version=\"1.29.6\" description=\"- Kubernetes has been the foundation for our Inter",
+    "industries": [
+      "Software",
+      "Digital Media",
+      "Digital Experience"
+    ],
+    "tags": [
+      "adobe",
+      "ci-cd",
+      "service-delivery",
+      "cell-based-architecture",
+      "developer-platforms",
+      "developer-experience"
+    ],
+    "projects": [
+      "Kubernetes",
+      "Helm",
+      "Argo",
+      "Backstage"
+    ],
+    "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/adobe",
+    "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+    "assets": [
+      "/img/architectures/adobe/Adobe_Wordmark_RGB_Red.svg",
+      "/img/architectures/adobe/CellBasedArchitecture.webp",
+      "/img/architectures/adobe/FiaBArchitecture.png",
+      "/img/architectures/adobe/FiaBAutomation.png",
+      "/img/architectures/adobe/FlexHighLevel.png",
+      "/img/architectures/adobe/InitialArchitecture.png"
+    ]
+  },
+  {
+    "id": "allianz",
+    "title": "Enabling Allianz Direct's scaling through Platform Engineering",
+    "organization": "Allianz Direct",
+    "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2021\" version=\"1.29.6\" description=\"- Kubernetes has been the foundation for our Inter",
+    "industries": [],
+    "tags": [
+      "finance",
+      "insurance",
+      "europe",
+      "public_cloud",
+      "aws"
+    ],
+    "projects": [
+      "Kubernetes",
+      "Helm",
+      "Argo"
+    ],
+    "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/allianz",
+    "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+    "assets": [
+      "/img/architectures/allianz/PEArchitecture.jpg",
+      "/img/architectures/allianz/PEJourney.jpg",
+      "/img/architectures/allianz/allianz.svg"
+    ]
+  },
+  {
+    "id": "cern-scientific-computing",
+    "title": "A Cloud Native Scientific Computing Platform for CERN NextGen AI",
+    "organization": "CERN",
+    "summary": " <CNCFProjectCard name=\"Argo\" href=\"https://www.cncf.io/projects/argo/\" logo=\"/img/cncf-projects/argo-argo-icon-color.svg\" description=\"ArgoCD is used to manage deployments of all services across multiple clusters and environments. Argo Wor",
+    "industries": [
+      "Research",
+      "Public Sector"
+    ],
+    "tags": [
+      "cloud_native",
+      "private_cloud",
+      "kubernetes",
+      "switzerland"
+    ],
+    "projects": [
+      "Argo",
+      "Bootc",
+      "ContainerSSH",
+      "Longhorn",
+      "Kubernetes",
+      "Kubeflow",
+      "Kserve",
+      "Kyverno",
+      "Kueue",
+      "Prometheus",
+      "stargz-snapshotter"
+    ],
+    "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/cern-scientific-computing",
+    "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+    "assets": [
+      "/img/architectures/cern-scientific-computing/hwlayout.png",
+      "/img/architectures/cern-scientific-computing/logo.svg",
+      "/img/architectures/cern-scientific-computing/ngt-refarch.png",
+      "/img/architectures/cern-scientific-computing/use-cases.png"
+    ]
+  },
+  {
+    "id": "flipkart-chaos-engineering",
+    "title": "From Afterthought to Practice: Flipkart’s Multi-Tenant Chaos Engineering Platform on LitmusChaos",
+    "organization": "Flipkart Internet Pvt. Ltd.",
+    "summary": " <CNCFProjectCard name=\"LitmusChaos\" href=\"https://www.cncf.io/projects/litmus/\" logo=\"/img/cncf-projects/litmus-litmus-icon-color.svg\" since=\"2023\" description=\"Central chaos engineering platform. Provides Kubernetes-native chaos orchestra",
+    "industries": [
+      "E-commerce",
+      "Retail",
+      "Digital Commerce"
+    ],
+    "tags": [
+      "Chaos engineering",
+      "Resilience",
+      "Kubernetes",
+      "Multi-tenancy",
+      "India",
+      "E-commerce",
+      "Site reliability"
+    ],
+    "projects": [
+      "LitmusChaos",
+      "Kubernetes",
+      "Argo Workflows",
+      "Prometheus",
+      "Helm",
+      "containerd"
+    ],
+    "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/flipkart-chaos-engineering",
+    "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+    "assets": [
+      "/img/architectures/flipkart-chaos-engineering/layers.png",
+      "/img/architectures/flipkart-chaos-engineering/logo.png",
+      "/img/architectures/flipkart-chaos-engineering/top-level-diagram.png"
+    ]
+  },
+  {
+    "id": "swisscom-cloud-native-telco",
+    "title": "End-to-End Cloud Native Telco Platform Automation at Swisscom",
+    "organization": "Swisscom (Switzerland) Ltd",
+    "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2021\" description=\"The Kubernetes API is the database backend and control plane of the",
+    "industries": [
+      "Communication",
+      "Telecommunication"
+    ],
+    "tags": [
+      "cloud_native",
+      "telco",
+      "5g",
+      "gitops",
+      "kubernetes",
+      "switzerland",
+      "private_cloud"
+    ],
+    "projects": [
+      "Kubernetes",
+      "Flux",
+      "cert-manager",
+      "Headlamp",
+      "SDC (Schema Driven Configuration)",
+      "CoreDNS",
+      "ExternalDNS",
+      "MetalLB",
+      "Kubebuilder / controller-runtime",
+      "PowerDNS",
+      "NetBox Operator",
+      "NetBox"
+    ],
+    "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/swisscom-cloud-native-telco",
+    "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+    "assets": [
+      "/img/architectures/swisscom-cloud-native-telco/swisscom-cloud-native-telco-automation-architecture-overview.svg",
+      "/img/architectures/swisscom-cloud-native-telco/swisscom-cloud-native-telco-automation-layers.svg",
+      "/img/architectures/swisscom-cloud-native-telco/swisscom.png"
+    ]
+  },
+  {
+    "id": "swisscom-kubernetes-service",
+    "title": "A modern and sovereign Private Cloud «Kubernetes Service» for Swiss-based enterprises.",
+    "organization": "Swisscom (Switzerland) Ltd",
+    "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2024\" version=\"1.32.8 (CNIP)\" description=\"- Kubernetes enables high availability, sca",
+    "industries": [
+      "Communication",
+      "Telecommunication",
+      "Software",
+      "Cloud"
+    ],
+    "tags": [
+      "service-delivery",
+      "cloud_native",
+      "private_cloud",
+      "kubernetes",
+      "switzerland"
+    ],
+    "projects": [
+      "Kubernetes",
+      "KubeVirt",
+      "Kube-OVN",
+      "MetalLB",
+      "Container Storage Interface (CSI)",
+      "Kyverno",
+      "ArgoCD",
+      "Helm",
+      "CloudNativePG"
+    ],
+    "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/swisscom-kubernetes-service",
+    "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+    "assets": [
+      "/img/architectures/swisscom-kubernetes-service/kubernetes-service-central-infra.png",
+      "/img/architectures/swisscom-kubernetes-service/kubernetes-service-ingredients.png",
+      "/img/architectures/swisscom-kubernetes-service/kubernetes-service-isolated-envs.png",
+      "/img/architectures/swisscom-kubernetes-service/kubernetes-service-team-deliverables.png",
+      "/img/architectures/swisscom-kubernetes-service/swisscom.png"
+    ]
+  },
+  {
+    "id": "zeiss",
+    "title": "ZEISS Vision Care - Order Fulfillment",
+    "organization": "ZEISS",
+    "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2020\" version=\"1.32.3\" description=\"- Hosts > 200 microservices supporting order fulfi",
+    "industries": [],
+    "tags": [],
+    "projects": [
+      "Kubernetes",
+      "Dapr",
+      "KEDA",
+      "OpenTelemetry",
+      "Helm"
+    ],
+    "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/zeiss",
+    "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+    "assets": [
+      "/img/architectures/zeiss/solutionArchitecture.svg",
+      "/img/architectures/zeiss/zeiss-logo-rgb.svg"
+    ]
+  }
+]

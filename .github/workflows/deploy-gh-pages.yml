@@ -12,8 +12,11 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
+
+env:
+  NODE_VERSION: '22'
 
 jobs:
   build:
@@ -25,14 +28,23 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
 
+      - name: Validate generated metrics
+        run: npm run validate:metrics
+
+      - name: Validate generated architectures
+        run: npm run validate:architectures
+
       - name: Build website
         run: npm run build
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

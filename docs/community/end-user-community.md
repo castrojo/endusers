@@ -4,11 +4,24 @@ sidebar_position: 1
 description: CNCF End User Community governance, groups, and ways to participate.
 ---
 
-The CNCF End User Community is the voice of organizations that use cloud native technologies in production. This site collects the community's authoritative governance, working groups, reference architectures, and end-user resources.
+The CNCF End User Community connects organizations running cloud native technologies in production. Find the people, groups, meetings, and practical resources that help end users learn from one another and shape CNCF priorities.
+
+## Start here
+
+- **Join the conversation:** Subscribe to the [End User mailing list](https://lists.cncf.io/g/cncf-enduser) or join the `#enduser` channel in [CNCF Slack](https://slack.cncf.io/).
+- **Find a peer group:** Browse the [End User Groups](#end-user-groups) for industry-focused collaboration.
+- **Share an architecture:** Follow the [Reference Architecture Submission Process](https://github.com/cncf/tab/blob/main/process/reference-architectures.md).
+- **Explore adoption data:** Visit the [CNCF Technology Radar](https://radar.cncf.io/).
 
 ## End User Technical Advisory Board (TAB)
 
 The [CNCF End User Technical Advisory Board](https://github.com/cncf/tab) represents end users within the CNCF community. The TAB helps surface end-user needs, improve visibility into CNCF project adoption, advise on technical direction, and review reference architectures.
+
+import CommunityPeople from '@site/src/components/CommunityPeople';
+
+### TAB members
+
+<CommunityPeople section="tab" />
 
 ### TAB responsibilities
 
@@ -54,9 +67,13 @@ Submissions can begin with a [GitHub issue using the reference architecture temp
 
 The [CNCF Technology Radar](https://github.com/cncf/tab/tree/main/end-user-tech-radar) captures end-user technology adoption data. The repository includes the [radar data](https://github.com/cncf/tab/tree/main/end-user-tech-radar) and the [CNCF Radar application](https://github.com/cncf/radar).
 
-## Related CNCF resources
+## Related CNCF metrics
 
 - [CNCF End User Community](https://www.cncf.io/enduser/)
 - [CNCF TAB repository](https://github.com/cncf/tab)
 - [CNCF architecture repository](https://github.com/cncf/architecture)
 - [CNCF End User Technology Radar](https://radar.cncf.io/)
+
+## CNCF End User Support Staff
+
+<CommunityPeople section="staff" />

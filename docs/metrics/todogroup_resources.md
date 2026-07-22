@@ -1,5 +1,5 @@
 ---
-title: Resources from the TODO Group
+title: TODO Group metrics and resources
 ---
 
 TODO is an open community of practitioners who aim to create and share knowledge and collaborate on practices and tools to run successful Open Source Program Offices (OSPOs). There is usually overlaping areas of interest within OSPOs and individual contributors. TODO has a [Get Started](https://todogroup.org/community/get-started/) page if you want to get more involved.
@@ -25,6 +25,6 @@ Here is a collection of TODO resources that may be useful to individuals:
 -   [Using open source code](https://todogroup.org/resources/guides/using-open-source-code/)
 
 
-[TODO Group Guides and Resources](https://todogroup.org/resources/guides/) - Complete list of TODO Group guides. 
+[TODO Group guides and resources](https://todogroup.org/resources/guides/) - Complete list of TODO Group guides. 
 
 [TODO Group Training Modules](https://todogroup.org/resources/training/) - Material for contributors in an Open Source Program Office(OSPO) context. May be useful for individual projects. 

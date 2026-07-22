@@ -1,0 +1,39 @@
+{
+  "id": "swisscom-kubernetes-service",
+  "title": "A modern and sovereign Private Cloud «Kubernetes Service» for Swiss-based enterprises.",
+  "organization": "Swisscom (Switzerland) Ltd",
+  "summary": " <CNCFProjectCard name=\"Kubernetes\" href=\"https://www.cncf.io/projects/kubernetes/\" logo=\"/img/cncf-projects/kubernetes-kubernetes-icon-color.svg\" since=\"2024\" version=\"1.32.8 (CNIP)\" description=\"- Kubernetes enables high availability, sca",
+  "industries": [
+    "Communication",
+    "Telecommunication",
+    "Software",
+    "Cloud"
+  ],
+  "tags": [
+    "service-delivery",
+    "cloud_native",
+    "private_cloud",
+    "kubernetes",
+    "switzerland"
+  ],
+  "projects": [
+    "Kubernetes",
+    "KubeVirt",
+    "Kube-OVN",
+    "MetalLB",
+    "Container Storage Interface (CSI)",
+    "Kyverno",
+    "ArgoCD",
+    "Helm",
+    "CloudNativePG"
+  ],
+  "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/swisscom-kubernetes-service",
+  "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+  "assets": [
+    "/img/architectures/swisscom-kubernetes-service/kubernetes-service-central-infra.png",
+    "/img/architectures/swisscom-kubernetes-service/kubernetes-service-ingredients.png",
+    "/img/architectures/swisscom-kubernetes-service/kubernetes-service-isolated-envs.png",
+    "/img/architectures/swisscom-kubernetes-service/kubernetes-service-team-deliverables.png",
+    "/img/architectures/swisscom-kubernetes-service/swisscom.png"
+  ]
+}

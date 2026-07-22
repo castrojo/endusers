@@ -1,0 +1,37 @@
+{
+  "id": "cern-scientific-computing",
+  "title": "A Cloud Native Scientific Computing Platform for CERN NextGen AI",
+  "organization": "CERN",
+  "summary": " <CNCFProjectCard name=\"Argo\" href=\"https://www.cncf.io/projects/argo/\" logo=\"/img/cncf-projects/argo-argo-icon-color.svg\" description=\"ArgoCD is used to manage deployments of all services across multiple clusters and environments. Argo Wor",
+  "industries": [
+    "Research",
+    "Public Sector"
+  ],
+  "tags": [
+    "cloud_native",
+    "private_cloud",
+    "kubernetes",
+    "switzerland"
+  ],
+  "projects": [
+    "Argo",
+    "Bootc",
+    "ContainerSSH",
+    "Longhorn",
+    "Kubernetes",
+    "Kubeflow",
+    "Kserve",
+    "Kyverno",
+    "Kueue",
+    "Prometheus",
+    "stargz-snapshotter"
+  ],
+  "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/cern-scientific-computing",
+  "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+  "assets": [
+    "/img/architectures/cern-scientific-computing/hwlayout.png",
+    "/img/architectures/cern-scientific-computing/logo.svg",
+    "/img/architectures/cern-scientific-computing/ngt-refarch.png",
+    "/img/architectures/cern-scientific-computing/use-cases.png"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "flipkart-chaos-engineering",
+  "title": "From Afterthought to Practice: Flipkart’s Multi-Tenant Chaos Engineering Platform on LitmusChaos",
+  "organization": "Flipkart Internet Pvt. Ltd.",
+  "summary": " <CNCFProjectCard name=\"LitmusChaos\" href=\"https://www.cncf.io/projects/litmus/\" logo=\"/img/cncf-projects/litmus-litmus-icon-color.svg\" since=\"2023\" description=\"Central chaos engineering platform. Provides Kubernetes-native chaos orchestra",
+  "industries": [
+    "E-commerce",
+    "Retail",
+    "Digital Commerce"
+  ],
+  "tags": [
+    "Chaos engineering",
+    "Resilience",
+    "Kubernetes",
+    "Multi-tenancy",
+    "India",
+    "E-commerce",
+    "Site reliability"
+  ],
+  "projects": [
+    "LitmusChaos",
+    "Kubernetes",
+    "Argo Workflows",
+    "Prometheus",
+    "Helm",
+    "containerd"
+  ],
+  "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/flipkart-chaos-engineering",
+  "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
+  "assets": [
+    "/img/architectures/flipkart-chaos-engineering/layers.png",
+    "/img/architectures/flipkart-chaos-engineering/logo.png",
+    "/img/architectures/flipkart-chaos-engineering/top-level-diagram.png"
+  ]
+}

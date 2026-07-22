@@ -89,7 +89,8 @@ const config = {
         title: '',
         logo: {
           alt: 'Cloud Native Endusers',
-          src: 'img/logo.svg',
+          src: 'img/cloud-native-end-users.svg',
+          srcDark: 'img/cloud-native-end-users-dark.svg',
         },
         items: [
           // Left
@@ -115,15 +116,9 @@ const config = {
           // Right
           {
             type: 'docSidebar',
-            sidebarId: 'practitionersSidebar',
+            sidebarId: 'metricsSidebar',
             position: 'right',
-            label: 'Practitioners',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'resourcesSidebar',
-            position: 'right',
-            label: 'Resources',
+            label: 'Metrics',
           },
           {
             type: 'docSidebar',
