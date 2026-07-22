@@ -48,6 +48,39 @@ Organizations with community-accepted Reference Architectures are
 [automatically eligible](https://www.cncf.io/enduser-contributor/) for the End User
 Contributor program free of charge.
 
+## Benefits for your Organization
+
+<div className="benefit-cards">
+  <div className="benefit">
+    <h3>KubeCon + CloudNativeCon keynote time</h3>
+    <p>
+      Tell your story from the biggest stage in cloud native — the community
+      celebrates its end users in front of thousands of practitioners.
+    </p>
+  </div>
+  <div className="benefit">
+    <h3>Complimentary KubeCon passes</h3>
+    <p>
+      Bring the engineers behind your architecture to KubeCon + CloudNativeCon
+      to meet the maintainers and peers they work alongside.
+    </p>
+  </div>
+  <div className="benefit">
+    <h3>End User track talk selection</h3>
+    <p>
+      Opportunities to present in the end user track, where organizations show
+      what running cloud native in production really looks like.
+    </p>
+  </div>
+  <div className="benefit">
+    <h3>CNCF marketing support</h3>
+    <p>
+      CNCF amplifies your architecture across its channels — blogs, case
+      studies, and social — putting your work in front of the whole ecosystem.
+    </p>
+  </div>
+</div>
+
 Ready to share yours? Follow the
 [reference architecture submission process](https://github.com/cncf/tab/blob/main/process/reference-architectures.md)
 or start with the
