@@ -12,7 +12,17 @@ import MetricsDashboard from '@site/src/components/MetricsDashboard';
 
 <MetricsDashboard />
 
-![reddit]("https://github.com/user-attachments/assets/2d347818-cc0a-4e6a-88c9-d98260f77eed)
-
+<figure className="hero-photo">
+  <img
+    src={require('@site/static/img/metrics-reddit-keynote.jpg').default}
+    alt="A Reddit engineer speaking on the KubeCon + CloudNativeCon keynote stage in front of a large Reddit logo"
+    width="1748"
+    height="673"
+  />
+  <figcaption>
+    End users like Reddit share their production experience from the KubeCon +
+    CloudNativeCon keynote stage.
+  </figcaption>
+</figure>
 
 Metrics are generated during the scheduled site refresh. Values unavailable from authoritative sources are omitted rather than estimated.

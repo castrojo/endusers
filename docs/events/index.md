@@ -20,4 +20,15 @@ The **End User Reception** is a networking event for members of the CNCF End Use
 
 > Event pages and schedules are maintained by the Linux Foundation. Links above point to the latest KubeCon + CloudNativeCon North America materials.
 
-![sncf](https://github.com/user-attachments/assets/d959d10a-5d62-443e-8f03-efcb5cd66f56)
+<figure className="hero-photo">
+  <img
+    src={require('@site/static/img/events-michelin-award.jpg').default}
+    alt="Michelin representatives receiving the 2025 Top End User Award on stage at KubeCon + CloudNativeCon North America"
+    width="758"
+    height="525"
+  />
+  <figcaption>
+    Michelin receiving the <a href="/awards">2025 Top End User Award</a> at KubeCon +
+    CloudNativeCon North America, Atlanta.
+  </figcaption>
+</figure>
