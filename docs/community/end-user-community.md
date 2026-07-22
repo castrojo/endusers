@@ -4,7 +4,7 @@ sidebar_position: 1
 description: CNCF End User Community governance, groups, and ways to participate.
 ---
 
-The CNCF End User Community connects organizations running cloud native technologies in production. Find the people, groups, meetings, and practical resources that help end users learn from one another and shape CNCF priorities.
+The CNCF End User Community connects organizations running cloud native technologies in production. Find the people, groups, meetings, and practical resources that help end users learn from one another and shape CNCF priorities. 
 
 ## Start here
 
