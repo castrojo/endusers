@@ -19,3 +19,5 @@ The **End User Reception** is a networking event for members of the CNCF End Use
 - [KubeCon + CloudNativeCon North America 2025 event resources](https://events.linuxfoundation.org/archive/2025/kubecon-cloudnativecon-north-america/attend/event-resources/)
 
 > Event pages and schedules are maintained by the Linux Foundation. Links above point to the latest KubeCon + CloudNativeCon North America materials.
+
+![sncf](https://github.com/user-attachments/assets/d959d10a-5d62-443e-8f03-efcb5cd66f56)
