@@ -6,6 +6,9 @@
 
 import { themes as prismThemes } from 'prism-react-renderer';
 
+const siteUrl = process.env.SITE_URL || 'https://endusers.cncf.io';
+const baseUrl = process.env.BASE_URL || '/';
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
@@ -20,8 +23,8 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://endusers.cncf.io',
-  baseUrl: '/',
+  url: siteUrl,
+  baseUrl,
 
   // onBrokenLinks: 'throw',
   onBrokenLinks: 'warn',

@@ -41,6 +41,9 @@ jobs:
         run: npm run validate:architectures
 
       - name: Build website
+        env:
+          SITE_URL: https://castrojo.github.io
+          BASE_URL: /endusers/
         run: npm run build
 
       - name: Configure GitHub Pages
