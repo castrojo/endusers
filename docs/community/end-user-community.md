@@ -9,9 +9,10 @@ The CNCF End User Community connects organizations running cloud native technolo
 ## Start here
 
 - **Join the conversation:** Subscribe to the [End User mailing list](https://lists.cncf.io/g/cncf-enduser) or join the `#enduser` channel in [CNCF Slack](https://slack.cncf.io/).
+- **Bring your organization in:** Learn about [joining the CNCF End User Community](https://www.cncf.io/enduser/).
 - **Find a peer group:** Browse the [End User Groups](#end-user-groups) for industry-focused collaboration.
 - **Share an architecture:** Follow the [Reference Architecture Submission Process](https://github.com/cncf/tab/blob/main/process/reference-architectures.md).
-- **Explore adoption data:** Visit the [CNCF Technology Radar](https://radar.cncf.io/).
+- **Explore adoption data:** Visit the [CNCF Technology Radar](https://radar.cncf.io/) and the [CNCF case studies](https://www.cncf.io/case-studies/).
 
 ## End User Technical Advisory Board (TAB)
 
@@ -26,7 +27,7 @@ import CommunityPeople from '@site/src/components/CommunityPeople';
 ### TAB responsibilities
 
 - Facilitate communication between end users and CNCF governing bodies.
-- Advise the [CNCF End User TAB](https://github.com/cncf/tab) on technical directions and challenges.
+- Advise the [CNCF Technical Oversight Committee (TOC)](https://github.com/cncf/toc) on technical directions and challenges in the cloud native ecosystem.
 - Improve visibility into end-user adoption of CNCF projects.
 - Provide feedback on project usability, reliability, and performance.
 - Review and approve reference architectures.
@@ -66,6 +67,22 @@ Submissions can begin with a [GitHub issue using the reference architecture temp
 ## End User Technology Radar
 
 The [CNCF Technology Radar](https://github.com/cncf/tab/tree/main/end-user-tech-radar) captures end-user technology adoption data. The repository includes the [radar data](https://github.com/cncf/tab/tree/main/end-user-tech-radar) and the [CNCF Radar application](https://github.com/cncf/radar).
+
+## Projects born at end user organizations
+
+Some of the most widely adopted CNCF projects started as internal tools at end user organizations before being contributed to the community:
+
+- [Envoy](https://www.envoyproxy.io/) — originally built at Lyft
+- [Jaeger](https://www.jaegertracing.io/) — open sourced by Uber
+- [Backstage](https://backstage.io/) — created at Spotify
+- [Vitess](https://vitess.io/) — first developed at YouTube
+- [Argo](https://argoproj.github.io/) — donated to CNCF by Intuit
+
+Running something your peers would benefit from? Talk to the [End User TAB](https://github.com/cncf/tab) about pathways for contributing projects and architectures.
+
+## End User Awards
+
+CNCF recognizes outstanding end user organizations with the [Top End User Award](/awards). See the [Awards page](/awards) for every winner since 2018 and how to nominate an organization.
 
 ## Related CNCF metrics
 
