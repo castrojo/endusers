@@ -14,11 +14,11 @@ hide_table_of_contents: true
 </p>
 
 Welcome to the home of the **CNCF End User Community** — the practitioners, architects,
-and organizations running cloud native technologies in production. 
+and organizations running cloud native technologies in production.
 
 - Work with proven industry leaders on maximizing open source's potential to their businesses
-- CNCF Projects have [high development velocity] - CNCF End Users ensure that their organizations are always "in the know" for changes in modern infrastructure
-- Work with peers to pool resources to support sustainable Open Source development 
+- CNCF Projects have [high development velocity](https://devstats.cncf.io/) - CNCF End Users ensure that their organizations are always "in the know" for changes in modern infrastructure
+- Work with peers to pool resources to support sustainable Open Source development
 - Elevate your platform teams with a supportive, knowledge focused community designed to help them succeed - teamwork and empathy leads to our success
 
 <figure className="hero-photo">
