@@ -1,10 +1,10 @@
 {
   "generated": true,
-  "generatedAt": "2026-07-22T17:08:15.364Z",
+  "generatedAt": "2026-07-24T03:28:58.379Z",
   "sources": {
     "landscape": {
       "repository": "https://github.com/cncf/landscape",
-      "revision": "23804c786f15d52400afe097c95a1d4858c4085f",
+      "revision": "f492a248fda5675e126c39dc441fc85f16d3bbc9",
       "sourceUrl": "https://github.com/cncf/landscape/blob/main/landscape.yml"
     },
     "architectures": {
@@ -17,10 +17,10 @@
     {
       "id": "cncf-projects",
       "label": "CNCF projects",
-      "value": 253,
+      "value": 254,
       "source": "landscape",
       "sourceUrl": "https://landscape.cncf.io/",
-      "collectedAt": "2026-07-22T17:08:15.364Z",
+      "collectedAt": "2026-07-24T03:28:58.379Z",
       "note": "Projects explicitly marked with a CNCF maturity level in landscape.yml."
     },
     {
@@ -29,7 +29,7 @@
       "value": 7,
       "source": "architectures",
       "sourceUrl": "https://github.com/cncf/architecture/tree/main/content/en/architectures",
-      "collectedAt": "2026-07-22T17:08:15.364Z",
+      "collectedAt": "2026-07-24T03:28:58.379Z",
       "note": "Published architecture directories under content/en/architectures."
     }
   ],
@@ -53,7 +53,7 @@
         },
         {
           "name": "Runtime",
-          "value": 39
+          "value": 40
         },
         {
           "name": "Observability and Analysis",
@@ -84,7 +84,7 @@
       "values": [
         {
           "name": "sandbox",
-          "value": 149
+          "value": 150
         },
         {
           "name": "incubating",
@@ -108,7 +108,7 @@
       "sourceUrl": "https://landscape.cncf.io/",
       "values": [
         {
-          "date": "2026-07-22",
+          "date": "2026-07-24",
           "value": 646
         }
       ]
@@ -149,7 +149,7 @@
     "generated": true,
     "source": "cncf/tab and cncf/architecture GitHub APIs",
     "sourceUrl": "https://github.com/cncf/tab/issues?q=is%3Aissue+label%3Aarea%2Freference-architecture",
-    "observedAt": "2026-07-22T17:08:15.364Z",
+    "observedAt": "2026-07-24T03:28:58.379Z",
     "cards": [
       {
         "id": "open-submissions",
@@ -166,7 +166,7 @@
       {
         "id": "median-submission-age",
         "label": "Median submission age",
-        "value": 99.3,
+        "value": 100.7,
         "suffix": "days",
         "note": "Time since open submission issue creation; not end-to-end review time."
       },
