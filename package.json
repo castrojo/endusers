@@ -73,7 +73,7 @@
     "cspell": "^9.1.1",
     "markdown-link-check": "3.13.7",
     "markdownlint": "^0.38.0",
-    "markdownlint-cli": "^0.45.0",
+    "markdownlint-cli": "^0.49.1",
     "npm-check-updates": "^18.0.1",
     "prettier": "^3.5.3",
     "typescript": "~5.8.3",
