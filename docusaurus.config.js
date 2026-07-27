@@ -179,6 +179,11 @@ const config = {
             label: 'Community',
           },
           {
+            to: '/community/end-user-community#projects-born-at-end-user-organizations',
+            label: 'Projects from end users',
+            position: 'left',
+          },
+          {
             to: '/members/',
             label: 'Members',
             position: 'left',

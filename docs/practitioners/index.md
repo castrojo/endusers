@@ -6,6 +6,8 @@ slug: /
 hide_table_of_contents: true
 ---
 
+import ProjectsBorn from '@site/src/components/ProjectsBorn';
+
 # CNCF End Users
 
 <p className="hero-tagline">
@@ -81,11 +83,10 @@ The End User Community is where production experience gets recognized. Recent
 — organizations that have shared architectures, case studies, and operational
 lessons with the wider community.
 
-Member organizations also shape the ecosystem by contributing projects that
-began as internal tools: [Envoy](https://www.envoyproxy.io/) from Lyft,
-[Jaeger](https://www.jaegertracing.io/) from Uber,
-[Backstage](https://backstage.io/) from Spotify, [Vitess](https://vitess.io/)
-from YouTube, and [Argo](https://argoproj.github.io/) from Intuit.
+<ProjectsBorn
+  title="Lead the way"
+  intro="These projects prove that cloud native end users are at the leading edge of innovation. They started as production solutions inside organizations like Lyft, Uber, Spotify, YouTube, and Intuit — then became part of the foundation the whole ecosystem builds on."
+/>
 
 ## Find your path
 

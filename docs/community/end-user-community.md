@@ -177,18 +177,9 @@ Start small and move up as your time and interest allow.
 
 ## Projects born at end user organizations
 
-Some of the most widely adopted CNCF projects started as internal tools at end
-user organizations before being contributed to the community:
+import ProjectsBorn from '@site/src/components/ProjectsBorn';
 
-- [Envoy](https://www.envoyproxy.io/) — originally built at Lyft
-- [Jaeger](https://www.jaegertracing.io/) — open sourced by Uber
-- [Backstage](https://backstage.io/) — created at Spotify
-- [Vitess](https://vitess.io/) — first developed at YouTube
-- [Argo](https://argoproj.github.io/) — donated to CNCF by Intuit
-
-Running something your peers would benefit from? Talk to the
-[End User TAB](https://github.com/cncf/tab) about pathways for contributing
-projects and architectures.
+<ProjectsBorn />
 
 ## End User Awards
 
