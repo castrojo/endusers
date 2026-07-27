@@ -22,12 +22,54 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
+  // Set the production url of your site here.
+  // Override with SITE_URL/BASE_URL for non-production deployments such as
+  // GitHub Pages previews (e.g. SITE_URL=https://castrojo.github.io BASE_URL=/endusers/).
   url: siteUrl,
   baseUrl,
 
+  // Preserve broken-link enforcement; do not weaken.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  // Structured data for the site identity. Page-level schema should be added
+  // only when it can be maintained from verified data sources.
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'manifest',
+        href: '/manifest.json',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/favicons/apple-touch-icon.png',
+      },
+    },
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'CNCF End User Community',
+        url: siteUrl,
+        logo: `${siteUrl.replace(/\/$/, '')}${baseUrl === '/' ? '' : baseUrl.replace(/\/$/, '')}/img/cloud-native-end-users.svg`,
+        parentOrganization: {
+          '@type': 'Organization',
+          name: 'Cloud Native Computing Foundation',
+          url: 'https://www.cncf.io/',
+        },
+        sameAs: ['https://www.cncf.io/', 'https://github.com/cncf/tab'],
+      }),
+    },
+  ],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -43,7 +85,7 @@ const config = {
         htmlLang: 'en-US',
         calendar: 'gregory',
         path: 'en',
-      }
+      },
     },
   },
 
@@ -80,8 +122,37 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/social-card.png',
+      // Site-wide SEO metadata applied to every page unless overridden.
+      metadata: [
+        {
+          name: 'description',
+          content:
+            'The CNCF End User Community connects practitioners, architects, and organizations running cloud native technologies in production.',
+        },
+        {
+          name: 'keywords',
+          content:
+            'CNCF, end user, cloud native, Kubernetes, practitioners, reference architectures, community',
+        },
+        { name: 'author', content: 'Cloud Native Computing Foundation' },
+      ],
+      // Respect the visitor's system-level motion and color preferences.
+      colorMode: {
+        defaultMode: 'light',
+        respectPrefersColorScheme: true,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 4,
+      },
       navbar: {
         title: '',
+        hideOnScroll: false,
         logo: {
           alt: 'Cloud Native End Users',
           src: 'img/cloud-native-end-users.svg',
@@ -106,6 +177,11 @@ const config = {
             sidebarId: 'communitySidebar',
             position: 'left',
             label: 'Community',
+          },
+          {
+            to: '/members/',
+            label: 'Members',
+            position: 'left',
           },
           {
             to: '/awards/',

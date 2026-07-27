@@ -2,6 +2,9 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import catalog from '@site/data/architectures/catalog.json';
+import ArchitectureFilters, {
+  useArchitectureFilters,
+} from '@site/src/components/ArchitectureFilters';
 import styles from './styles.module.css';
 
 function initials(name) {
@@ -14,8 +17,11 @@ function initials(name) {
 }
 
 function ArchitectureCard({ architecture }) {
-  const { organization, title, summary, industries, projects, id } = architecture;
-  const logoAsset = architecture.assets?.find((asset) => /logo|wordmark/i.test(asset));
+  const { organization, title, summary, industries, projects, id } =
+    architecture;
+  const logoAsset = architecture.assets?.find((asset) =>
+    /logo|wordmark/i.test(asset),
+  );
   const logoUrl = useBaseUrl(logoAsset || '');
   return (
     <Link to={`/architectures/${id}`} className={styles.card}>
@@ -27,7 +33,9 @@ function ArchitectureCard({ architecture }) {
         )}
       </div>
       <div className={styles.cardContent}>
-        <p className={styles.eyebrow}>{industries.join(' · ') || 'Reference architecture'}</p>
+        <p className={styles.eyebrow}>
+          {industries.join(' · ') || 'Reference architecture'}
+        </p>
         <h2 className={styles.orgName}>{organization}</h2>
         <p className={styles.title}>{title}</p>
         <p className={styles.summary}>{summary}</p>
@@ -45,16 +53,60 @@ function ArchitectureCard({ architecture }) {
 }
 
 export default function ReferenceArchitectures() {
+  const {
+    options,
+    filters,
+    setQuery,
+    setIndustry,
+    setProject,
+    setOrganization,
+    filtered,
+    clearFilters,
+    activeCount,
+  } = useArchitectureFilters(catalog);
+
   return (
     <section aria-label="Reference architecture catalog">
       <p className={styles.catalogMeta}>
         {catalog.length} real-world architecture reports from CNCF end users.
       </p>
-      <div className={styles.grid}>
-        {catalog.map((architecture) => (
-          <ArchitectureCard key={architecture.id} architecture={architecture} />
-        ))}
-      </div>
+      <ArchitectureFilters
+        options={options}
+        filters={filters}
+        setQuery={setQuery}
+        setIndustry={setIndustry}
+        setProject={setProject}
+        setOrganization={setOrganization}
+        activeCount={activeCount}
+        onClear={clearFilters}
+        resultCount={filtered.length}
+        totalCount={catalog.length}
+      />
+      {filtered.length === 0 ? (
+        <div className={styles.emptyState}>
+          <h3>No architectures match</h3>
+          <p>
+            Try clearing filters or searching for a different organization or
+            title.
+          </p>
+          <button
+            type="button"
+            onClick={clearFilters}
+            className={styles.clearButton}
+          >
+            Clear filters
+          </button>
+        </div>
+      ) : (
+        <div className={styles.grid}>
+          {filtered.map((architecture) => (
+            <ArchitectureCard
+              key={architecture.id}
+              architecture={architecture}
+            />
+          ))}
+        </div>
+      )}
     </section>
   );
 }

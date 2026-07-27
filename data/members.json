@@ -1,0 +1,502 @@
+{
+  "description": "Curated CNCF End User Community member organizations derived from reference architectures and Top End User Award winners.",
+  "generatedFrom": ["data/architectures/catalog.json", "data/awards.json"],
+  "schema": {
+    "id": "kebab-case identifier",
+    "name": "display name",
+    "slug": "URL-safe identifier",
+    "logo": "optional static asset path",
+    "industries": "array of industry labels from architecture data",
+    "projects": "array of CNCF project names from architecture data",
+    "architectures": "reference architecture entries",
+    "awards": "Top End User Award entries",
+    "sourceAttribution": "authoritative source URLs"
+  },
+  "members": [
+    {
+      "id": "adobe",
+      "name": "Adobe",
+      "slug": "adobe",
+      "logo": "/img/architectures/adobe/Adobe_Wordmark_RGB_Red.svg",
+      "industries": ["Digital Experience", "Digital Media", "Software"],
+      "projects": ["Argo", "Backstage", "Helm", "Kubernetes"],
+      "architectures": [
+        {
+          "id": "adobe",
+          "title": "Scaling Adobe’s Service Delivery Foundation with a Cell-based Architecture",
+          "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/adobe",
+          "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d"
+        }
+      ],
+      "awards": [
+        {
+          "year": 2024,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "Contributed to 46 CNCF projects and shared a reference architecture for its Internal Developer Platform.",
+          "event": "KubeCon + CloudNativeCon North America, Salt Lake City",
+          "announcementUrl": "https://www.cncf.io/announcements/2024/11/14/cncf-presents-top-end-user-award-to-adobe/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/adobe/",
+          "talkUrl": null
+        }
+      ],
+      "sourceAttribution": [
+        "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/adobe",
+        "https://www.cncf.io/announcements/2024/11/14/cncf-presents-top-end-user-award-to-adobe/",
+        "https://www.cncf.io/case-studies/adobe/"
+      ]
+    },
+    {
+      "id": "allianz",
+      "name": "Allianz",
+      "slug": "allianz",
+      "logo": "/img/architectures/allianz/allianz.svg",
+      "industries": [],
+      "projects": ["Argo", "Helm", "Kubernetes"],
+      "architectures": [
+        {
+          "id": "allianz",
+          "title": "Enabling Allianz Direct's scaling through Platform Engineering",
+          "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/allianz",
+          "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d"
+        }
+      ],
+      "awards": [],
+      "sourceAttribution": [
+        "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/allianz"
+      ]
+    },
+    {
+      "id": "ant-group",
+      "name": "ANT Group",
+      "slug": "ant-group",
+      "logo": null,
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [
+        {
+          "year": 2025,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "Recognized for pioneering cloud native scalability and shaping the future of open source services.",
+          "event": "KubeCon + CloudNativeCon Europe, London",
+          "announcementUrl": "https://www.cncf.io/announcements/2025/04/03/cloud-native-computing-foundation-announces-ant-group-as-the-top-end-user-award-winner/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/ant-financial/",
+          "talkUrl": null
+        }
+      ],
+      "sourceAttribution": [
+        "https://www.cncf.io/announcements/2025/04/03/cloud-native-computing-foundation-announces-ant-group-as-the-top-end-user-award-winner/",
+        "https://www.cncf.io/case-studies/ant-financial/"
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "slug": "apple",
+      "logo": "/img/awards/apple.svg",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [
+        {
+          "year": 2022,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "Recognized for its adoption of cloud native technologies and contributions back to the ecosystem.",
+          "event": "KubeCon + CloudNativeCon Europe, Valencia",
+          "announcementUrl": null,
+          "caseStudyUrl": null,
+          "talkUrl": "https://www.youtube.com/watch?v=9GIQyQjs36o"
+        }
+      ],
+      "sourceAttribution": ["https://www.youtube.com/watch?v=9GIQyQjs36o"]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "slug": "bloomberg",
+      "logo": "/img/awards/bloomberg.svg",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [
+        {
+          "year": 2018,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "The financial software leader recognized for contributions to the cloud native ecosystem.",
+          "event": "KubeCon + CloudNativeCon Europe, Copenhagen",
+          "announcementUrl": "https://www.cncf.io/announcement/2018/05/02/cloud-native-computing-foundation-announces-bloomberg-as-winner-of-top-end-user-award/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/bloomberg/",
+          "talkUrl": null
+        }
+      ],
+      "sourceAttribution": [
+        "https://www.cncf.io/announcement/2018/05/02/cloud-native-computing-foundation-announces-bloomberg-as-winner-of-top-end-user-award/",
+        "https://www.cncf.io/case-studies/bloomberg/"
+      ]
+    },
+    {
+      "id": "cern",
+      "name": "CERN",
+      "slug": "cern",
+      "logo": "/img/awards/cern.svg",
+      "industries": ["Public Sector", "Research"],
+      "projects": [
+        "Argo",
+        "Bootc",
+        "ContainerSSH",
+        "Kserve",
+        "Kubeflow",
+        "Kubernetes",
+        "Kueue",
+        "Kyverno",
+        "Longhorn",
+        "Prometheus",
+        "stargz-snapshotter"
+      ],
+      "architectures": [
+        {
+          "id": "cern-scientific-computing",
+          "title": "A Cloud Native Scientific Computing Platform for CERN NextGen AI",
+          "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/cern-scientific-computing",
+          "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d"
+        }
+      ],
+      "awards": [
+        {
+          "year": 2024,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "The research leader recognized as an exceptional end user of cloud native technologies in scientific computing.",
+          "event": "KubeCon + CloudNativeCon Europe, Paris",
+          "announcementUrl": "https://www.cncf.io/announcements/2024/03/21/cloud-native-computing-foundation-announces-cern-as-the-top-end-user-award-winner/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/cern/",
+          "talkUrl": null
+        }
+      ],
+      "sourceAttribution": [
+        "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/cern-scientific-computing",
+        "https://www.cncf.io/announcements/2024/03/21/cloud-native-computing-foundation-announces-cern-as-the-top-end-user-award-winner/",
+        "https://www.cncf.io/case-studies/cern/"
+      ]
+    },
+    {
+      "id": "didi",
+      "name": "DiDi",
+      "slug": "didi",
+      "logo": null,
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [
+        {
+          "year": 2019,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "The leading transportation platform recognized for contributions to open source big data and AI technologies.",
+          "event": "KubeCon + CloudNativeCon + Open Source Summit China, Shanghai",
+          "announcementUrl": "https://www.cncf.io/announcement/2019/06/24/cloud-native-computing-foundation-announces-didi-as-winner-of-top-end-user-award/",
+          "caseStudyUrl": null,
+          "talkUrl": null
+        }
+      ],
+      "sourceAttribution": [
+        "https://www.cncf.io/announcement/2019/06/24/cloud-native-computing-foundation-announces-didi-as-winner-of-top-end-user-award/"
+      ]
+    },
+    {
+      "id": "flipkart",
+      "name": "Flipkart",
+      "slug": "flipkart",
+      "logo": "/img/architectures/flipkart-chaos-engineering/logo.png",
+      "industries": ["Digital Commerce", "E-commerce", "Retail"],
+      "projects": [
+        "Argo Workflows",
+        "Helm",
+        "Kubernetes",
+        "LitmusChaos",
+        "Prometheus",
+        "containerd"
+      ],
+      "architectures": [
+        {
+          "id": "flipkart-chaos-engineering",
+          "title": "From Afterthought to Practice: Flipkart’s Multi-Tenant Chaos Engineering Platform on LitmusChaos",
+          "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/flipkart-chaos-engineering",
+          "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d"
+        }
+      ],
+      "awards": [],
+      "sourceAttribution": [
+        "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/flipkart-chaos-engineering"
+      ]
+    },
+    {
+      "id": "intuit",
+      "name": "Intuit",
+      "slug": "intuit",
+      "logo": "/img/awards/intuit.svg",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [
+        {
+          "year": 2022,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "A CNCF member since early 2018 and a generous contributor and supporter of the cloud native ecosystem.",
+          "event": "KubeCon + CloudNativeCon North America, Detroit",
+          "announcementUrl": "https://www.cncf.io/announcements/2022/10/26/cloud-native-computing-foundation-recognizes-intuit-as-top-end-user/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/intuit/",
+          "talkUrl": null
+        },
+        {
+          "year": 2019,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "The financial technology company recognized for contributions to the cloud native community.",
+          "event": "KubeCon + CloudNativeCon Europe, Barcelona",
+          "announcementUrl": "https://www.cncf.io/announcement/2019/05/21/cloud-native-computing-foundation-announces-intuit-as-winner-of-top-end-user-award/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/intuit/",
+          "talkUrl": null
+        }
+      ],
+      "sourceAttribution": [
+        "https://www.cncf.io/announcements/2022/10/26/cloud-native-computing-foundation-recognizes-intuit-as-top-end-user/",
+        "https://www.cncf.io/case-studies/intuit/",
+        "https://www.cncf.io/announcement/2019/05/21/cloud-native-computing-foundation-announces-intuit-as-winner-of-top-end-user-award/"
+      ]
+    },
+    {
+      "id": "jd-com",
+      "name": "JD.com",
+      "slug": "jd-com",
+      "logo": "/img/awards/jd-com.svg",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [
+        {
+          "year": 2018,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "The Chinese online retail giant recognized for contributions to the cloud native end user community.",
+          "event": "KubeCon + CloudNativeCon China, Shanghai",
+          "announcementUrl": "https://www.cncf.io/announcements/2018/11/15/jd-wins-top-end-user-award/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/jd-com/",
+          "talkUrl": null
+        }
+      ],
+      "sourceAttribution": [
+        "https://www.cncf.io/announcements/2018/11/15/jd-wins-top-end-user-award/",
+        "https://www.cncf.io/case-studies/jd-com/"
+      ]
+    },
+    {
+      "id": "mercedes-benz-tech-innovation",
+      "name": "Mercedes-Benz",
+      "slug": "mercedes-benz-tech-innovation",
+      "logo": "/img/awards/mercedes-benz.svg",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [
+        {
+          "year": 2023,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "Runs nearly 1,000 Kubernetes clusters in production designing technology for the automotive giant.",
+          "event": "KubeCon + CloudNativeCon Europe, Amsterdam",
+          "announcementUrl": "https://www.cncf.io/announcements/2023/04/21/cncf-presents-top-end-user-award-to-mercedes-benz-tech-innovation/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/mercedes-benz/",
+          "talkUrl": null
+        }
+      ],
+      "sourceAttribution": [
+        "https://www.cncf.io/announcements/2023/04/21/cncf-presents-top-end-user-award-to-mercedes-benz-tech-innovation/",
+        "https://www.cncf.io/case-studies/mercedes-benz/"
+      ]
+    },
+    {
+      "id": "michelin",
+      "name": "Michelin",
+      "slug": "michelin",
+      "logo": "/img/awards/michelin.svg",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [
+        {
+          "year": 2025,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "Recognized for significantly advancing cloud native development internally and across the wider CNCF community.",
+          "event": "KubeCon + CloudNativeCon North America, Atlanta",
+          "announcementUrl": "https://www.cncf.io/announcements/2025/11/12/cncf-honors-innovators-and-defenders-with-2025-community-awards-at-kubecon-cloudnativecon-north-america/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/michelin/",
+          "talkUrl": null
+        }
+      ],
+      "sourceAttribution": [
+        "https://www.cncf.io/announcements/2025/11/12/cncf-honors-innovators-and-defenders-with-2025-community-awards-at-kubecon-cloudnativecon-north-america/",
+        "https://www.cncf.io/case-studies/michelin/"
+      ]
+    },
+    {
+      "id": "sncf",
+      "name": "SNCF",
+      "slug": "sncf",
+      "logo": "/img/awards/sncf.svg",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [
+        {
+          "year": 2026,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "Modernized its infrastructure by migrating 70% of 2,000 applications to the cloud, using Kubernetes as a consistent control plane across 200+ clusters.",
+          "event": "KubeCon + CloudNativeCon Europe, Amsterdam",
+          "announcementUrl": "https://www.cncf.io/announcements/2026/03/25/cncf-celebrates-innovators-advancing-cloud-native-at-kubecon-cloudnativecon-europe/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/sncf/",
+          "talkUrl": null
+        }
+      ],
+      "sourceAttribution": [
+        "https://www.cncf.io/announcements/2026/03/25/cncf-celebrates-innovators-advancing-cloud-native-at-kubecon-cloudnativecon-europe/",
+        "https://www.cncf.io/case-studies/sncf/"
+      ]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "slug": "spotify",
+      "logo": "/img/awards/spotify.svg",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [
+        {
+          "year": 2023,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "Recognized for the second time for significant contributions to and involvement in the cloud native community.",
+          "event": "KubeCon + CloudNativeCon North America, Chicago",
+          "announcementUrl": "https://www.cncf.io/announcements/2023/11/08/cloud-native-computing-foundation-presents-the-top-end-user-award-to-spotify/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/spotify/",
+          "talkUrl": null
+        },
+        {
+          "year": 2021,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "The world's most popular audio streaming service, recognized for its numerous contributions to the cloud native community.",
+          "event": "KubeCon + CloudNativeCon Europe, Virtual",
+          "announcementUrl": "https://www.cncf.io/announcements/2021/05/05/cloud-native-computing-foundation-grants-spotify-the-top-end-user-award/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/spotify/",
+          "talkUrl": null
+        }
+      ],
+      "sourceAttribution": [
+        "https://www.cncf.io/announcements/2023/11/08/cloud-native-computing-foundation-presents-the-top-end-user-award-to-spotify/",
+        "https://www.cncf.io/case-studies/spotify/",
+        "https://www.cncf.io/announcements/2021/05/05/cloud-native-computing-foundation-grants-spotify-the-top-end-user-award/"
+      ]
+    },
+    {
+      "id": "swisscom",
+      "name": "Swisscom",
+      "slug": "swisscom",
+      "logo": "/img/architectures/swisscom-cloud-native-telco/swisscom.png",
+      "industries": ["Cloud", "Communication", "Software", "Telecommunication"],
+      "projects": [
+        "ArgoCD",
+        "CloudNativePG",
+        "Container Storage Interface (CSI)",
+        "CoreDNS",
+        "ExternalDNS",
+        "Flux",
+        "Headlamp",
+        "Helm",
+        "Kube-OVN",
+        "KubeVirt",
+        "Kubebuilder / controller-runtime",
+        "Kubernetes",
+        "Kyverno",
+        "MetalLB",
+        "NetBox",
+        "NetBox Operator",
+        "PowerDNS",
+        "SDC (Schema Driven Configuration)",
+        "cert-manager"
+      ],
+      "architectures": [
+        {
+          "id": "swisscom-kubernetes-service",
+          "title": "A modern and sovereign Private Cloud «Kubernetes Service» for Swiss-based enterprises.",
+          "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/swisscom-kubernetes-service",
+          "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d"
+        },
+        {
+          "id": "swisscom-cloud-native-telco",
+          "title": "End-to-End Cloud Native Telco Platform Automation at Swisscom",
+          "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/swisscom-cloud-native-telco",
+          "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d"
+        }
+      ],
+      "awards": [],
+      "sourceAttribution": [
+        "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/swisscom-cloud-native-telco",
+        "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/swisscom-kubernetes-service"
+      ]
+    },
+    {
+      "id": "zalando",
+      "name": "Zalando",
+      "slug": "zalando",
+      "logo": "/img/awards/zalando.svg",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [
+        {
+          "year": 2020,
+          "award": "top-end-user",
+          "awardLabel": "Top End User Award",
+          "citation": "The German e-commerce company recognized for significant contributions to and involvement in the cloud native community.",
+          "event": "Announced virtually",
+          "announcementUrl": "https://www.cncf.io/announcement/2020/08/20/cloud-native-computing-foundation-grants-zalando-the-top-end-user-award/",
+          "caseStudyUrl": "https://www.cncf.io/case-studies/zalando/",
+          "talkUrl": null
+        }
+      ],
+      "sourceAttribution": [
+        "https://www.cncf.io/announcement/2020/08/20/cloud-native-computing-foundation-grants-zalando-the-top-end-user-award/",
+        "https://www.cncf.io/case-studies/zalando/"
+      ]
+    },
+    {
+      "id": "zeiss",
+      "name": "ZEISS",
+      "slug": "zeiss",
+      "logo": "/img/architectures/zeiss/zeiss-logo-rgb.svg",
+      "industries": [],
+      "projects": ["Dapr", "Helm", "KEDA", "Kubernetes", "OpenTelemetry"],
+      "architectures": [
+        {
+          "id": "zeiss",
+          "title": "ZEISS Vision Care - Order Fulfillment",
+          "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/zeiss",
+          "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d"
+        }
+      ],
+      "awards": [],
+      "sourceAttribution": [
+        "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/zeiss"
+      ]
+    }
+  ]
+}

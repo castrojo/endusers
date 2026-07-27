@@ -40,14 +40,21 @@ jobs:
       - name: Validate generated architectures
         run: npm run validate:architectures
 
+      - name: Validate architecture assets
+        run: npm run validate:architecture-assets
+
       - name: Validate awards data
         run: npm run validate:awards
 
+      # Build for the GitHub Pages project URL. When the custom domain in
+      # static/CNAME is verified and active, update these values to
+      # SITE_URL=https://endusers.cncf.io and BASE_URL=/ so canonical and
+      # Open Graph URLs point to the production domain.
       - name: Build website
         env:
           SITE_URL: https://castrojo.github.io
           BASE_URL: /endusers/
-        run: npm run build
+        run: npm run build:production
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

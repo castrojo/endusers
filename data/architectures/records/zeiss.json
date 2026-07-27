@@ -15,7 +15,7 @@
   "sourceUrl": "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/zeiss",
   "sourceCommit": "551ef61f618a353dbea55efc0241616cbb286b4d",
   "assets": [
-    "/img/architectures/zeiss/solutionArchitecture.svg",
+    "/img/architectures/zeiss/solutionArchitecture.png",
     "/img/architectures/zeiss/zeiss-logo-rgb.svg"
   ]
 }
