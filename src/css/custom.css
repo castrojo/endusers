@@ -557,3 +557,15 @@
   background: var(--cncf-button-background);
   color: var(--cncf-button-text);
 }
+
+/* Docusaurus markdown links are more specific than standalone CTA classes. */
+.theme-doc-markdown .audience-cta,
+.theme-doc-markdown .action-row a,
+.theme-doc-markdown .group-card .group-actions a:hover {
+  color: var(--cncf-button-text) !important;
+  text-decoration: none !important;
+}
+
+.theme-doc-markdown .action-row a.secondary {
+  color: var(--ifm-color-primary) !important;
+}
