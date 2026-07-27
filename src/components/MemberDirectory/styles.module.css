@@ -198,7 +198,7 @@
 
 .initials {
   align-items: center;
-  background: var(--ifm-color-primary);
+  background: var(--cncf-button-background);
   border-radius: 50%;
   color: #fff;
   display: flex;
@@ -338,7 +338,7 @@
 
 .initialsLarge {
   align-items: center;
-  background: var(--ifm-color-primary);
+  background: var(--cncf-button-background);
   border-radius: 12px;
   color: #fff;
   display: flex;

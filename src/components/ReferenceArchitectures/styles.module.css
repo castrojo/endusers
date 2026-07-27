@@ -56,7 +56,7 @@
 
 .initials {
   align-items: center;
-  background: var(--ifm-color-primary);
+  background: var(--cncf-button-background);
   border-radius: 50%;
   color: #fff;
   display: flex;

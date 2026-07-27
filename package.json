@@ -38,6 +38,7 @@
     "fetch:community-people": "node scripts/fetch-community-people.mjs",
     "validate:architectures": "node scripts/validate-architectures.mjs",
     "validate:architecture-assets": "node scripts/validate-architecture-assets.mjs",
+    "validate:button-contrast": "node scripts/validate-button-contrast.mjs",
     "validate:awards": "node scripts/validate-awards.mjs",
     "docusaurus": "docusaurus",
     "fix:format": "npm run _check:format -- --write",

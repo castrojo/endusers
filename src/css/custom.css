@@ -5,104 +5,148 @@
  */
 
 /* You can override the default Infima variables here. */
-:root:not(#\#):not(#\#){
-  --ifm-color-primary: #0086FF;
-  --ifm-color-primary-dark: #0086FF;
-  --ifm-color-primary-darker: #0086FF;
-  --ifm-color-primary-darkest: #0086FF;
-  --ifm-color-primary-light: #93EAFF;
-  --ifm-color-primary-lighter: #93EAFF;
-  --ifm-color-primary-lightest: #93EAFF;
+:root:not(#\#):not(#\#) {
+  --ifm-color-primary: #005ea8;
+  --ifm-color-primary-dark: #004f91;
+  --ifm-color-primary-darker: #00457f;
+  --ifm-color-primary-darkest: #003b6d;
+  --ifm-color-primary-light: #93eaff;
+  --ifm-color-primary-lighter: #93eaff;
+  --ifm-color-primary-lightest: #93eaff;
+  --cncf-button-background: #005ea8;
+  --cncf-button-background-hover: #004f91;
+  --cncf-button-text: #fff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-link-color: #d62293;
   --ifm-link-hover-color: #d62293;
-  --ifm-font-family-base: 'Clarity City', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, Roboto,
-	Ubuntu, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --ifm-font-family-base:
+    'Clarity City', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
+    Arial, sans-serif, Roboto, Ubuntu, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary: #32d8b4;
+  --ifm-color-primary-dark: #29d5b0;
+  --ifm-color-primary-darker: #25c2a0;
+  --ifm-color-primary-darkest: #21af90;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+  --cncf-button-background: #007f68;
+  --cncf-button-background-hover: #006f5b;
+  --cncf-button-text: #fff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 @font-face {
-	font-family: 'Clarity City';
-	font-weight: 100;
-	font-style: normal;
-	src: local('ClarityCity-Thin'), local('Clarity City'), url('/fonts/ClarityCity-100.woff2') format('woff2'),
-		url('/fonts/ClarityCity-100.woff') format('woff'), url('/fonts/ClarityCity-100.ttf') format('ttf');
+  font-family: 'Clarity City';
+  font-weight: 100;
+  font-style: normal;
+  src:
+    local('ClarityCity-Thin'),
+    local('Clarity City'),
+    url('/fonts/ClarityCity-100.woff2') format('woff2'),
+    url('/fonts/ClarityCity-100.woff') format('woff'),
+    url('/fonts/ClarityCity-100.ttf') format('ttf');
 }
 
 @font-face {
-	font-family: 'Clarity City';
-	font-weight: 200;
-	font-style: normal;
-	src: local('ClarityCity-ExtraLight'), local('Clarity City'), url('/fonts/ClarityCity-200.woff2') format('woff2'),
-		url('/fonts/ClarityCity-200.woff') format('woff'), url('/fonts/ClarityCity-200.ttf') format('ttf');
+  font-family: 'Clarity City';
+  font-weight: 200;
+  font-style: normal;
+  src:
+    local('ClarityCity-ExtraLight'),
+    local('Clarity City'),
+    url('/fonts/ClarityCity-200.woff2') format('woff2'),
+    url('/fonts/ClarityCity-200.woff') format('woff'),
+    url('/fonts/ClarityCity-200.ttf') format('ttf');
 }
 
 @font-face {
-	font-family: 'Clarity City';
-	font-weight: 300;
-	font-style: normal;
-	src: local('ClarityCity-Light'), local('Clarity City'), url('/fonts/ClarityCity-300.woff2') format('woff2'),
-		url('/fonts/ClarityCity-300.woff') format('woff'), url('/fonts/ClarityCity-300.ttf') format('ttf');
+  font-family: 'Clarity City';
+  font-weight: 300;
+  font-style: normal;
+  src:
+    local('ClarityCity-Light'),
+    local('Clarity City'),
+    url('/fonts/ClarityCity-300.woff2') format('woff2'),
+    url('/fonts/ClarityCity-300.woff') format('woff'),
+    url('/fonts/ClarityCity-300.ttf') format('ttf');
 }
 
 @font-face {
-	font-family: 'Clarity City';
-	font-weight: 400;
-	font-style: normal;
-	src: local('ClarityCity-Regular'), local('Clarity City'), url('/fonts/ClarityCity-400.woff2') format('woff2'),
-		url('/fonts/ClarityCity-400.woff') format('woff'), url('/fonts/ClarityCity-400.ttf') format('ttf');
+  font-family: 'Clarity City';
+  font-weight: 400;
+  font-style: normal;
+  src:
+    local('ClarityCity-Regular'),
+    local('Clarity City'),
+    url('/fonts/ClarityCity-400.woff2') format('woff2'),
+    url('/fonts/ClarityCity-400.woff') format('woff'),
+    url('/fonts/ClarityCity-400.ttf') format('ttf');
 }
 
 @font-face {
-	font-family: 'Clarity City';
-	font-weight: 500;
-	font-style: normal;
-	src: local('ClarityCity-Medium'), local('Clarity City'), url('/fonts/ClarityCity-500.woff2') format('woff2'),
-		url('/fonts/ClarityCity-500.woff') format('woff'), url('/fonts/ClarityCity-500.ttf') format('ttf');
+  font-family: 'Clarity City';
+  font-weight: 500;
+  font-style: normal;
+  src:
+    local('ClarityCity-Medium'),
+    local('Clarity City'),
+    url('/fonts/ClarityCity-500.woff2') format('woff2'),
+    url('/fonts/ClarityCity-500.woff') format('woff'),
+    url('/fonts/ClarityCity-500.ttf') format('ttf');
 }
 
 @font-face {
-	font-family: 'Clarity City';
-	font-weight: 600;
-	font-style: normal;
-	src: local('ClarityCity-SemiBold'), local('Clarity City'), url('/fonts/ClarityCity-600.woff2') format('woff2'),
-		url('/fonts/ClarityCity-600.woff') format('woff'), url('/fonts/ClarityCity-600.ttf') format('ttf');
+  font-family: 'Clarity City';
+  font-weight: 600;
+  font-style: normal;
+  src:
+    local('ClarityCity-SemiBold'),
+    local('Clarity City'),
+    url('/fonts/ClarityCity-600.woff2') format('woff2'),
+    url('/fonts/ClarityCity-600.woff') format('woff'),
+    url('/fonts/ClarityCity-600.ttf') format('ttf');
 }
 
 @font-face {
-	font-family: 'Clarity City';
-	font-weight: 700;
-	font-style: normal;
-	src: local('ClarityCity-Bold'), local('Clarity City'), url('/fonts/ClarityCity-700.woff2') format('woff2'),
-		url('/fonts/ClarityCity-700.woff') format('woff'), url('/fonts/ClarityCity-700.ttf') format('ttf');
+  font-family: 'Clarity City';
+  font-weight: 700;
+  font-style: normal;
+  src:
+    local('ClarityCity-Bold'),
+    local('Clarity City'),
+    url('/fonts/ClarityCity-700.woff2') format('woff2'),
+    url('/fonts/ClarityCity-700.woff') format('woff'),
+    url('/fonts/ClarityCity-700.ttf') format('ttf');
 }
 
 @font-face {
-	font-family: 'Clarity City';
-	font-weight: 800;
-	font-style: normal;
-	src: local('ClarityCity-ExtraBold'), local('Clarity City'), url('/fonts/ClarityCity-800.woff2') format('woff2'),
-		url('/fonts/ClarityCity-800.woff') format('woff'), url('/fonts/ClarityCity-800.ttf') format('ttf');
+  font-family: 'Clarity City';
+  font-weight: 800;
+  font-style: normal;
+  src:
+    local('ClarityCity-ExtraBold'),
+    local('Clarity City'),
+    url('/fonts/ClarityCity-800.woff2') format('woff2'),
+    url('/fonts/ClarityCity-800.woff') format('woff'),
+    url('/fonts/ClarityCity-800.ttf') format('ttf');
 }
 
 @font-face {
-	font-family: 'Clarity City';
-	font-weight: 900;
-	font-style: normal;
-	src: local('ClarityCity-Black'), local('Clarity City'), url('/fonts/ClarityCity-900.woff2') format('woff2'),
-		url('/fonts/ClarityCity-900.woff') format('woff'), url('/fonts/ClarityCity-900.ttf') format('ttf');
+  font-family: 'Clarity City';
+  font-weight: 900;
+  font-style: normal;
+  src:
+    local('ClarityCity-Black'),
+    local('Clarity City'),
+    url('/fonts/ClarityCity-900.woff2') format('woff2'),
+    url('/fonts/ClarityCity-900.woff') format('woff'),
+    url('/fonts/ClarityCity-900.ttf') format('ttf');
 }
 
 .navbar__logo:not(#\#):not(#\#) {
@@ -317,17 +361,19 @@
   align-self: flex-start;
   padding: 0.55rem 1rem;
   border-radius: 999px;
-  background: var(--ifm-color-primary);
-  color: #fff;
+  background: var(--cncf-button-background);
+  color: var(--cncf-button-text);
   font-size: 0.85rem;
   font-weight: 600;
   text-decoration: none;
-  transition: filter 0.2s ease, background 0.2s ease;
+  transition:
+    filter 0.2s ease,
+    background 0.2s ease;
 }
 
 .audience-cta:hover {
-  filter: brightness(1.08);
-  color: #fff;
+  background: var(--cncf-button-background-hover);
+  color: var(--cncf-button-text);
   text-decoration: none;
 }
 
@@ -364,7 +410,7 @@
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  background: #5c2cff;
+  background: var(--cncf-button-background);
   color: #fff;
   font-size: 0.9rem;
   font-weight: 700;
@@ -459,12 +505,14 @@
   font-size: 0.8rem;
   font-weight: 600;
   text-decoration: none;
-  transition: background 0.2s ease, color 0.2s ease;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
 }
 
 .group-card .group-actions a:hover {
-  background: var(--ifm-color-primary);
-  color: #fff;
+  background: var(--cncf-button-background);
+  color: var(--cncf-button-text);
   text-decoration: none;
 }
 
@@ -485,8 +533,8 @@
 .action-row a {
   padding: 0.65rem 1.1rem;
   border-radius: 999px;
-  background: var(--ifm-color-primary);
-  color: #fff;
+  background: var(--cncf-button-background);
+  color: var(--cncf-button-text);
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
@@ -494,8 +542,8 @@
 }
 
 .action-row a:hover {
-  filter: brightness(1.08);
-  color: #fff;
+  background: var(--cncf-button-background-hover);
+  color: var(--cncf-button-text);
   text-decoration: none;
 }
 
@@ -506,6 +554,6 @@
 }
 
 .action-row a.secondary:hover {
-  background: var(--ifm-color-primary);
-  color: #fff;
+  background: var(--cncf-button-background);
+  color: var(--cncf-button-text);
 }
