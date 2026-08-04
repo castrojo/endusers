@@ -77,14 +77,10 @@ architects, and organizations running cloud native technologies in production.
 
 ## Member proof and recognition
 
-The End User Community is where production experience gets recognized. Recent
-[Top End User Award](/awards) winners include [SNCF](/awards),
-[Michelin](/awards), [ANT Group](/awards), [Adobe](/awards), and [CERN](/awards)
-— organizations that have shared architectures, case studies, and operational
-lessons with the wider community.
+The End User Community is where production experience gets recognized. Recent [Top End User Award](/awards) winners include [SNCF](/awards), [Michelin](/awards), [ANT Group](/awards), [Adobe](/awards), and [CERN](/awards) — organizations that have shared architectures, case studies, and operational lessons with the wider community.
 
 <ProjectsBorn
-  title="Lead the way"
+  title="Lead the way, set the industry standard"
   intro="These projects prove that cloud native end users are at the leading edge of innovation. They started as production solutions inside organizations like Lyft, Uber, Spotify, YouTube, and Intuit — then became part of the foundation the whole ecosystem builds on."
 />
 
