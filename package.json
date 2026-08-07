@@ -46,11 +46,12 @@
     "precheck:links": "npm run build",
     "seq": "bash -c 'for cmd in \"$@\"; do npm run $cmd || exit 1; done' - ",
     "serve": "npm run docus:serve",
-    "test": "npm run check",
+    "test": "npm run check && npm run test:unit",
     "typecheck": "tsc",
     "update:pkgs": "npx npm-check-updates -u",
     "collect:metrics": "node scripts/collect-metrics.mjs",
-    "validate:metrics": "node scripts/validate-metrics.mjs"
+    "validate:metrics": "node scripts/validate-metrics.mjs",
+    "test:unit": "node --test"
   },
   "repository": {
     "type": "git",
