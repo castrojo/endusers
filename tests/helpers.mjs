@@ -1,5 +1,12 @@
-import { execFileSync } from 'node:child_process';
-import { cpSync, mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import { spawnSync } from 'node:child_process';
+import {
+  cpSync,
+  mkdirSync,
+  mkdtempSync,
+  readFileSync,
+  rmSync,
+  writeFileSync,
+} from 'node:fs';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 
@@ -9,8 +16,11 @@ const repoRoot = new URL('..', import.meta.url).pathname;
 // layout in a temp directory. The scripts resolve inputs relative to their
 // own import.meta.url (../data, ../src/css, ../static), so a copy placed in
 // <tmp>/scripts/ reads fixtures from <tmp>/ instead of the real repo.
-// Returns { status, stdout, stderr }.
-export function runScriptWithFixtures(scriptName, fixtures = {}) {
+// options.args passes CLI flags (e.g. ['--fix']); options.readBack lists
+// fixture-relative paths to read after the run (for asserting mutations).
+// Returns { status, stdout, stderr, files }.
+export function runScriptWithFixtures(scriptName, fixtures = {}, options = {}) {
+  const { args = [], readBack = [] } = options;
   const work = mkdtempSync(join(tmpdir(), 'endusers-test-'));
   try {
     mkdirSync(join(work, 'scripts'), { recursive: true });
@@ -23,19 +33,28 @@ export function runScriptWithFixtures(scriptName, fixtures = {}) {
       mkdirSync(dirname(target), { recursive: true });
       writeFileSync(target, content);
     }
-    try {
-      const stdout = execFileSync('node', [join(work, 'scripts', scriptName)], {
+    const files = {};
+    const run = spawnSync(
+      'node',
+      [join(work, 'scripts', scriptName), ...args],
+      {
         encoding: 'utf8',
         stdio: ['ignore', 'pipe', 'pipe'],
-      });
-      return { status: 0, stdout, stderr: '' };
-    } catch (error) {
-      return {
-        status: error.status ?? 1,
-        stdout: error.stdout ?? '',
-        stderr: error.stderr ?? '',
-      };
+      },
+    );
+    const result = {
+      status: run.status ?? 1,
+      stdout: run.stdout ?? '',
+      stderr: run.stderr ?? '',
+    };
+    for (const relativePath of readBack) {
+      try {
+        files[relativePath] = readFileSync(join(work, relativePath), 'utf8');
+      } catch {
+        files[relativePath] = null;
+      }
     }
+    return { ...result, files };
   } finally {
     rmSync(work, { recursive: true, force: true });
   }
