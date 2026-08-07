@@ -18,9 +18,11 @@ const repoRoot = new URL('..', import.meta.url).pathname;
 // <tmp>/scripts/ reads fixtures from <tmp>/ instead of the real repo.
 // options.args passes CLI flags (e.g. ['--fix']); options.readBack lists
 // fixture-relative paths to read after the run (for asserting mutations).
+// options.env merges extra environment variables into the child process
+// (e.g. a PATH prefixed with stub executables for scripts that shell out).
 // Returns { status, stdout, stderr, files }.
 export function runScriptWithFixtures(scriptName, fixtures = {}, options = {}) {
-  const { args = [], readBack = [] } = options;
+  const { args = [], readBack = [], env } = options;
   const work = mkdtempSync(join(tmpdir(), 'endusers-test-'));
   try {
     mkdirSync(join(work, 'scripts'), { recursive: true });
@@ -40,6 +42,7 @@ export function runScriptWithFixtures(scriptName, fixtures = {}, options = {}) {
       {
         encoding: 'utf8',
         stdio: ['ignore', 'pipe', 'pipe'],
+        env: env ? { ...process.env, ...env } : process.env,
       },
     );
     const result = {
