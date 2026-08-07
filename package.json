@@ -82,6 +82,9 @@
     "yaml": "^2.9.0"
   },
   "private": true,
+  "overrides": {
+    "webpack": "5.100.2"
+  },
   "spelling": "cSpell:ignore ACMR docus HTMLTEST loglevel pkgs -",
   "prettier": {
     "proseWrap": "always",
