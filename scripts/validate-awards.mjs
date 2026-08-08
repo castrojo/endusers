@@ -5,8 +5,6 @@ import { fileURLToPath } from 'node:url';
 import { reportAndExit } from './lib/validate-utils.mjs';
 const data = JSON.parse(readFileSync(new URL('../data/awards.json', import.meta.url)));
 const errors = [];
-const data = JSON.parse(readFileSync(new URL('../data/awards.json', import.meta.url)));
-const errors = [];
 if (!Array.isArray(data.awards) || !data.awards.length) errors.push({ path: 'awards.json', severity: 'error', message: 'awards must be a non-empty array' });
 let lastYear = Infinity;
 for (const entry of data.awards || []) {
