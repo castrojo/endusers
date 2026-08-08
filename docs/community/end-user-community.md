@@ -37,9 +37,11 @@ represents end users within the CNCF community. The TAB helps surface end-user
 needs, improve visibility into CNCF project adoption, advise on technical
 direction, and review reference architectures.
 
-import CommunityPeople from '@site/src/components/CommunityPeople';
+import CommunityPeople, { CommunityFreshness } from '@site/src/components/CommunityPeople';
 
 ### TAB members
+
+<CommunityFreshness />
 
 <CommunityPeople section="tab" />
 

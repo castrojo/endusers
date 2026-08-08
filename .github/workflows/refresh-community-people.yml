@@ -20,6 +20,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run fetch:community-people
+      - run: npm run validate:community-people
       - run: npm run build
       - uses: peter-evans/create-pull-request@v7
         with:
