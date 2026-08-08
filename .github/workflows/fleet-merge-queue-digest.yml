@@ -1,0 +1,43 @@
+name: Fleet merge-queue digest
+
+# Weekly cross-repo digest for issue #81: the hive App only sees one repo's
+# PR queue at a time, so mergeable PRs pile up per-repo with no fleet-wide
+# view for the human merge gate to triage by value. This posts a digest
+# comment to the hive advisory report (#23) summarizing open/mergeable/
+# conflicting PR counts, oldest-PR age, and days-since-last-push across the
+# fleet, plus a security-first ordering of all mergeable PRs.
+#
+# Only requires read access to the (public) fleet repos and write access to
+# comment on this repo's advisory issue -- no cross-repo write access needed.
+
+on:
+  schedule:
+    - cron: '0 13 * * 1'
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: 'Advisory issue number to post the digest to'
+        type: number
+        default: 23
+
+permissions:
+  issues: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate digest
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/fleet-merge-queue-digest.mjs > /tmp/digest.md
+      - name: Post to advisory issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          ISSUE: ${{ inputs.issue || 23 }}
+        run: gh issue comment "$ISSUE" --repo "$REPO" --body-file /tmp/digest.md
