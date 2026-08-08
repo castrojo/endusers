@@ -50,7 +50,9 @@ The site deploys to [endusers.cncf.io](https://endusers.cncf.io/). Site configur
 - `url: 'https://endusers.cncf.io'`
 - `baseUrl: '/'`
 
-The source repository is [castrojo/endusers](https://github.com/castrojo/endusers).
+The source repository is [castrojo/endusers](https://github.com/castrojo/endusers). The
+long-term ownership and CNCF-org cutover path for this site is not yet decided; see
+[ADR 0001](./adr/0001-site-ownership-and-cutover-path.md).
 
 ## Metrics data
 
