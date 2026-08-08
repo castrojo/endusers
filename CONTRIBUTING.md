@@ -5,7 +5,7 @@ This document covers the development workflow and the data contribution model.
 
 ## Development setup
 
-Prerequisites: Node.js 20+ (LTS recommended) and npm.
+Prerequisites: Node.js 22+ (LTS recommended) and npm.
 
 ```bash
 npm install
