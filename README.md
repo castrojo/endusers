@@ -50,7 +50,9 @@ The site deploys to [endusers.cncf.io](https://endusers.cncf.io/). Site configur
 - `url: 'https://endusers.cncf.io'`
 - `baseUrl: '/'`
 
-The source repository is [castrojo/endusers](https://github.com/castrojo/endusers).
+The source repository is [castrojo/endusers](https://github.com/castrojo/endusers). The
+long-term ownership and CNCF-org cutover path for this site is not yet decided; see
+[ADR 0001](./adr/0001-site-ownership-and-cutover-path.md).
 
 ## Metrics data
 
@@ -71,4 +73,6 @@ Verify new entries against the linked cncf.io announcement before adding them.
 File issues with your ideas, or dive in with a pull request. Content should speak to
 end users — the practitioners, architects, and organizations adopting cloud native —
 rather than to project contributors, who are served by
-[contribute.cncf.io](https://contribute.cncf.io/).
+[contribute.cncf.io](https://contribute.cncf.io/). See
+[MAINTAINERS.md](./MAINTAINERS.md) for who reviews changes and how to become a
+maintainer.

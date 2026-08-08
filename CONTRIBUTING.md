@@ -66,3 +66,8 @@ Rules:
 
 AI agents should start at [`agents.md`](agents.md) and the skill manifest in
 [`docs/skills/manifest.md`](docs/skills/manifest.md).
+
+## Maintainers
+
+See [`MAINTAINERS.md`](MAINTAINERS.md) for who reviews and merges changes here,
+and the process for becoming a maintainer.
