@@ -4,6 +4,7 @@ import { mkdirSync, mkdtempSync, readFileSync, readdirSync, rmSync, writeFileSyn
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { parse } from 'yaml';
+import { makeGitHubHeaders } from './lib/github.mjs';
 
 const root = new URL('..', import.meta.url).pathname;
 const work = mkdtempSync(join(tmpdir(), 'cncf-metrics-'));
@@ -81,8 +82,7 @@ function memberTimeline(dir) {
   return [{ date: new Date().toISOString().slice(0, 10), value }];
 }
 async function collectLifecycleMetrics() {
-  const headers = { Accept: 'application/vnd.github+json', 'User-Agent': 'cncf-endusers-metrics' };
-  if (process.env.GH_TOKEN) headers.Authorization = `Bearer ${process.env.GH_TOKEN}`;
+  const headers = makeGitHubHeaders(process.env.GH_TOKEN, 'cncf-endusers-metrics');
   const [issues, pulls] = await Promise.all([
     github('https://api.github.com/repos/cncf/tab/issues?state=all&per_page=100', headers),
     github('https://api.github.com/repos/cncf/architecture/pulls?state=all&per_page=100', headers)
