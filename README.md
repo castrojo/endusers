@@ -73,4 +73,6 @@ Verify new entries against the linked cncf.io announcement before adding them.
 File issues with your ideas, or dive in with a pull request. Content should speak to
 end users — the practitioners, architects, and organizations adopting cloud native —
 rather than to project contributors, who are served by
-[contribute.cncf.io](https://contribute.cncf.io/).
+[contribute.cncf.io](https://contribute.cncf.io/). See
+[MAINTAINERS.md](./MAINTAINERS.md) for who reviews changes and how to become a
+maintainer.
