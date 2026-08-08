@@ -92,6 +92,9 @@
   "homepage": "https://endusers.cncf.io/",
   "overrides": {
     "serialize-javascript": "^7.0.3",
-    "picomatch": "^2.3.2"
+    "picomatch": "^2.3.2",
+    "cspell-glob": {
+      "picomatch": "^4.0.4"
+    }
   }
 }
