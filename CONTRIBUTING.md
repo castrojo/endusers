@@ -64,7 +64,7 @@ Rules:
 
 ## Agent contributors
 
-AI agents should start at [`agents.md`](agents.md) and the skill manifest in
+AI agents should start at [`AGENTS.md`](AGENTS.md) and the skill manifest in
 [`docs/skills/manifest.md`](docs/skills/manifest.md).
 
 ## Maintainers

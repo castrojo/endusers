@@ -15,7 +15,7 @@ the build deploys content branded `endusers.cncf.io`. In practice today:
   the `endusers.cncf.io` domain.
 - Content is derived from authoritative CNCF sources (cncf/architecture,
   cncf/landscape, cncf/tab), so alignment with CNCF is already a stated
-  requirement (see `agents.md`), but there is no CNCF org ownership, no DNS
+  requirement (see `AGENTS.md`), but there is no CNCF org ownership, no DNS
   cutover, and no documented governance decision.
 
 Until this is resolved, every investment in content, SEO, and metrics
