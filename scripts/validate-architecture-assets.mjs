@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { collectError, reportAndExit } from './lib/validate-utils.mjs';
 
 const root = new URL('..', import.meta.url).pathname;
 const assetsDir = join(root, 'static/img/architectures');
@@ -17,7 +18,7 @@ function walk(dir) {
 
 function record(path, severity, message) {
   const rel = relative(root, path);
-  issues.push({ path: rel, severity, message });
+  collectError(issues, rel, severity, message);
 }
 
 function validateSvg(path) {
@@ -130,28 +131,13 @@ if (fixed.length) {
   for (const message of fixed) console.log(`  - ${message}`);
 }
 
-const errors = issues.filter((i) => i.severity === 'error');
-const warnings = issues.filter((i) => i.severity === 'warn');
+reportAndExit(issues, 'architecture assets');
 
-if (warnings.length) {
-  console.warn(`\n${warnings.length} warning(s) in architecture assets:`);
-  for (const { path, message } of warnings)
-    console.warn(`  [warn] ${path}: ${message}`);
-}
-
-if (errors.length) {
-  console.error(`\n${errors.length} error(s) in architecture assets:`);
-  for (const { path, message } of errors)
-    console.error(`  [error] ${path}: ${message}`);
-  console.error(
-    `\nRun with --fix to remove DOCTYPE declarations and draw.io metadata automatically.`,
-  );
-  process.exit(1);
-}
-
-console.log(`Validated ${assets.length} architecture asset(s).`);
-if (shouldFix && !fixed.length && !issues.length) {
-  console.log('No fixes were needed.');
+if (issues.length === 0) {
+  console.log(`Validated ${assets.length} architecture asset(s).`);
+  if (shouldFix) {
+    console.log('No fixes were needed.');
+  }
 }
 
 function exists(p) {
