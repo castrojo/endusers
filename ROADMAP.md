@@ -33,7 +33,7 @@ Goal: every pillar section is accurate, current, and self-maintaining.
 
 - [ ] Architectures: automated import from cncf/architecture stays in sync (scheduled workflow exists; add freshness indicator on the page)
 - [ ] Metrics: scheduled refresh of data/metrics.json with validation gating the build
-- [ ] Awards: complete historical winner list, each entry verified against its cncf.io announcement
+- [x] Awards: complete historical winner list, each entry verified against its cncf.io announcement (issue #77)
 - [ ] Community: current TAB membership, End User Groups, and engagement pathways
 - [ ] Events: upcoming end-user events at KubeCon + CloudNativeCon
 - [ ] Blog: establish a publishing cadence beyond the welcome post
