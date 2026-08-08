@@ -22,7 +22,7 @@ and pathways to participate.
 Goal: a reliable, trustworthy site skeleton.
 
 - [ ] Restore a green deploy pipeline (blocked: see issue #44)
-- [ ] Add a LICENSE (PR #40, issue #32)
+- [x] Add a LICENSE (PR #40, issue #32)
 - [ ] Pin GitHub Actions by SHA and verify downloaded installers (issues #38, #39; PRs #41–#43)
 - [ ] Shared validation utilities and test coverage for data pipelines (issue #36, PR #37)
 - [ ] This roadmap, plus GitHub milestones matching these phases (issue #45)
