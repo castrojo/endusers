@@ -8,7 +8,9 @@ Workflow for publishing posts on the CNCF End User Community blog.
 - Front matter: `slug`, `title`, `authors` (keys from `blog/authors.yml`), and `tags`
   (keys from `blog/tags.yml`). Do not invent authors or tags inline; add them to the
   YAML files first.
-- Place `<!-- truncate -->` after the opening paragraphs to control the feed excerpt.
+- Place `{/* truncate */}` after the opening paragraphs to control the feed excerpt.
+  MDX v3 (used by Docusaurus 3.10+) rejects the legacy `<!-- truncate -->` HTML
+  comment form; use the JSX comment syntax instead.
 - Voice: warm, credible, aligned with CNCF's public voice. No emojis.
 - Audience: end users. Frame stories around production experience and community
   participation, not project contribution mechanics.
