@@ -36,6 +36,12 @@ const existing = existsSync(output) ? JSON.parse(readFileSync(output, 'utf8')) :
 const result = {};
 let failures = 0;
 
+const headers = {
+  Accept: 'application/vnd.github+json',
+  'User-Agent': 'cncf-endusers-site-build',
+};
+if (process.env.GH_TOKEN) headers.Authorization = `Bearer ${process.env.GH_TOKEN}`;
+
 for (const [section, entries] of Object.entries(people)) {
   result[section] = [];
   for (const [name, company, role, github, linkedin, twitter] of entries) {
@@ -43,9 +49,7 @@ for (const [section, entries] of Object.entries(people)) {
     let profile = {};
     if (github) {
       try {
-        const response = await fetch(`https://api.github.com/users/${github}`, {
-          headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'cncf-endusers-site-build' }
-        });
+        const response = await fetch(`https://api.github.com/users/${github}`, { headers });
         if (!response.ok) throw new Error(`GitHub returned ${response.status}`);
         profile = await response.json();
       } catch (error) {
