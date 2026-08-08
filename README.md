@@ -76,3 +76,9 @@ rather than to project contributors, who are served by
 [contribute.cncf.io](https://contribute.cncf.io/). See
 [MAINTAINERS.md](./MAINTAINERS.md) for who reviews changes and how to become a
 maintainer.
+
+## License
+
+Content in this repository is licensed under [Creative Commons Attribution 4.0
+International (CC-BY-4.0)](LICENSE), consistent with the `license` field in
+`package.json`.
