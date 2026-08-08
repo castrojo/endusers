@@ -89,5 +89,9 @@
     "proseWrap": "always",
     "singleQuote": true
   },
-  "homepage": "https://endusers.cncf.io/"
+  "homepage": "https://endusers.cncf.io/",
+  "overrides": {
+    "serialize-javascript": "^7.0.3",
+    "picomatch": "^2.3.2"
+  }
 }
