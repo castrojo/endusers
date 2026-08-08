@@ -10,6 +10,7 @@ const repoRoot = new URL('..', import.meta.url).pathname;
 // (collect-metrics, fetch-community-people, import-architectures) are
 // intentionally excluded.
 const READ_ONLY_VALIDATORS = [
+  'validate-community-people.mjs',
   'validate-metrics.mjs',
   'validate-awards.mjs',
   'validate-architectures.mjs',

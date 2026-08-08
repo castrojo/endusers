@@ -1,5 +1,5 @@
 {
-  "description": "CNCF End User award winners rendered on /awards. Winners are data entries, not pages. Verify every entry against its cncf.io announcement before adding. Schema: year (int), award (slug), awardLabel (display name), organization, slug (kebab-case org id), logo (path under /static, or null for text fallback), citation (one sentence, from the announcement), event (where it was presented), announcementUrl, caseStudyUrl (nullable), talkUrl (nullable).",
+  "description": "CNCF End User award winners rendered on /awards. Winners are data entries, not pages. Verify every entry against its cncf.io announcement before adding. Canonical verification source: https://contribute.cncf.io/community/awards (Top End User section). Schema: year (int), award (slug), awardLabel (display name), organization, slug (kebab-case org id), logo (path under /static, or null for text fallback), citation (one sentence, from the announcement), event (where it was presented), announcementUrl (null only when no press release was issued — use talkUrl instead), caseStudyUrl (nullable), talkUrl (nullable).",
   "awards": [
     {
       "year": 2026,
@@ -179,7 +179,7 @@
       "logo": "/img/awards/jd-com.svg",
       "citation": "The Chinese online retail giant recognized for contributions to the cloud native end user community.",
       "event": "KubeCon + CloudNativeCon China, Shanghai",
-      "announcementUrl": "https://www.cncf.io/announcements/2018/11/15/jd-wins-top-end-user-award/",
+      "announcementUrl": "https://www.cncf.io/announcement/2018/11/14/jd-wins-top-end-user-award/",
       "caseStudyUrl": "https://www.cncf.io/case-studies/jd-com/",
       "talkUrl": null
     },

@@ -36,6 +36,7 @@
     "docus:write-translations": "docusaurus write-translations",
     "import:architectures": "node scripts/import-architectures.mjs",
     "fetch:community-people": "node scripts/fetch-community-people.mjs",
+    "validate:community-people": "node scripts/validate-community-people.mjs",
     "validate:architectures": "node scripts/validate-architectures.mjs",
     "validate:architecture-assets": "node scripts/validate-architecture-assets.mjs",
     "validate:button-contrast": "node scripts/validate-button-contrast.mjs",
