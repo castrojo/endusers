@@ -1,0 +1,52 @@
+{
+  "generated": false,
+  "note": "Hand-curated baseline snapshot for the site launch (issue #100). Unlike data/metrics.json, this is not refreshed by an automated pipeline — update it manually when a signal is re-measured, recording the new snapshot date.",
+  "baselineSnapshotAt": "2026-08-08",
+  "signals": [
+    {
+      "id": "github-stars",
+      "label": "GitHub stars",
+      "source": "https://github.com/castrojo/endusers",
+      "baseline": 0,
+      "target90Day": 50,
+      "targetWindow": "90 days post-launch",
+      "note": "Repo-level engagement signal; cheapest to measure, easiest to game, tracked alongside the others rather than alone."
+    },
+    {
+      "id": "github-watchers",
+      "label": "GitHub watchers",
+      "source": "https://github.com/castrojo/endusers",
+      "baseline": 0,
+      "target90Day": 15,
+      "targetWindow": "90 days post-launch",
+      "note": "Proxy for people who want ongoing visibility into the project, not just a one-time star."
+    },
+    {
+      "id": "github-forks",
+      "label": "GitHub forks",
+      "source": "https://github.com/castrojo/endusers",
+      "baseline": 1,
+      "target90Day": 8,
+      "targetWindow": "90 days post-launch",
+      "note": "Baseline of 1 is the maintainer's own working fork, not an external contributor."
+    },
+    {
+      "id": "good-first-issue-conversion",
+      "label": "Good-first-issues claimed or closed by a non-maintainer",
+      "source": "https://github.com/castrojo/endusers/labels/good%20first%20issue",
+      "baseline": 0,
+      "target90Day": 3,
+      "targetWindow": "90 days post-launch",
+      "note": "Directly measures whether curated on-ramp issues (issue #98) convert visitors into contributors."
+    },
+    {
+      "id": "inbound-links-cncf",
+      "label": "Inbound links from cncf.io / contribute.cncf.io properties",
+      "source": "manual check via site search or referrer data once analytics exists",
+      "baseline": 0,
+      "target90Day": 1,
+      "targetWindow": "90 days post-launch",
+      "note": "At least one authoritative CNCF property should link to this site by the 90-day mark; there is no analytics pipeline yet to measure traffic directly, so this is checked manually until one is added."
+    }
+  ]
+}
