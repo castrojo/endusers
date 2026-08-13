@@ -46,6 +46,9 @@ jobs:
       - name: Validate awards data
         run: npm run validate:awards
 
+      - name: Validate community profiles
+        run: npm run validate:community-people
+
       # Build for the GitHub Pages project URL. When the custom domain in
       # static/CNAME is verified and active, update these values to
       # SITE_URL=https://endusers.cncf.io and BASE_URL=/ so canonical and

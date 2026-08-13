@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import membersData from '@site/data/members.json';
+import metrics from '@site/data/metrics.json';
 import styles from './styles.module.css';
 
 function initials(name) {
@@ -15,6 +16,37 @@ function initials(name) {
 
 function formatCount(count, singular, plural) {
   return `${count} ${count === 1 ? singular : plural}`;
+}
+
+// Member profiles are compiled from reference architecture submissions, so
+// their currency tracks the architectures sync recorded in metrics.json
+// (see ReferenceArchitectures' equivalent sync note and #80).
+function SyncStatus() {
+  const architectures = metrics?.sources?.architectures;
+  if (!architectures?.revision) return null;
+  const shortRevision = architectures.revision.slice(0, 7);
+  const commitUrl = `${architectures.repository}/commit/${architectures.revision}`;
+  const syncDate = metrics.generatedAt
+    ? new Date(metrics.generatedAt).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      })
+    : null;
+  return (
+    <p className={styles.syncStatus}>
+      Architecture and industry data last synced from{' '}
+      <a href={architectures.repository} target="_blank" rel="noreferrer">
+        cncf/architecture
+      </a>{' '}
+      @{' '}
+      <a href={commitUrl} target="_blank" rel="noreferrer">
+        <code>{shortRevision}</code>
+      </a>
+      {syncDate ? ` on ${syncDate}` : ''}. Award data is refreshed as new
+      winners are announced.
+    </p>
+  );
 }
 
 function useFilterOptions(members) {
@@ -363,6 +395,7 @@ export default function MemberDirectory() {
 
   return (
     <section aria-label="End User Community member directory">
+      <SyncStatus />
       <div className={styles.toolbar}>
         <div className={styles.searchRow}>
           <label htmlFor="member-search" className={styles.visuallyHidden}>
