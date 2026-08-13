@@ -1,7 +1,7 @@
 # Roadmap: endusers.cncf.io
 
 This roadmap describes the planned evolution of the CNCF End User Community site.
-It is a living document; update it as priorities change. Tracking issue: #45.
+It is a living document; update it as priorities change. Tracking: issues labeled `roadmap`.
 
 ## Vision
 
@@ -21,31 +21,32 @@ and pathways to participate.
 
 Goal: a reliable, trustworthy site skeleton.
 
-- [ ] Restore a green deploy pipeline (blocked: see issue #44)
-- [x] Add a LICENSE (PR #40, issue #32)
-- [ ] Pin GitHub Actions by SHA and verify downloaded installers (issues #38, #39; PRs #41–#43)
-- [ ] Shared validation utilities and test coverage for data pipelines (issue #36, PR #37)
-- [ ] This roadmap, plus GitHub milestones matching these phases (issue #45)
+- [x] Restore a green deploy pipeline (#52)
+- [x] Add a LICENSE (#40, issue #32)
+- [ ] Pin GitHub Actions by SHA and verify downloaded installers (issues #38, #39; PRs #42, #43, #112 open)
+- [x] Shared validation utilities and test coverage for data pipelines (#37, #65)
+- [x] This roadmap (#50), plus MILESTONES.md (#53)
+- [ ] Create GitHub milestones matching these phases (issue #78)
 
 ## Phase 1 — Content completeness
 
 Goal: every pillar section is accurate, current, and self-maintaining.
 
-- [ ] Architectures: automated import from cncf/architecture stays in sync (scheduled workflow exists; add freshness indicator on the page)
-- [ ] Metrics: scheduled refresh of data/metrics.json with validation gating the build
-- [ ] Awards: complete historical winner list, each entry verified against its cncf.io announcement
-- [ ] Community: current TAB membership, End User Groups, and engagement pathways
-- [ ] Events: upcoming end-user events at KubeCon + CloudNativeCon
-- [ ] Blog: establish a publishing cadence beyond the welcome post
+- [ ] Architectures: automated import from cncf/architecture stays in sync (scheduled workflow exists; add freshness indicator on the page — issue #80)
+- [ ] Metrics: scheduled refresh of data/metrics.json with validation gating the build (issue #74)
+- [ ] Awards: complete historical winner list, each entry verified against its cncf.io announcement (issue #76)
+- [ ] Community: current TAB membership, End User Groups, and engagement pathways (issue #79)
+- [ ] Events: upcoming end-user events at KubeCon + CloudNativeCon (issue #75)
+- [ ] Blog: establish a publishing cadence beyond the welcome post (issue #77)
 
 ## Phase 2 — Community and governance
 
 Goal: the project can outlive any single maintainer.
 
-- [ ] MAINTAINERS.md with an explicit process for adding maintainers (issue #47)
-- [ ] Governance note describing review/merge expectations, including agent-automation policy
+- [x] MAINTAINERS.md with an explicit process for adding maintainers (#55)
+- [x] Governance note describing review/merge expectations, including agent-automation policy (GOVERNANCE.md, #60)
 - [ ] Good-first-issue curation to recruit human contributors
-- [ ] Decide the long-term home of the site (issue #46): transfer to a CNCF org,
+- [ ] Decide the long-term home of the site (issue #46, ADR 0001): transfer to a CNCF org,
       remain a personal staging site, or merge into an existing CNCF property
       (see `adr/0001-site-ownership-and-cutover-path.md` for the documented options and path)
 
