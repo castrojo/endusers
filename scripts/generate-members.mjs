@@ -133,8 +133,8 @@ for (const slug of [...allSlugs].sort()) {
   // Derive display name: prefer award organisation (usually the canonical short
   // brand name), apply DISPLAY_NAME_OVERRIDES, fall back to catalog org name.
   const rawName =
-    landscapeEntry?.name ||
     awardEntries[0]?.organization ||
+    landscapeEntry?.name ||
     catalogEntries[0]?.organization ||
     slug;
   const name = DISPLAY_NAME_OVERRIDES[rawName] || rawName;
