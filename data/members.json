@@ -1,6 +1,7 @@
 {
-  "description": "CNCF End User Community member organisations derived from reference architectures and Top End User Award winners.",
+  "description": "CNCF End User Community members and contributors identified in the CNCF landscape, enriched with reference architectures and Top End User Awards.",
   "generatedFrom": [
+    "data/landscape-end-users.json",
     "data/architectures/catalog.json",
     "data/awards.json"
   ],
@@ -9,6 +10,8 @@
     "name": "display name",
     "slug": "URL-safe identifier",
     "logo": "optional static asset path",
+    "role": "member or contributor from CNCF landscape",
+    "homepage": "organisation homepage from CNCF landscape",
     "industries": "array of industry labels from architecture data",
     "projects": "array of CNCF project names from architecture data",
     "architectures": "reference architecture entries",
@@ -21,6 +24,8 @@
       "name": "Adobe",
       "slug": "adobe",
       "logo": "/img/architectures/adobe/Adobe_Wordmark_RGB_Red.svg",
+      "role": "member",
+      "homepage": "https://www.adobe.com/",
       "industries": [
         "Digital Experience",
         "Digital Media",
@@ -53,9 +58,40 @@
         }
       ],
       "sourceAttribution": [
+        "https://www.adobe.com/",
         "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/adobe",
         "https://www.cncf.io/announcements/2024/11/14/cncf-presents-top-end-user-award-to-adobe/",
         "https://www.cncf.io/case-studies/adobe/"
+      ]
+    },
+    {
+      "id": "adyen",
+      "name": "Adyen",
+      "slug": "adyen",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.adyen.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.adyen.com"
+      ]
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb",
+      "slug": "airbnb",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.airbnb.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.airbnb.com/"
       ]
     },
     {
@@ -63,6 +99,8 @@
       "name": "Allianz",
       "slug": "allianz",
       "logo": "/img/architectures/allianz/allianz.svg",
+      "role": "member",
+      "homepage": null,
       "industries": [],
       "projects": [
         "Argo",
@@ -83,10 +121,42 @@
       ]
     },
     {
+      "id": "american-express",
+      "name": "American Express",
+      "slug": "american-express",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.americanexpress.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.americanexpress.com/"
+      ]
+    },
+    {
+      "id": "ant-financial",
+      "name": "Ant Financial",
+      "slug": "ant-financial",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.antgroup.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.antgroup.com"
+      ]
+    },
+    {
       "id": "ant-group",
       "name": "ANT Group",
       "slug": "ant-group",
       "logo": null,
+      "role": "member",
+      "homepage": null,
       "industries": [],
       "projects": [],
       "architectures": [],
@@ -112,6 +182,8 @@
       "name": "Apple",
       "slug": "apple",
       "logo": "/img/awards/apple.svg",
+      "role": "member",
+      "homepage": "https://www.apple.com/",
       "industries": [],
       "projects": [],
       "architectures": [],
@@ -127,13 +199,92 @@
           "talkUrl": "https://www.youtube.com/watch?v=9GIQyQjs36o"
         }
       ],
-      "sourceAttribution": []
+      "sourceAttribution": [
+        "https://www.apple.com/"
+      ]
+    },
+    {
+      "id": "asml",
+      "name": "ASML",
+      "slug": "asml",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.asml.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.asml.com"
+      ]
+    },
+    {
+      "id": "banco-de-crdito-bcp",
+      "name": "Banco de Crédito BCP",
+      "slug": "banco-de-crdito-bcp",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.viabcp.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.viabcp.com"
+      ]
+    },
+    {
+      "id": "beneva",
+      "name": "Beneva",
+      "slug": "beneva",
+      "logo": null,
+      "role": "contributor",
+      "homepage": "https://www.beneva.ca",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.beneva.ca"
+      ]
+    },
+    {
+      "id": "blackrock",
+      "name": "BlackRock",
+      "slug": "blackrock",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.blackrock.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.blackrock.com/"
+      ]
+    },
+    {
+      "id": "block",
+      "name": "Block",
+      "slug": "block",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://block.xyz",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://block.xyz"
+      ]
     },
     {
       "id": "bloomberg",
       "name": "Bloomberg",
       "slug": "bloomberg",
       "logo": "/img/awards/bloomberg.svg",
+      "role": "member",
+      "homepage": "https://www.bloomberg.com/tosv2.html",
       "industries": [],
       "projects": [],
       "architectures": [],
@@ -150,8 +301,84 @@
         }
       ],
       "sourceAttribution": [
+        "https://www.bloomberg.com/tosv2.html",
         "https://www.cncf.io/announcement/2018/05/02/cloud-native-computing-foundation-announces-bloomberg-as-winner-of-top-end-user-award/",
         "https://www.cncf.io/case-studies/bloomberg/"
+      ]
+    },
+    {
+      "id": "boeing",
+      "name": "Boeing",
+      "slug": "boeing",
+      "logo": null,
+      "role": "contributor",
+      "homepage": "http://www.boeing.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "http://www.boeing.com/"
+      ]
+    },
+    {
+      "id": "cambia-health-solutions",
+      "name": "Cambia Health Solutions",
+      "slug": "cambia-health-solutions",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.cambiahealth.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.cambiahealth.com/"
+      ]
+    },
+    {
+      "id": "capital-one",
+      "name": "Capital One",
+      "slug": "capital-one",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.capitalone.com/tech/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.capitalone.com/tech/"
+      ]
+    },
+    {
+      "id": "cathay-financial-holding",
+      "name": "Cathay Financial Holding",
+      "slug": "cathay-financial-holding",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.cathayholdings.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.cathayholdings.com/"
+      ]
+    },
+    {
+      "id": "centrica-energy",
+      "name": "Centrica Energy",
+      "slug": "centrica-energy",
+      "logo": null,
+      "role": "contributor",
+      "homepage": "https://www.centricaenergy.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.centricaenergy.com"
       ]
     },
     {
@@ -159,6 +386,8 @@
       "name": "CERN",
       "slug": "cern",
       "logo": "/img/architectures/cern-scientific-computing/logo.svg",
+      "role": "member",
+      "homepage": "https://home.cern",
       "industries": [
         "Public Sector",
         "Research"
@@ -197,9 +426,130 @@
         }
       ],
       "sourceAttribution": [
+        "https://home.cern",
         "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/cern-scientific-computing",
         "https://www.cncf.io/announcements/2024/03/21/cloud-native-computing-foundation-announces-cern-as-the-top-end-user-award-winner/",
         "https://www.cncf.io/case-studies/cern/"
+      ]
+    },
+    {
+      "id": "citi",
+      "name": "Citi",
+      "slug": "citi",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.citigroup.com/citi/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.citigroup.com/citi/"
+      ]
+    },
+    {
+      "id": "cloud-community-labs",
+      "name": "Cloud Community Labs",
+      "slug": "cloud-community-labs",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://cloudcommunitylabs.io",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://cloudcommunitylabs.io"
+      ]
+    },
+    {
+      "id": "cloud-native-texas",
+      "name": "Cloud Native Texas",
+      "slug": "cloud-native-texas",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://cloudnativetexas.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://cloudnativetexas.com"
+      ]
+    },
+    {
+      "id": "cme",
+      "name": "CME Group",
+      "slug": "cme",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.cmegroup.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.cmegroup.com"
+      ]
+    },
+    {
+      "id": "cobank",
+      "name": "CoBank",
+      "slug": "cobank",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://cobank.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://cobank.com"
+      ]
+    },
+    {
+      "id": "cvs-health",
+      "name": "CVS Health",
+      "slug": "cvs-health",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.cvshealth.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.cvshealth.com"
+      ]
+    },
+    {
+      "id": "cybozu",
+      "name": "Cybozu",
+      "slug": "cybozu",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://cybozu-global.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://cybozu-global.com/"
+      ]
+    },
+    {
+      "id": "decathlon",
+      "name": "Decathlon",
+      "slug": "decathlon",
+      "logo": null,
+      "role": "contributor",
+      "homepage": "https://digital.decathlon.net/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://digital.decathlon.net/"
       ]
     },
     {
@@ -207,6 +557,8 @@
       "name": "DiDi",
       "slug": "didi",
       "logo": null,
+      "role": "member",
+      "homepage": null,
       "industries": [],
       "projects": [],
       "architectures": [],
@@ -227,10 +579,87 @@
       ]
     },
     {
+      "id": "dlocal",
+      "name": "Dlocal",
+      "slug": "dlocal",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.dlocal.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.dlocal.com"
+      ]
+    },
+    {
+      "id": "docusign",
+      "name": "Docusign",
+      "slug": "docusign",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.docusign.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.docusign.com"
+      ]
+    },
+    {
+      "id": "ebay",
+      "name": "eBay",
+      "slug": "ebay",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.ebay.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.ebay.com"
+      ]
+    },
+    {
+      "id": "eon",
+      "name": "E.ON",
+      "slug": "eon",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.eon.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.eon.com"
+      ]
+    },
+    {
+      "id": "fidelity-investments",
+      "name": "Fidelity Investments",
+      "slug": "fidelity-investments",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.fidelity.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.fidelity.com/"
+      ]
+    },
+    {
       "id": "flipkart",
       "name": "Flipkart",
       "slug": "flipkart",
       "logo": "/img/architectures/flipkart-chaos-engineering/logo.png",
+      "role": "member",
+      "homepage": null,
       "industries": [
         "Digital Commerce",
         "E-commerce",
@@ -258,10 +687,117 @@
       ]
     },
     {
+      "id": "framework",
+      "name": "Framework",
+      "slug": "framework",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://frame.work",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://frame.work"
+      ]
+    },
+    {
+      "id": "g-research",
+      "name": "G-Research",
+      "slug": "g-research",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.gresearch.co.uk/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.gresearch.co.uk/"
+      ]
+    },
+    {
+      "id": "gim-uemoa",
+      "name": "GIM UEMOA",
+      "slug": "gim-uemoa",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.gim-uemoa.org",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.gim-uemoa.org"
+      ]
+    },
+    {
+      "id": "golden-gate-university",
+      "name": "Golden Gate University",
+      "slug": "golden-gate-university",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.ggu.edu",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.ggu.edu"
+      ]
+    },
+    {
+      "id": "goldman-sachs",
+      "name": "Goldman Sachs",
+      "slug": "goldman-sachs",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.goldmansachs.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.goldmansachs.com"
+      ]
+    },
+    {
+      "id": "guidewire",
+      "name": "Guidewire",
+      "slug": "guidewire",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.guidewire.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.guidewire.com"
+      ]
+    },
+    {
+      "id": "indeed",
+      "name": "Indeed",
+      "slug": "indeed",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://hk.indeed.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://hk.indeed.com"
+      ]
+    },
+    {
       "id": "intuit",
       "name": "Intuit",
       "slug": "intuit",
       "logo": "/img/awards/intuit.svg",
+      "role": "member",
+      "homepage": "https://www.intuit.com",
       "industries": [],
       "projects": [],
       "architectures": [],
@@ -288,9 +824,9 @@
         }
       ],
       "sourceAttribution": [
+        "https://www.intuit.com",
         "https://www.cncf.io/announcements/2022/10/26/cloud-native-computing-foundation-recognizes-intuit-as-top-end-user/",
         "https://www.cncf.io/announcement/2019/05/21/cloud-native-computing-foundation-announces-intuit-as-winner-of-top-end-user-award/",
-        "https://www.cncf.io/case-studies/intuit/",
         "https://www.cncf.io/case-studies/intuit/"
       ]
     },
@@ -299,6 +835,8 @@
       "name": "JD.com",
       "slug": "jd-com",
       "logo": "/img/awards/jd-com.svg",
+      "role": "member",
+      "homepage": null,
       "industries": [],
       "projects": [],
       "architectures": [],
@@ -320,10 +858,132 @@
       ]
     },
     {
+      "id": "jpmorgan-chase",
+      "name": "JPMorgan Chase",
+      "slug": "jpmorgan-chase",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.jpmorganchase.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.jpmorganchase.com"
+      ]
+    },
+    {
+      "id": "legora",
+      "name": "Legora",
+      "slug": "legora",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://legora.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://legora.com"
+      ]
+    },
+    {
+      "id": "lockheed-martin",
+      "name": "Lockheed Martin",
+      "slug": "lockheed-martin",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.lockheedmartin.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.lockheedmartin.com/"
+      ]
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "slug": "lovable",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://lovable.dev",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://lovable.dev"
+      ]
+    },
+    {
+      "id": "lseg",
+      "name": "LSEG",
+      "slug": "lseg",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.lseg.com/en",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.lseg.com/en"
+      ]
+    },
+    {
+      "id": "ly-corporation",
+      "name": "LY Corporation",
+      "slug": "ly-corporation",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.lycorp.co.jp/en/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.lycorp.co.jp/en/"
+      ]
+    },
+    {
+      "id": "mathworks",
+      "name": "Mathworks",
+      "slug": "mathworks",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.mathworks.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.mathworks.com/"
+      ]
+    },
+    {
+      "id": "mercedes-benz",
+      "name": "Mercedes Benz AG",
+      "slug": "mercedes-benz",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://group.mercedes-benz.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://group.mercedes-benz.com/"
+      ]
+    },
+    {
       "id": "mercedes-benz-tech-innovation",
       "name": "Mercedes-Benz",
       "slug": "mercedes-benz-tech-innovation",
       "logo": "/img/awards/mercedes-benz.svg",
+      "role": "member",
+      "homepage": null,
       "industries": [],
       "projects": [],
       "architectures": [],
@@ -349,6 +1009,8 @@
       "name": "Michelin",
       "slug": "michelin",
       "logo": "/img/awards/michelin.svg",
+      "role": "member",
+      "homepage": "https://www.michelin.com",
       "industries": [],
       "projects": [],
       "architectures": [],
@@ -365,8 +1027,294 @@
         }
       ],
       "sourceAttribution": [
+        "https://www.michelin.com",
         "https://www.cncf.io/announcements/2025/11/12/cncf-honors-innovators-and-defenders-with-2025-community-awards-at-kubecon-cloudnativecon-north-america/",
         "https://www.cncf.io/case-studies/michelin/"
+      ]
+    },
+    {
+      "id": "morgan-stanley",
+      "name": "Morgan Stanley",
+      "slug": "morgan-stanley",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.morganstanley.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.morganstanley.com"
+      ]
+    },
+    {
+      "id": "myfitnesspal",
+      "name": "MyFitnessPal",
+      "slug": "myfitnesspal",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.myfitnesspal.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.myfitnesspal.com/"
+      ]
+    },
+    {
+      "id": "naic",
+      "name": "NAIC",
+      "slug": "naic",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://content.naic.org",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://content.naic.org"
+      ]
+    },
+    {
+      "id": "natwest",
+      "name": "Natwest",
+      "slug": "natwest",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.natwest.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.natwest.com"
+      ]
+    },
+    {
+      "id": "nipr",
+      "name": "NIPR",
+      "slug": "nipr",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.nipr.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.nipr.com/"
+      ]
+    },
+    {
+      "id": "non-public-organization-camel",
+      "name": "Non-Public Organization Camel",
+      "slug": "non-public-organization-camel",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.cncf.io/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.cncf.io/"
+      ]
+    },
+    {
+      "id": "non-public-organization-moose",
+      "name": "Non-Public Organization Moose",
+      "slug": "non-public-organization-moose",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.cncf.io/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.cncf.io/"
+      ]
+    },
+    {
+      "id": "non-public-organization-narwhal",
+      "name": "Non-Public Organization Narwhal",
+      "slug": "non-public-organization-narwhal",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.cncf.io/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.cncf.io/"
+      ]
+    },
+    {
+      "id": "non-public-organization-octopus",
+      "name": "Non-Public Organization Octopus",
+      "slug": "non-public-organization-octopus",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.cncf.io/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.cncf.io/"
+      ]
+    },
+    {
+      "id": "non-public-organization-quail",
+      "name": "Non-Public Organization Quail",
+      "slug": "non-public-organization-quail",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.cncf.io/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.cncf.io/"
+      ]
+    },
+    {
+      "id": "novo-nordisk",
+      "name": "Novo Nordisk",
+      "slug": "novo-nordisk",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.novonordisk.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.novonordisk.com"
+      ]
+    },
+    {
+      "id": "porch-financial",
+      "name": "Porch Financial",
+      "slug": "porch-financial",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.porchfinancial.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.porchfinancial.com"
+      ]
+    },
+    {
+      "id": "prodigy-education",
+      "name": "Prodigy Education",
+      "slug": "prodigy-education",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.prodigygame.com/main-en/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.prodigygame.com/main-en/"
+      ]
+    },
+    {
+      "id": "qube-research-technologies",
+      "name": "Qube Research & Technologies",
+      "slug": "qube-research-technologies",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.qube-rt.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.qube-rt.com"
+      ]
+    },
+    {
+      "id": "reodev",
+      "name": "reo.dev",
+      "slug": "reodev",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.reo.dev",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.reo.dev"
+      ]
+    },
+    {
+      "id": "royal-bank-of-canada",
+      "name": "Royal Bank of Canada",
+      "slug": "royal-bank-of-canada",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.rbc.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.rbc.com"
+      ]
+    },
+    {
+      "id": "rtx",
+      "name": "RTX",
+      "slug": "rtx",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.rtx.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.rtx.com/"
+      ]
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "slug": "shopify",
+      "logo": null,
+      "role": "contributor",
+      "homepage": "https://www.shopify.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.shopify.com/"
+      ]
+    },
+    {
+      "id": "sky-betting-gaming",
+      "name": "Sky Betting & Gaming",
+      "slug": "sky-betting-gaming",
+      "logo": null,
+      "role": "contributor",
+      "homepage": "https://www.skybet.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.skybet.com/"
       ]
     },
     {
@@ -374,6 +1322,8 @@
       "name": "SNCF",
       "slug": "sncf",
       "logo": "/img/awards/sncf.svg",
+      "role": "member",
+      "homepage": null,
       "industries": [],
       "projects": [],
       "architectures": [],
@@ -399,6 +1349,8 @@
       "name": "Spotify",
       "slug": "spotify",
       "logo": "/img/awards/spotify.svg",
+      "role": "member",
+      "homepage": "https://open.spotify.com",
       "industries": [],
       "projects": [],
       "architectures": [],
@@ -425,10 +1377,85 @@
         }
       ],
       "sourceAttribution": [
+        "https://open.spotify.com",
         "https://www.cncf.io/announcements/2023/11/08/cloud-native-computing-foundation-presents-the-top-end-user-award-to-spotify/",
         "https://www.cncf.io/announcements/2021/05/05/cloud-native-computing-foundation-grants-spotify-the-top-end-user-award/",
-        "https://www.cncf.io/case-studies/spotify/",
         "https://www.cncf.io/case-studies/spotify/"
+      ]
+    },
+    {
+      "id": "springer-nature",
+      "name": "Springer Nature",
+      "slug": "springer-nature",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.springernature.com/gp",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.springernature.com/gp"
+      ]
+    },
+    {
+      "id": "squarespace",
+      "name": "Squarespace",
+      "slug": "squarespace",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.squarespace.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.squarespace.com"
+      ]
+    },
+    {
+      "id": "strategic-education",
+      "name": "Strategic Education",
+      "slug": "strategic-education",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.strategiceducation.com/home/default.aspx",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.strategiceducation.com/home/default.aspx"
+      ]
+    },
+    {
+      "id": "strava",
+      "name": "Strava",
+      "slug": "strava",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.strava.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.strava.com/"
+      ]
+    },
+    {
+      "id": "swiss-post",
+      "name": "Swiss Post",
+      "slug": "swiss-post",
+      "logo": null,
+      "role": "contributor",
+      "homepage": "https://www.swisspost.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.swisspost.com/"
       ]
     },
     {
@@ -436,6 +1463,8 @@
       "name": "Swisscom",
       "slug": "swisscom",
       "logo": "/img/architectures/swisscom-cloud-native-telco/swisscom.png",
+      "role": "member",
+      "homepage": null,
       "industries": [
         "Cloud",
         "Communication",
@@ -484,10 +1513,177 @@
       ]
     },
     {
+      "id": "teciem",
+      "name": "Teciem",
+      "slug": "teciem",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://teciem.com/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://teciem.com/"
+      ]
+    },
+    {
+      "id": "telenor-norway",
+      "name": "Telenor Norway",
+      "slug": "telenor-norway",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.telenor.no/privat",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.telenor.no/privat"
+      ]
+    },
+    {
+      "id": "thales",
+      "name": "Thales",
+      "slug": "thales",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.thalesgroup.com/en",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.thalesgroup.com/en"
+      ]
+    },
+    {
+      "id": "toyota-motor-corporation",
+      "name": "Toyota Motor Corporation",
+      "slug": "toyota-motor-corporation",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://global.toyota/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://global.toyota/"
+      ]
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "slug": "uber",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.uber.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.uber.com"
+      ]
+    },
+    {
+      "id": "ubs",
+      "name": "UBS",
+      "slug": "ubs",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.ubs.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.ubs.com"
+      ]
+    },
+    {
+      "id": "upsider",
+      "name": "Upsider",
+      "slug": "upsider",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://corp.up-sider.com/en",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://corp.up-sider.com/en"
+      ]
+    },
+    {
+      "id": "valve-software",
+      "name": "Valve Software",
+      "slug": "valve-software",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.valvesoftware.com/en/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.valvesoftware.com/en/"
+      ]
+    },
+    {
+      "id": "volvo",
+      "name": "Volvo",
+      "slug": "volvo",
+      "logo": null,
+      "role": "contributor",
+      "homepage": "https://www.volvocars.com/us",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.volvocars.com/us"
+      ]
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "slug": "walmart",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.walmartlabs.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.walmartlabs.com"
+      ]
+    },
+    {
+      "id": "wikimedia",
+      "name": "Wikimedia",
+      "slug": "wikimedia",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://www.wikimedia.org/",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://www.wikimedia.org/"
+      ]
+    },
+    {
       "id": "zalando",
       "name": "Zalando",
       "slug": "zalando",
       "logo": "/img/awards/zalando.svg",
+      "role": "member",
+      "homepage": null,
       "industries": [],
       "projects": [],
       "architectures": [],
@@ -513,6 +1709,8 @@
       "name": "ZEISS",
       "slug": "zeiss",
       "logo": "/img/architectures/zeiss/zeiss-logo-rgb.svg",
+      "role": "member",
+      "homepage": null,
       "industries": [],
       "projects": [
         "Dapr",
@@ -532,6 +1730,21 @@
       "awards": [],
       "sourceAttribution": [
         "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/zeiss"
+      ]
+    },
+    {
+      "id": "ziax",
+      "name": "Ziax",
+      "slug": "ziax",
+      "logo": null,
+      "role": "member",
+      "homepage": "https://ziax.com",
+      "industries": [],
+      "projects": [],
+      "architectures": [],
+      "awards": [],
+      "sourceAttribution": [
+        "https://ziax.com"
       ]
     }
   ]
