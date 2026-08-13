@@ -58,6 +58,8 @@ const awardsData = JSON.parse(
 const landscapeData = JSON.parse(
   readFileSync(join(root, 'data/landscape-end-users.json'), 'utf8'),
 );
+// The landscape uses the CNCF homepage for anonymised organisations.
+const GENERIC_LANDSCAPE_HOMEPAGE = 'https://www.cncf.io/';
 
 // Index awards by slug so each organisation accumulates all of its awards.
 const awardsBySlug = {};
@@ -166,7 +168,7 @@ for (const slug of [...allSlugs].sort()) {
   }));
 
   const sourceAttribution = [
-    landscapeEntry?.homepage === 'https://www.cncf.io/'
+    landscapeEntry?.homepage === GENERIC_LANDSCAPE_HOMEPAGE
       ? null
       : landscapeEntry?.homepage,
     landscapeEntry && landscapeData.sourceUrl,
