@@ -47,6 +47,7 @@ Goal: the project can outlive any single maintainer.
 - [ ] Good-first-issue curation to recruit human contributors
 - [ ] Decide the long-term home of the site (issue #46): transfer to a CNCF org,
       remain a personal staging site, or merge into an existing CNCF property
+      (see `adr/0001-site-ownership-and-cutover-path.md` for the documented options and path)
 
 ## Phase 3 — Ecosystem integration
 
