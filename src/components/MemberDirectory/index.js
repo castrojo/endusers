@@ -250,7 +250,8 @@ function MemberCard({ member }) {
             {member.architectures.length === 0 &&
               member.awards.length === 0 && (
                 <span>
-                  End User {member.role === 'contributor' ? 'contributor' : 'member'}
+                  End User{' '}
+                  {member.role === 'contributor' ? 'contributor' : 'member'}
                 </span>
               )}
           </p>

@@ -10,10 +10,10 @@ hide_title: true
 
 # End User Directory
 
-Discover the organizations that make up the CNCF End User Community. The directory
-includes End User Members and End User Contributors listed in the
-[CNCF landscape](https://landscape.cncf.io/), enriched with public
-reference architectures contributed to the
+Discover the organizations that make up the CNCF End User Community. The
+directory includes End User Members and End User Contributors listed in the
+[CNCF landscape](https://landscape.cncf.io/), enriched with public reference
+architectures contributed to the
 [CNCF Cloud Native Reference Architecture project](https://github.com/cncf/architecture)
 and [Top End User Award](https://www.cncf.io/announcements/) winners announced
 on cncf.io.
