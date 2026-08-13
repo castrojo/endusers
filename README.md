@@ -20,7 +20,7 @@ reference architectures, awards, metrics, events, and pathways to participate.
 
 Ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (LTS version 20 or above recommended)
+- [Node.js](https://nodejs.org/) (LTS version 22 or above recommended)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 
 ### Install dependencies
