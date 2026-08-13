@@ -166,7 +166,10 @@ for (const slug of [...allSlugs].sort()) {
   }));
 
   const sourceAttribution = [
-    landscapeEntry?.homepage,
+    landscapeEntry?.homepage === 'https://www.cncf.io/'
+      ? null
+      : landscapeEntry?.homepage,
+    landscapeEntry && landscapeData.sourceUrl,
     ...catalogEntries.map((e) => e.sourceUrl),
     ...awardEntries.map((a) => a.announcementUrl).filter(Boolean),
     ...awardEntries.map((a) => a.caseStudyUrl).filter(Boolean),

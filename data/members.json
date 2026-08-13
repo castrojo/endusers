@@ -59,6 +59,7 @@
       ],
       "sourceAttribution": [
         "https://www.adobe.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml",
         "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/adobe",
         "https://www.cncf.io/announcements/2024/11/14/cncf-presents-top-end-user-award-to-adobe/",
         "https://www.cncf.io/case-studies/adobe/"
@@ -76,7 +77,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.adyen.com"
+        "https://www.adyen.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -91,7 +93,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.airbnb.com/"
+        "https://www.airbnb.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -132,7 +135,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.americanexpress.com/"
+        "https://www.americanexpress.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -147,7 +151,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.antgroup.com"
+        "https://www.antgroup.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -200,7 +205,8 @@
         }
       ],
       "sourceAttribution": [
-        "https://www.apple.com/"
+        "https://www.apple.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -215,7 +221,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.asml.com"
+        "https://www.asml.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -230,7 +237,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.viabcp.com"
+        "https://www.viabcp.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -245,7 +253,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.beneva.ca"
+        "https://www.beneva.ca",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -260,7 +269,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.blackrock.com/"
+        "https://www.blackrock.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -275,7 +285,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://block.xyz"
+        "https://block.xyz",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -302,6 +313,7 @@
       ],
       "sourceAttribution": [
         "https://www.bloomberg.com/tosv2.html",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml",
         "https://www.cncf.io/announcement/2018/05/02/cloud-native-computing-foundation-announces-bloomberg-as-winner-of-top-end-user-award/",
         "https://www.cncf.io/case-studies/bloomberg/"
       ]
@@ -318,7 +330,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "http://www.boeing.com/"
+        "http://www.boeing.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -333,7 +346,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.cambiahealth.com/"
+        "https://www.cambiahealth.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -348,7 +362,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.capitalone.com/tech/"
+        "https://www.capitalone.com/tech/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -363,7 +378,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.cathayholdings.com/"
+        "https://www.cathayholdings.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -378,7 +394,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.centricaenergy.com"
+        "https://www.centricaenergy.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -427,6 +444,7 @@
       ],
       "sourceAttribution": [
         "https://home.cern",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml",
         "https://github.com/cncf/architecture/tree/551ef61f618a353dbea55efc0241616cbb286b4d/content/en/architectures/cern-scientific-computing",
         "https://www.cncf.io/announcements/2024/03/21/cloud-native-computing-foundation-announces-cern-as-the-top-end-user-award-winner/",
         "https://www.cncf.io/case-studies/cern/"
@@ -444,7 +462,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.citigroup.com/citi/"
+        "https://www.citigroup.com/citi/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -459,7 +478,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://cloudcommunitylabs.io"
+        "https://cloudcommunitylabs.io",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -474,7 +494,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://cloudnativetexas.com"
+        "https://cloudnativetexas.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -489,7 +510,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.cmegroup.com"
+        "https://www.cmegroup.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -504,7 +526,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://cobank.com"
+        "https://cobank.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -519,7 +542,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.cvshealth.com"
+        "https://www.cvshealth.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -534,7 +558,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://cybozu-global.com/"
+        "https://cybozu-global.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -549,7 +574,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://digital.decathlon.net/"
+        "https://digital.decathlon.net/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -590,7 +616,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.dlocal.com"
+        "https://www.dlocal.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -605,7 +632,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.docusign.com"
+        "https://www.docusign.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -620,7 +648,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.ebay.com"
+        "https://www.ebay.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -635,7 +664,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.eon.com"
+        "https://www.eon.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -650,7 +680,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.fidelity.com/"
+        "https://www.fidelity.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -698,7 +729,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://frame.work"
+        "https://frame.work",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -713,7 +745,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.gresearch.co.uk/"
+        "https://www.gresearch.co.uk/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -728,7 +761,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.gim-uemoa.org"
+        "https://www.gim-uemoa.org",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -743,7 +777,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.ggu.edu"
+        "https://www.ggu.edu",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -758,7 +793,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.goldmansachs.com"
+        "https://www.goldmansachs.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -773,7 +809,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.guidewire.com"
+        "https://www.guidewire.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -788,7 +825,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://hk.indeed.com"
+        "https://hk.indeed.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -825,6 +863,7 @@
       ],
       "sourceAttribution": [
         "https://www.intuit.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml",
         "https://www.cncf.io/announcements/2022/10/26/cloud-native-computing-foundation-recognizes-intuit-as-top-end-user/",
         "https://www.cncf.io/announcement/2019/05/21/cloud-native-computing-foundation-announces-intuit-as-winner-of-top-end-user-award/",
         "https://www.cncf.io/case-studies/intuit/"
@@ -869,7 +908,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.jpmorganchase.com"
+        "https://www.jpmorganchase.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -884,7 +924,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://legora.com"
+        "https://legora.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -899,7 +940,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.lockheedmartin.com/"
+        "https://www.lockheedmartin.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -914,7 +956,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://lovable.dev"
+        "https://lovable.dev",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -929,7 +972,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.lseg.com/en"
+        "https://www.lseg.com/en",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -944,7 +988,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.lycorp.co.jp/en/"
+        "https://www.lycorp.co.jp/en/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -959,7 +1004,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.mathworks.com/"
+        "https://www.mathworks.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -974,7 +1020,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://group.mercedes-benz.com/"
+        "https://group.mercedes-benz.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1028,6 +1075,7 @@
       ],
       "sourceAttribution": [
         "https://www.michelin.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml",
         "https://www.cncf.io/announcements/2025/11/12/cncf-honors-innovators-and-defenders-with-2025-community-awards-at-kubecon-cloudnativecon-north-america/",
         "https://www.cncf.io/case-studies/michelin/"
       ]
@@ -1044,7 +1092,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.morganstanley.com"
+        "https://www.morganstanley.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1059,7 +1108,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.myfitnesspal.com/"
+        "https://www.myfitnesspal.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1074,7 +1124,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://content.naic.org"
+        "https://content.naic.org",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1089,7 +1140,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.natwest.com"
+        "https://www.natwest.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1104,7 +1156,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.nipr.com/"
+        "https://www.nipr.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1119,7 +1172,7 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.cncf.io/"
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1134,7 +1187,7 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.cncf.io/"
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1149,7 +1202,7 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.cncf.io/"
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1164,7 +1217,7 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.cncf.io/"
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1179,7 +1232,7 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.cncf.io/"
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1194,7 +1247,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.novonordisk.com"
+        "https://www.novonordisk.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1209,7 +1263,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.porchfinancial.com"
+        "https://www.porchfinancial.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1224,7 +1279,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.prodigygame.com/main-en/"
+        "https://www.prodigygame.com/main-en/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1239,7 +1295,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.qube-rt.com"
+        "https://www.qube-rt.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1254,7 +1311,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.reo.dev"
+        "https://www.reo.dev",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1269,7 +1327,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.rbc.com"
+        "https://www.rbc.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1284,7 +1343,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.rtx.com/"
+        "https://www.rtx.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1299,7 +1359,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.shopify.com/"
+        "https://www.shopify.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1314,7 +1375,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.skybet.com/"
+        "https://www.skybet.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1378,6 +1440,7 @@
       ],
       "sourceAttribution": [
         "https://open.spotify.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml",
         "https://www.cncf.io/announcements/2023/11/08/cloud-native-computing-foundation-presents-the-top-end-user-award-to-spotify/",
         "https://www.cncf.io/announcements/2021/05/05/cloud-native-computing-foundation-grants-spotify-the-top-end-user-award/",
         "https://www.cncf.io/case-studies/spotify/"
@@ -1395,7 +1458,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.springernature.com/gp"
+        "https://www.springernature.com/gp",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1410,7 +1474,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.squarespace.com"
+        "https://www.squarespace.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1425,7 +1490,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.strategiceducation.com/home/default.aspx"
+        "https://www.strategiceducation.com/home/default.aspx",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1440,7 +1506,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.strava.com/"
+        "https://www.strava.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1455,7 +1522,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.swisspost.com/"
+        "https://www.swisspost.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1524,7 +1592,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://teciem.com/"
+        "https://teciem.com/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1539,7 +1608,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.telenor.no/privat"
+        "https://www.telenor.no/privat",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1554,7 +1624,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.thalesgroup.com/en"
+        "https://www.thalesgroup.com/en",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1569,7 +1640,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://global.toyota/"
+        "https://global.toyota/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1584,7 +1656,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.uber.com"
+        "https://www.uber.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1599,7 +1672,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.ubs.com"
+        "https://www.ubs.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1614,7 +1688,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://corp.up-sider.com/en"
+        "https://corp.up-sider.com/en",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1629,7 +1704,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.valvesoftware.com/en/"
+        "https://www.valvesoftware.com/en/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1644,7 +1720,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.volvocars.com/us"
+        "https://www.volvocars.com/us",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1659,7 +1736,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.walmartlabs.com"
+        "https://www.walmartlabs.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1674,7 +1752,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://www.wikimedia.org/"
+        "https://www.wikimedia.org/",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     },
     {
@@ -1744,7 +1823,8 @@
       "architectures": [],
       "awards": [],
       "sourceAttribution": [
-        "https://ziax.com"
+        "https://ziax.com",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml"
       ]
     }
   ]
