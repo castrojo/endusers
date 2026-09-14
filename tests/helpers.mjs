@@ -1,5 +1,13 @@
 import { spawnSync } from 'node:child_process';
-import { cpSync, mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import {
+  cpSync,
+  existsSync,
+  mkdirSync,
+  mkdtempSync,
+  readFileSync,
+  rmSync,
+  writeFileSync,
+} from 'node:fs';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 
@@ -9,8 +17,13 @@ const repoRoot = new URL('..', import.meta.url).pathname;
 // layout in a temp directory. The scripts resolve inputs relative to their
 // own import.meta.url (../data, ../src/css, ../static), so a copy placed in
 // <tmp>/scripts/ reads fixtures from <tmp>/ instead of the real repo.
-// Returns { status, stdout, stderr }.
-export function runScriptWithFixtures(scriptName, fixtures = {}) {
+// Returns { status, stdout, stderr, outputs } where outputs maps each path in
+// `outputPaths` to the file's content after the run (null when not written).
+export function runScriptWithFixtures(
+  scriptName,
+  fixtures = {},
+  outputPaths = [],
+) {
   const work = mkdtempSync(join(tmpdir(), 'endusers-test-'));
   try {
     mkdirSync(join(work, 'scripts'), { recursive: true });
@@ -32,10 +45,18 @@ export function runScriptWithFixtures(scriptName, fixtures = {}) {
       encoding: 'utf8',
       stdio: ['ignore', 'pipe', 'pipe'],
     });
+    const outputs = {};
+    for (const relativePath of outputPaths) {
+      const target = join(work, relativePath);
+      outputs[relativePath] = existsSync(target)
+        ? readFileSync(target, 'utf8')
+        : null;
+    }
     return {
       status: result.status ?? 1,
       stdout: result.stdout ?? '',
       stderr: result.stderr ?? '',
+      outputs,
     };
   } finally {
     rmSync(work, { recursive: true, force: true });
