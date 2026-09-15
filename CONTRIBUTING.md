@@ -58,9 +58,9 @@ Rules:
 ## Good first issues
 
 New to this repository? Start with an issue labeled
-[`good first issue`](https://github.com/castrojo/endusers/labels/good%20first%20issue).
+[`good first issue`](https://github.com/cncf/endusers/labels/good%20first%20issue).
 These are scoped for a first contribution: each names the file(s) to touch and
-the acceptance criteria for the change. Current candidates:
+the acceptance criteria for the change.
 
 - **#77 — Awards data verification**: Audit `data/awards.json` against the CNCF
   End User Award history published on
