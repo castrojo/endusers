@@ -9,6 +9,15 @@ Be the trusted home of the CNCF End User Community: the place where organization
 running cloud native in production find reference architectures, metrics, events,
 and pathways to participate.
 
+## Launch target
+
+**KubeCon + CloudNativeCon North America 2026 (Nov 9–12, Salt Lake City)** is
+the target announcement window (see issue #104): the largest concentration of
+CNCF end users this year, and every Phase 1 content pillar is exactly what
+that audience looks for. The week-by-week backwards plan lives in
+`LAUNCH.md` (PR #108); the ownership decision that must land before the
+announcement is tracked in ADR 0001 / issue #99.
+
 ## Guiding principles
 
 - **Audience first**: content serves end users (adopters), not project contributors.
