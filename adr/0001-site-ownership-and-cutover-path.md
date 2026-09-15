@@ -81,7 +81,9 @@ to automated tooling.
 ## Proposed next step
 
 1. Open a discussion with CNCF end-user community and TAB stakeholders on the
-   intended long-term home for this content (see options above).
+   intended long-term home for this content (see options above). A
+   ready-to-send outreach draft, with suggested venues and stakeholders, is
+   available at [0001-stakeholder-outreach-draft.md](./0001-stakeholder-outreach-draft.md).
 2. Land the prerequisites shared by every option regardless of outcome:
    LICENSE (#32 / PR #40) and a governance/MAINTAINERS note (#47).
 3. Once a decision is made, update this ADR's Status and Decision sections,
