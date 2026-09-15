@@ -1,5 +1,13 @@
 import { spawnSync } from 'node:child_process';
-import { cpSync, mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import {
+  cpSync,
+  existsSync,
+  mkdirSync,
+  mkdtempSync,
+  readFileSync,
+  rmSync,
+  writeFileSync,
+} from 'node:fs';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 
@@ -9,8 +17,15 @@ const repoRoot = new URL('..', import.meta.url).pathname;
 // layout in a temp directory. The scripts resolve inputs relative to their
 // own import.meta.url (../data, ../src/css, ../static), so a copy placed in
 // <tmp>/scripts/ reads fixtures from <tmp>/ instead of the real repo.
-// Returns { status, stdout, stderr }.
-export function runScriptWithFixtures(scriptName, fixtures = {}) {
+//
+// options.args passes CLI arguments to the script (for example ['--fix']).
+// options.readBack lists fixture-relative paths whose contents are captured
+// after the run, so tests can assert on files the script rewrote in place.
+// Paths the script deleted or never created are reported as null.
+//
+// Returns { status, stdout, stderr, files }.
+export function runScriptWithFixtures(scriptName, fixtures = {}, options = {}) {
+  const { args = [], readBack = [] } = options;
   const work = mkdtempSync(join(tmpdir(), 'endusers-test-'));
   try {
     mkdirSync(join(work, 'scripts'), { recursive: true });
@@ -28,14 +43,26 @@ export function runScriptWithFixtures(scriptName, fixtures = {}) {
       mkdirSync(dirname(target), { recursive: true });
       writeFileSync(target, content);
     }
-    const result = spawnSync('node', [join(work, 'scripts', scriptName)], {
-      encoding: 'utf8',
-      stdio: ['ignore', 'pipe', 'pipe'],
-    });
+    const result = spawnSync(
+      'node',
+      [join(work, 'scripts', scriptName), ...args],
+      {
+        encoding: 'utf8',
+        stdio: ['ignore', 'pipe', 'pipe'],
+      },
+    );
+    const files = {};
+    for (const relativePath of readBack) {
+      const target = join(work, relativePath);
+      files[relativePath] = existsSync(target)
+        ? readFileSync(target, 'utf8')
+        : null;
+    }
     return {
       status: result.status ?? 1,
       stdout: result.stdout ?? '',
       stderr: result.stderr ?? '',
+      files,
     };
   } finally {
     rmSync(work, { recursive: true, force: true });
