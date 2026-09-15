@@ -40,7 +40,7 @@ Goal: every pillar section is accurate, current, and self-maintaining.
 - [ ] Awards: complete historical winner list, each entry verified against its cncf.io announcement (issue #76)
 - [ ] Community: current TAB membership, End User Groups, and engagement pathways (issue #79)
 - [ ] Events: upcoming end-user events at KubeCon + CloudNativeCon (issue #75)
-- [ ] Blog: establish a publishing cadence beyond the welcome post (issue #77)
+- [x] Blog: establish a publishing cadence beyond the welcome post — monthly "Month in Metrics" post sourced from `data/metrics.json` diffs (issue #76; cadence documented in [docs/skills/blog-management.md](docs/skills/blog-management.md#publishing-cadence))
 
 ## Launch (tracking: #90)
 
