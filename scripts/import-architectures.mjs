@@ -13,6 +13,10 @@ import { execFileSync } from 'node:child_process';
 import { join, relative } from 'node:path';
 import { tmpdir } from 'node:os';
 import { parse as yamlParse } from 'yaml';
+import {
+  findSvgActiveContent,
+  stripSvgActiveContent,
+} from './lib/svg-active-content.mjs';
 
 const root = new URL('..', import.meta.url).pathname;
 const upstream = mkdtempSync(join(tmpdir(), 'cncf-architecture-'));
@@ -223,6 +227,19 @@ function sanitizeArchitectureAssets(dir) {
     if (!file.endsWith('.svg')) continue;
     const original = readFileSync(file, 'utf8');
     let source = original;
+
+    // Upstream SVGs are published as-is under static/, where a browser will
+    // execute embedded scripts if the file is requested directly. Remove any
+    // active content before the asset reaches the site.
+    const activeContent = findSvgActiveContent(source);
+    if (activeContent.length) {
+      source = stripSvgActiveContent(source);
+      for (const message of activeContent) {
+        console.warn(
+          `Stripped active content from ${relative(join(root, 'static'), file)}: ${message}`,
+        );
+      }
+    }
 
     // Remove DOCTYPE declarations that can break XML consumers.
     source = source.replace(/<!DOCTYPE\s[^>]*>\s*/gi, '');

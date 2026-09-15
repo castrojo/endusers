@@ -2,6 +2,10 @@
 import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { collectError, reportAndExit } from './lib/validate-utils.mjs';
+import {
+  findSvgActiveContent,
+  stripSvgActiveContent,
+} from './lib/svg-active-content.mjs';
 
 const root = new URL('..', import.meta.url).pathname;
 const assetsDir = join(root, 'static/img/architectures');
@@ -29,6 +33,22 @@ function validateSvg(path) {
   // Critical: SVG must declare the SVG namespace.
   if (!/\sxmlns\s*=\s*["']http:\/\/www\.w3\.org\/2000\/svg["']/.test(source)) {
     record(path, 'error', 'missing xmlns="http://www.w3.org/2000/svg"');
+  }
+
+  // Critical: assets under static/ are served from the site origin, so an SVG
+  // requested as a top-level document executes any script it carries.
+  const activeContent = findSvgActiveContent(source);
+  if (activeContent.length) {
+    if (shouldFix) {
+      source = stripSvgActiveContent(source);
+      for (const message of activeContent) {
+        fixed.push(`${rel}: stripped active content — ${message}`);
+      }
+    } else {
+      for (const message of activeContent) {
+        record(path, 'error', message);
+      }
+    }
   }
 
   // Critical: DOCTYPE is unnecessary in SVG images and can break XML parsers.
