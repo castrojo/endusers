@@ -5,7 +5,7 @@ This document covers the development workflow and the data contribution model.
 
 ## Development setup
 
-Prerequisites: Node.js 20+ (LTS recommended) and npm.
+Prerequisites: Node.js 22+ (LTS recommended) and npm.
 
 ```bash
 npm install
@@ -66,6 +66,13 @@ Rules:
 
 AI agents should start at [`AGENTS.md`](AGENTS.md) and the skill manifest in
 [`docs/skills/manifest.md`](docs/skills/manifest.md).
+
+## Project direction and policies
+
+- [`ROADMAP.md`](ROADMAP.md) — what the site is building toward and the current phase.
+- [`GOVERNANCE.md`](GOVERNANCE.md) — how decisions get made and how pull requests land.
+- [`SECURITY.md`](SECURITY.md) — how to report a vulnerability.
+- [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) — community participation expectations.
 
 ## Maintainers
 
