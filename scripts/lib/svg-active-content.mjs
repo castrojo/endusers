@@ -24,6 +24,16 @@ const ACTIVE_ELEMENT_PATTERN = new RegExp(
 
 const EVENT_HANDLER_ATTRIBUTE = /\son[a-z]+\s*=/i;
 
+/**
+ * `<animate>`/`<set>` can assign a value to `href` at runtime, so an element
+ * that is inert in the source becomes a javascript: link once the animation
+ * begins. The element itself is the finding — its `to`/`values`/`from`
+ * payloads are ordinary attribute values that no scheme scan would flag on an
+ * element that is not itself a link.
+ */
+const ANIMATED_URI_ELEMENT =
+  /<\s*(animate|set)\b[^>]*\battributeName\s*=\s*(?:"\s*(?:xlink:)?href\s*"|'\s*(?:xlink:)?href\s*'|(?:xlink:)?href\b)[^>]*>/gi;
+
 const ATTRIBUTE_PATTERN =
   /\s([a-z_:][-a-z0-9_:.]*)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'<>`]+))/gi;
 
@@ -144,6 +154,17 @@ export function findActiveContent(source) {
     findings.push(`contains a script URI in ${scheme}`);
   }
 
+  const animated = new Set(
+    [...source.matchAll(ANIMATED_URI_ELEMENT)].map((match) =>
+      match[1].toLowerCase(),
+    ),
+  );
+  for (const element of [...animated].sort()) {
+    findings.push(
+      `contains a <${element}> element that animates href (can install a script URI at runtime)`,
+    );
+  }
+
   return findings;
 }
 
@@ -171,6 +192,16 @@ export function stripActiveContent(source) {
         return '';
       });
     }
+  }
+
+  output = output.replace(ANIMATED_URI_ELEMENT, (match, element) => {
+    removed.push(`<${element.toLowerCase()}> element animating href`);
+    return '';
+  });
+
+  // Drop closing tags left orphaned by removing a paired animation element.
+  if (removed.some((entry) => entry.endsWith('animating href'))) {
+    output = output.replace(/<\s*\/\s*(?:animate|set)\s*>/gi, '');
   }
 
   output = output.replace(ATTRIBUTE_PATTERN, (match, name, dq, sq, uq) => {

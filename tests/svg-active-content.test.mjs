@@ -67,6 +67,7 @@ test('detects script URIs in animation targets, not just href', () => {
   );
   assert.deepEqual(findActiveContent(svg), [
     'contains a script URI in to="javascript:..."',
+    'contains a <set> element that animates href (can install a script URI at runtime)',
   ]);
   assert.deepEqual(findActiveContent(stripActiveContent(svg).source), []);
 });
@@ -112,4 +113,40 @@ test('strips every finding from a heavily obfuscated payload', () => {
   assert.ok(removed.length >= 3);
   assert.deepEqual(findActiveContent(source), []);
   assert.match(source, /viewBox="0 0 10 10"/);
+});
+
+test('flags an <animate> element that installs an href at runtime', () => {
+  const svg =
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">' +
+    '<a><animate attributeName="href" to="javascript:alert(1)" begin="0s"/><rect/></a>' +
+    '</svg>';
+  assert.ok(
+    findActiveContent(svg).includes(
+      'contains a <animate> element that animates href (can install a script URI at runtime)',
+    ),
+  );
+  assert.deepEqual(findActiveContent(stripActiveContent(svg).source), []);
+});
+
+test('flags a paired <set> element animating xlink:href and leaves no orphan tag', () => {
+  const svg =
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">' +
+    '<a><set attributeName="xlink:href" to="javascript:alert(1)"></set><rect/></a>' +
+    '</svg>';
+  assert.ok(
+    findActiveContent(svg).some((finding) => finding.includes('animates href')),
+  );
+  const { source } = stripActiveContent(svg);
+  assert.doesNotMatch(source, /<\s*\/?\s*set\b/i);
+  assert.match(source, /<rect\/>/);
+  assert.deepEqual(findActiveContent(source), []);
+});
+
+test('leaves an ordinary animation of a presentation attribute alone', () => {
+  const svg =
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">' +
+    '<rect><animate attributeName="opacity" to="0.5"/></rect>' +
+    '</svg>';
+  assert.deepEqual(findActiveContent(svg), []);
+  assert.equal(stripActiveContent(svg).source, svg);
 });
