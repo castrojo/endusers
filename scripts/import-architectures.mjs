@@ -10,6 +10,7 @@ import {
   writeFileSync,
 } from 'node:fs';
 import { execFileSync } from 'node:child_process';
+import { stripActiveContent } from './lib/svg-active-content.mjs';
 import { join, relative } from 'node:path';
 import { tmpdir } from 'node:os';
 import { parse as yamlParse } from 'yaml';
@@ -190,7 +191,20 @@ async function mirrorProjectAssets(body) {
     try {
       const response = await fetch(url);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      writeFileSync(destination, Buffer.from(await response.arrayBuffer()));
+      const body = Buffer.from(await response.arrayBuffer());
+      if (file.toLowerCase().endsWith('.svg')) {
+        const { source, removed } = stripActiveContent(body.toString('utf8'));
+        if (removed.length) {
+          console.warn(
+            `Removed active content from mirrored asset ${project}/${file}: ${[
+              ...new Set(removed),
+            ].join(', ')}`,
+          );
+        }
+        writeFileSync(destination, source, 'utf8');
+      } else {
+        writeFileSync(destination, body);
+      }
     } catch {
       console.warn(`Could not mirror CNCF project asset: ${project}/${file}`);
     }
@@ -229,6 +243,18 @@ function sanitizeArchitectureAssets(dir) {
 
     // Strip draw.io/Excalidraw editable metadata to reduce bloat.
     source = source.replace(/\scontent\s*=\s*["'][^"']*["']/gi, '');
+
+    // Upstream SVGs are third-party input and are served from the site origin,
+    // so strip anything that would execute when a browser opens the file.
+    const stripped = stripActiveContent(source);
+    if (stripped.removed.length) {
+      source = stripped.source;
+      console.warn(
+        `Removed active content from ${relative(join(root, 'static'), file)}: ${[
+          ...new Set(stripped.removed),
+        ].join(', ')}`,
+      );
+    }
 
     // Add a viewBox when width and height are explicit.
     if (!/\sviewBox\s*=\s*["']/i.test(source)) {
