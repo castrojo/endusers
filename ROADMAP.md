@@ -74,7 +74,7 @@ Goal: the project can outlive any single maintainer.
 - [x] Governance note describing review/merge expectations, including agent-automation policy (GOVERNANCE.md, #60)
 - [ ] Good-first-issue curation to recruit human contributors
 - [ ] Decide the long-term home of the site (issue #46, ADR 0001): transfer to a CNCF org,
-      remain a personal staging site, or merge into an existing CNCF property
+      remain a personal staging site, or merge into an existing CNCF property. Decision deadline: 2026-08-17
       (see `adr/0001-site-ownership-and-cutover-path.md` for the documented options and path)
 
 ## Phase 3 — Ecosystem integration
