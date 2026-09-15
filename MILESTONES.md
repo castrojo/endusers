@@ -3,8 +3,23 @@
 This document defines the GitHub milestones that back [ROADMAP.md](./ROADMAP.md)
 (see PR #50) and the tracking issue #45. GitHub milestones cannot be created by
 the automation that authored this plan (no API write access), so a maintainer
-with write access should create them from this list, then tag the referenced
-issues/PRs against the matching milestone.
+with write access should create them, then tag the referenced issues/PRs
+against the matching milestone.
+
+## Applying this plan
+
+The plan below is also encoded in [`data/milestones.json`](./data/milestones.json).
+A maintainer can execute it in one step by running the
+[**Create milestones**](../../actions/workflows/create-milestones.yml)
+workflow (Actions tab -> Create milestones -> Run workflow). It creates the
+four milestones (or reuses them if they already exist) and tags each listed
+issue/PR, using the workflow's own `GITHUB_TOKEN`, which — unlike the hive
+automation's token — has milestone write access. Re-running it is safe; it
+will not duplicate milestones or overwrite existing issue milestones unless
+`retag` is set to true.
+
+Alternatively, create the four milestones by hand from the descriptions
+below via the repo's Issues -> Milestones page, then tag issues manually.
 
 Once created, this file can be deleted or trimmed to a short pointer — the
 milestones themselves become the source of truth.
@@ -56,7 +71,8 @@ Tag issues/PRs covering:
 
 ## How to apply this plan
 
-1. Create the four milestones above via the repo's Issues → Milestones page,
-   using the descriptions verbatim.
-2. For each milestone, open the linked issues/PRs and set the milestone field.
+1. Run the [Create milestones](../../actions/workflows/create-milestones.yml)
+   workflow (or create the four milestones manually via the repo's
+   Issues → Milestones page, using the descriptions verbatim).
+2. Confirm each milestone shows the expected linked issues/PRs.
 3. Close or update this file once milestones exist and are populated.

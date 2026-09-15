@@ -1,0 +1,71 @@
+name: Create milestones
+
+# Manually-triggered by a maintainer to execute the plan in MILESTONES.md /
+# data/milestones.json. Automation authoring the plan (issue #78) has no
+# write access to create milestones; the default GITHUB_TOKEN for a workflow
+# run does, so a maintainer clicking "Run workflow" is sufficient.
+#
+# Safe to re-run: existing milestones (matched by title) are reused rather
+# than duplicated, and issues already carrying a milestone are left alone
+# unless retag is set to true.
+
+on:
+  workflow_dispatch:
+    inputs:
+      retag:
+        description: 'Re-apply milestones to issues that already have one'
+        type: boolean
+        default: false
+
+permissions:
+  issues: write
+
+jobs:
+  create-milestones:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create/verify milestones and tag issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RETAG: ${{ inputs.retag }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          existing="$(gh api "repos/${REPO}/milestones" --paginate --jq '.[] | [.title, .number] | @tsv')"
+
+          jq -c '.milestones[]' data/milestones.json | while read -r m; do
+            title="$(jq -r '.title' <<<"$m")"
+            description="$(jq -r '.description' <<<"$m")"
+
+            number="$(printf '%s\n' "$existing" | awk -F'\t' -v t="$title" '$1 == t { print $2 }')"
+
+            if [ -z "$number" ]; then
+              echo "Creating milestone: $title"
+              number="$(gh api "repos/${REPO}/milestones" \
+                -f title="$title" \
+                -f description="$description" \
+                --jq '.number')"
+            else
+              echo "Milestone already exists: $title (#$number)"
+            fi
+
+            jq -r '.issues[]' <<<"$m" | while read -r issue; do
+              current_milestone="$(gh api "repos/${REPO}/issues/${issue}" --jq '.milestone.number // empty' 2>/dev/null || true)"
+              if [ -n "$current_milestone" ] && [ "$RETAG" != "true" ]; then
+                echo "  Skipping #$issue (already has milestone #$current_milestone)"
+                continue
+              fi
+              echo "  Tagging #$issue -> $title (#$number)"
+              gh api "repos/${REPO}/issues/${issue}" -f milestone="$number" >/dev/null
+            done
+          done
+
+      - name: Summary
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh api "repos/${REPO}/milestones" --jq '.[] | "\(.title): \(.open_issues) open, \(.closed_issues) closed"'
