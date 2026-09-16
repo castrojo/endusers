@@ -9,6 +9,15 @@ Be the trusted home of the CNCF End User Community: the place where
 organizations running cloud native in production find reference architectures,
 metrics, events, and pathways to participate.
 
+## Launch target
+
+**KubeCon + CloudNativeCon North America 2026 (Nov 9–12, Salt Lake City)** is
+the target announcement window (see issue #104): the largest concentration of
+CNCF end users this year, and every Phase 1 content pillar is exactly what
+that audience looks for. The week-by-week backwards plan lives in
+`LAUNCH.md` (PR #108); the ownership decision that must land before the
+announcement is tracked in ADR 0001 / issue #99.
+
 ## Guiding principles
 
 - **Audience first**: content serves end users (adopters), not project
@@ -37,7 +46,7 @@ Goal: every pillar section is accurate, current, and self-maintaining.
 
 - [ ] Architectures: automated import from cncf/architecture stays in sync (scheduled workflow exists; add freshness indicator on the page — issue #80)
 - [ ] Metrics: scheduled refresh of data/metrics.json with validation gating the build (issue #74)
-- [ ] Awards: complete historical winner list, each entry verified against its cncf.io announcement (issue #76)
+- [x] Awards: complete historical winner list, each entry verified against its cncf.io announcement (issue #77)
 - [ ] Community: current TAB membership, End User Groups, and engagement pathways (issue #79)
 - [ ] Events: upcoming end-user events at KubeCon + CloudNativeCon (issue #75)
 - [x] Blog: establish a publishing cadence beyond the welcome post — monthly "Month in Metrics" post sourced from `data/metrics.json` diffs (issue #76; cadence documented in [docs/skills/blog-management.md](docs/skills/blog-management.md#publishing-cadence))
