@@ -52,7 +52,7 @@
     "update:pkgs": "npx npm-check-updates -u",
     "collect:metrics": "node scripts/collect-metrics.mjs",
     "validate:metrics": "node scripts/validate-metrics.mjs",
-    "test:unit": "node --test"
+    "test:unit": "node --import ./tests/register-jsx.mjs --test"
   },
   "repository": {
     "type": "git",
